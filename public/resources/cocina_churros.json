@@ -1,0 +1,30 @@
+[
+  {
+    "id": 2311,
+    "nombre": "Dosificadora de tolva de 15kg.",
+    "precio": 1265,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/891515DT5KGCC.png",
+    "codigo": "DT5KGCC"
+  },
+  {
+    "id": 2312,
+    "nombre": "Fogon de churros a gas de 70x70 serie eko",
+    "precio": 1190,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/690907CHURRO.png",
+    "codigo": "F70EKO"
+  },
+  {
+    "id": 2313,
+    "nombre": "Palillos de acero inoxidable para churros.",
+    "precio": 59,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/372570PDAIPCH.png",
+    "codigo": "PDAIPCH"
+  },
+  {
+    "id": 2314,
+    "nombre": "Palillos de madera para churros.",
+    "precio": 35,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/953928PDMDPCH.png",
+    "codigo": "PDMDPCH"
+  }
+]

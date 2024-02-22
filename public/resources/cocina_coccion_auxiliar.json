@@ -1,0 +1,625 @@
+[
+  {
+    "id": 2372,
+    "nombre": "Hervidor de sopa electrico",
+    "precio": 145,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/72025HSE10LFS.jpg",
+    "codigo": " HSE10LFS"
+  },
+  {
+    "id": 2373,
+    "nombre": "Lampara de infrarojos color bronce",
+    "precio": 56,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/73288LICBFS.png",
+    "codigo": "LICBFS"
+  },
+  {
+    "id": 2374,
+    "nombre": "Lampara de infrarojos color negro",
+    "precio": 56,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/563386LICNFS.png",
+    "codigo": "LICNFS"
+  },
+  {
+    "id": 2375,
+    "nombre": "Lampara de infrarojos color plata",
+    "precio": 56,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/26116LICPFS.png",
+    "codigo": "LICPFS"
+  },
+  {
+    "id": 2376,
+    "nombre": "Mantenedor de calor de dos focos",
+    "precio": 390,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/24899MDCEDM.png",
+    "codigo": "MDCEDM"
+  },
+  {
+    "id": 2377,
+    "nombre": "Mantenedor de calor de un foco.",
+    "precio": 175,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/14786MDCESM.png",
+    "codigo": "MDCESM"
+  },
+  {
+    "id": 2378,
+    "nombre": "Mantenedor de platos calientes.",
+    "precio": 252,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/567562MDPCCP.png",
+    "codigo": "MDPCCP"
+  },
+  {
+    "id": 2379,
+    "nombre": "Maquina de algodon carro electrica",
+    "precio": 480,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/966776MDADCC.jpg",
+    "codigo": "MDADCC"
+  },
+  {
+    "id": 2380,
+    "nombre": "Maquina de algodon carro gas",
+    "precio": 451,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/55394MDACCGEL.jpg",
+    "codigo": "MDACCGEL"
+  },
+  {
+    "id": 2381,
+    "nombre": "Maquina de algodon sobremesa electrica",
+    "precio": 390,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/899699MDADSM.jpg",
+    "codigo": "MDADSM"
+  },
+  {
+    "id": 2382,
+    "nombre": "Maquina de algodon sobremesa gas",
+    "precio": 388,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/358128MDASBGEL.jpg",
+    "codigo": "MDASBGEL"
+  },
+  {
+    "id": 2383,
+    "nombre": "Maquina de palomitas con carro ",
+    "precio": 472,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/518250MQPCC.png",
+    "codigo": "MQPCC"
+  },
+  {
+    "id": 2384,
+    "nombre": "Maquina de palomitas con vitrina caliente sobremesa",
+    "precio": 389,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/maquinaria-palomitas.jpg",
+    "codigo": "MQPC3EC"
+  },
+  {
+    "id": 2385,
+    "nombre": "Maquina de palomitas sobremesa",
+    "precio": 245,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/775481MQPS.jpg",
+    "codigo": "MQPS"
+  },
+  {
+    "id": 2386,
+    "nombre": "Maquina de perritos 4 pinchos",
+    "precio": 225,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/575865MQDP4P.jpg",
+    "codigo": "MQDP4P"
+  },
+  {
+    "id": 2387,
+    "nombre": "Microondas 25 l maquimport",
+    "precio": 150,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/161938MG1400W.png",
+    "codigo": "MG1400W"
+  },
+  {
+    "id": 2388,
+    "nombre": "Rooner maquimport",
+    "precio": 360,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/619266ROOFRS.png",
+    "codigo": "ROOFRS"
+  },
+  {
+    "id": 2389,
+    "nombre": "Salamandra basculante electrica 450mm",
+    "precio": 520,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/326629SE450TA.jpg",
+    "codigo": "SE450TA"
+  },
+  {
+    "id": 2390,
+    "nombre": "Salamandra basculante electrica 600mm",
+    "precio": 595,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/841133SE600TA.jpg",
+    "codigo": "SE600TA"
+  },
+  {
+    "id": 2391,
+    "nombre": "Salamandra electrica fija 600mm",
+    "precio": 175,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/309690SEFS600.jpg",
+    "codigo": "SEFS600"
+  },
+  {
+    "id": 2392,
+    "nombre": "Termo de agua 10 l",
+    "precio": 100,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/810000TAE10LFS.jpg",
+    "codigo": "TAE10LFS"
+  },
+  {
+    "id": 2393,
+    "nombre": "Termo de agua 15 l",
+    "precio": 120,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/970630TAE15LFS.jpg",
+    "codigo": "TAE15LFS"
+  },
+  {
+    "id": 2394,
+    "nombre": "Termo de agua 22 l",
+    "precio": 159,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/473352TAE22LFS.jpg",
+    "codigo": "TAE22LFS"
+  },
+  {
+    "id": 2395,
+    "nombre": "Tostador de cinta 300mm eco",
+    "precio": 350,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/353047TEC300FS.png",
+    "codigo": "TEC300FS"
+  },
+  {
+    "id": 2396,
+    "nombre": "Tostador de cinta 400mm eco",
+    "precio": 410,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/163450TEC450FS.png",
+    "codigo": "TEC450FS"
+  },
+  {
+    "id": 2397,
+    "nombre": "Tostador de pan doble con temporizador",
+    "precio": 165,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/335233TDPD150.png",
+    "codigo": "TDPD150"
+  },
+  {
+    "id": 2398,
+    "nombre": "Tostador de pan doble sin temporizador marca hr",
+    "precio": 178,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/675596T06SIN.png",
+    "codigo": "T06SIN"
+  },
+  {
+    "id": 2399,
+    "nombre": "Tostador de pan doble sin temporizador marca hr",
+    "precio": 213,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/265404T09SIN.png",
+    "codigo": "T09SIN"
+  },
+  {
+    "id": 2400,
+    "nombre": "Tostador de pan simple con temporizador",
+    "precio": 148.5,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/TOSTADOR DE PAN SIMPLE CON TEMPORIZADOR.JPG",
+    "codigo": "TPSCTMM"
+  },
+  {
+    "id": 2401,
+    "nombre": "Vitrina expositora de calor 650 mm",
+    "precio": 395,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/728622VEC650FS.png",
+    "codigo": "VEC650FS"
+  },
+  {
+    "id": 2402,
+    "nombre": "Vitrina expositora de calor 900 mm",
+    "precio": 495,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/158457VEC900FS.png",
+    "codigo": "VEC900FS"
+  },
+  {
+    "id": 2403,
+    "nombre": "Amario calientes de acero inox gn1/1",
+    "precio": 943,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/236623A1PC1-1EM.png",
+    "codigo": "A1PC1/1EM"
+  },
+  {
+    "id": 2404,
+    "nombre": "Armario caliente de acero inox gn2/1",
+    "precio": 1169,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/436074A1PC2-1EM.png",
+    "codigo": "A1PC2/1EM"
+  },
+  {
+    "id": 2405,
+    "nombre": "Armario caliente de acero inox gn2/1. 2 puertas",
+    "precio": 1946,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/872779A2PC2-1EM.png",
+    "codigo": "A2PC2/1EM"
+  },
+  {
+    "id": 2406,
+    "nombre": "Armario caliente de acero inoxidable.",
+    "precio": 1750,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/495362ACD2PEL.png",
+    "codigo": "ACD2PEL"
+  },
+  {
+    "id": 2407,
+    "nombre": "Asador de kebab 4 quemadores a gas.",
+    "precio": 651,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/242094MK4QGBY.png",
+    "codigo": "MK4QGBY"
+  },
+  {
+    "id": 2408,
+    "nombre": "Asador de kebab 4 quemadores electrico.",
+    "precio": 711,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/807582MK4QEBY.png",
+    "codigo": "MK4QEBY"
+  },
+  {
+    "id": 2409,
+    "nombre": "Asador de kebab 4 quemadores potis a gas.",
+    "precio": 765,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/270005ADK4QP.png",
+    "codigo": "ADK4QP"
+  },
+  {
+    "id": 2410,
+    "nombre": "Asador de kebab a gas. serie eco",
+    "precio": 590,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/Screenshot_2022-02-11-17-40-39-96_99c04817c0de5652397fc8b56c3b3817.jpg",
+    "codigo": "ADK4Q"
+  },
+  {
+    "id": 2411,
+    "nombre": "Asador de patata a gas",
+    "precio": 799,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/575646ADPGEMP.png",
+    "codigo": "ADPGEMP"
+  },
+  {
+    "id": 2412,
+    "nombre": "Asador de patata a gas de 3 cajones de acero fundido.",
+    "precio": 1880,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/66378APG4CMS.png",
+    "codigo": "APG4CMS"
+  },
+  {
+    "id": 2413,
+    "nombre": "Asador de patata a gas de 5 cajones de acero fundido.",
+    "precio": 2100,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/750196APG6CMS.png",
+    "codigo": "APG5CMS"
+  },
+  {
+    "id": 2414,
+    "nombre": "Asador de patatas electrico de 3 cajones",
+    "precio": 799,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/165348ADPEEMP.png",
+    "codigo": "ADPEEMP"
+  },
+  {
+    "id": 2415,
+    "nombre": "Asador de pollo a gas 1 espada horizontal.",
+    "precio": 875,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/330613ADPH.png",
+    "codigo": "ADPH"
+  },
+  {
+    "id": 2416,
+    "nombre": "Asador de pollo a gas 1 espada vertical.",
+    "precio": 838,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/328089ADPV.png",
+    "codigo": "ADPV"
+  },
+  {
+    "id": 2417,
+    "nombre": "Asador de pollo a gas 2 quemadores.",
+    "precio": 850,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/6796132ASG.png",
+    "codigo": "2ASG"
+  },
+  {
+    "id": 2418,
+    "nombre": "Asador de pollo a gas 6 quemadores.",
+    "precio": 1890,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/ASADOR-POLLO-AGAS-6QUEMADORES..png",
+    "codigo": "6ASG"
+  },
+  {
+    "id": 2419,
+    "nombre": "Asador de pollo a gas 8 quemadores.",
+    "precio": 2250,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/6360168ASG.png",
+    "codigo": "8ASG"
+  },
+  {
+    "id": 2420,
+    "nombre": "Asador de pollo a gas. 4 quemadores.",
+    "precio": 1509,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/6926024ASG.png",
+    "codigo": "4ASG"
+  },
+  {
+    "id": 2421,
+    "nombre": "Asador de pollos a gas de 8 espadas marca feca ",
+    "precio": 2920,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/138589ASADOR-POLLO-GAS-8-ESPADAS-FECA-.jpg",
+    "codigo": "840EKO"
+  },
+  {
+    "id": 2422,
+    "nombre": "Asador de pollos a gas serie g. 2 espadas.",
+    "precio": 935,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/566887ADEP2EGSG.png",
+    "codigo": "ADP2EGSG"
+  },
+  {
+    "id": 2423,
+    "nombre": "Asador de pollos a gas serie g. 3 espadas.",
+    "precio": 1177,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/377567ADP3EGSG.png",
+    "codigo": "ADP3EGSG"
+  },
+  {
+    "id": 2424,
+    "nombre": "Asador de pollos a gas serie g. 4 espadas.",
+    "precio": 1370,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/165815ADP4EGSG.png",
+    "codigo": "ADP4EGSG"
+  },
+  {
+    "id": 2425,
+    "nombre": "Asador de pollos a gas serie g. 6 espadas.",
+    "precio": 1620,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/813321ADP6EGSG.png",
+    "codigo": "ADP6EGSG"
+  },
+  {
+    "id": 2426,
+    "nombre": "Asador de pollos a gas serie g. 8 espadas.",
+    "precio": 2199,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/113661ADP8EGSG.png",
+    "codigo": "ADP8EGSG"
+  },
+  {
+    "id": 2427,
+    "nombre": "Grill electrico 400mm magma ",
+    "precio": 224,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/169116GSP40EBY.png",
+    "codigo": "GSP40EBY"
+  },
+  {
+    "id": 2428,
+    "nombre": "Grill electrico doble magma ",
+    "precio": 326,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/400248GDEBY.png",
+    "codigo": "GDEBY"
+  },
+  {
+    "id": 2429,
+    "nombre": "Grill electrico doble maquimport ",
+    "precio": 304,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/48172GDME.png",
+    "codigo": "GDME"
+  },
+  {
+    "id": 2430,
+    "nombre": "Grill electrico mediano maquimport ",
+    "precio": 204,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/712230GSME.png",
+    "codigo": "GSME"
+  },
+  {
+    "id": 2431,
+    "nombre": "Grill electrico simple 500mm magma ",
+    "precio": 297,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/131137GSP50EBY.png",
+    "codigo": "GSP50EBY"
+  },
+  {
+    "id": 2432,
+    "nombre": "Grill electrico simple maquimport ",
+    "precio": 175,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/380078GSPE.png",
+    "codigo": "GSPE"
+  },
+  {
+    "id": 2433,
+    "nombre": "Plancha de acero laminado de 400 mm con fogon ",
+    "precio": 457,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/333017PGAL40+FG.jpg",
+    "codigo": "PGAL40+FG"
+  },
+  {
+    "id": 2434,
+    "nombre": "Plancha de acero laminado de 600 mm con fogon",
+    "precio": 541,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/944186PGAL60+FG.jpg",
+    "codigo": "PGAL60+FG"
+  },
+  {
+    "id": 2435,
+    "nombre": "Plancha de acero laminado de 800 mm con fogon",
+    "precio": 625,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/743831PGAL80+FG.jpg",
+    "codigo": "PGAL80+FG"
+  },
+  {
+    "id": 2436,
+    "nombre": "Plancha de acero laminado electrica de 550 mm",
+    "precio": 165,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/3710PEAI500E.png",
+    "codigo": "PEAI500E"
+  },
+  {
+    "id": 2437,
+    "nombre": "Plancha de acero laminado electrica de 700 mm",
+    "precio": 275,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/165441PEAI700.png",
+    "codigo": "PEAI700E"
+  },
+  {
+    "id": 2438,
+    "nombre": "Plancha de cromo duro electrica de 700 mm",
+    "precio": 345,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/955952PEAI700.png",
+    "codigo": "PECR700E"
+  },
+  {
+    "id": 2439,
+    "nombre": "Plancha de cromo duro electrica de e00 mm",
+    "precio": 245,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/298661PEAI500E.png",
+    "codigo": "PECR500E"
+  },
+  {
+    "id": 2440,
+    "nombre": "Plancha de cromoduro desmontable a gas 400 mm",
+    "precio": 510,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/202585PGCR40ESP.jpg",
+    "codigo": "PGCR40ESP"
+  },
+  {
+    "id": 2441,
+    "nombre": "Plancha de cromoduro desmontable a gas 800 mm",
+    "precio": 771,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/PLANCHA CROMODURO   800.png",
+    "codigo": "PGCR80ESP"
+  },
+  {
+    "id": 2442,
+    "nombre": "Plancha de cromo-duro super a gas 1200 mm",
+    "precio": 915,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/894066PCRG1200X.png",
+    "codigo": "PCRG1200X"
+  },
+  {
+    "id": 2443,
+    "nombre": "Plancha de cromo-duro super a gas 400 mm",
+    "precio": 390,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/169934PCRG400X.png",
+    "codigo": "PCRG400X"
+  },
+  {
+    "id": 2444,
+    "nombre": "Plancha de cromo-duro super a gas 600 mm",
+    "precio": 610,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/57497PCRG600X.png",
+    "codigo": "PCRG600X"
+  },
+  {
+    "id": 2445,
+    "nombre": "Plancha de cromoduro super a gas 900 mm",
+    "precio": 725,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/982124PCRG900X.png",
+    "codigo": "PCRG900X"
+  },
+  {
+    "id": 2446,
+    "nombre": "Plancha decromoduro desmontable a gas 600 mm",
+    "precio": 701,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/283822PGCR60ESP.jpg",
+    "codigo": "PGCR60ESP"
+  },
+  {
+    "id": 2447,
+    "nombre": "Plancha grill mixta electrica 500mm magma",
+    "precio": 246,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/433537PL+GR50EBY.png",
+    "codigo": "PL+GR50EBY"
+  },
+  {
+    "id": 2448,
+    "nombre": "Plancha grill mixta electrica 700mm magma",
+    "precio": 322,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/577776PL+GR70EBY.png",
+    "codigo": "PL+GR70EBY"
+  },
+  {
+    "id": 2449,
+    "nombre": "Plancha grill mixta gas 500mm magma",
+    "precio": 280,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/407077PL+GR50GBY.png",
+    "codigo": "PL+GR50GBY"
+  },
+  {
+    "id": 2450,
+    "nombre": "Plancha grill mixta gas 700mm magma",
+    "precio": 358,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/847885PL+GR70GBY.png",
+    "codigo": "PL+GR70GBY"
+  },
+  {
+    "id": 2451,
+    "nombre": "Plancha sobremesa de hierro a gas serie magma 1000 mm",
+    "precio": 319,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/275074PLH100GBY.png",
+    "codigo": "PLH100GBY"
+  },
+  {
+    "id": 2452,
+    "nombre": "Plancha sobremesa de hierro a gas serie magma 1200 mm",
+    "precio": 395,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/100292PLH120GBY.png",
+    "codigo": "PLH120GBY"
+  },
+  {
+    "id": 2453,
+    "nombre": "Plancha sobremesa de hierro a gas serie magma 300 mm",
+    "precio": 140,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/30CM-LPG-PLEYT-IZGARA-408x450.png",
+    "codigo": "PLH30GBY"
+  },
+  {
+    "id": 2454,
+    "nombre": "Plancha sobremesa de hierro a gas serie magma 500 mm",
+    "precio": 170,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/50cm-do_algaz-pleyt-izgara-408x450.png",
+    "codigo": "PLH50GBY"
+  },
+  {
+    "id": 2455,
+    "nombre": "Plancha sobremesa de hierro a gas serie magma 700 mm",
+    "precio": 257,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/70cm-do_algaz-pleyt-izgara-408x450.png",
+    "codigo": "PLH70GBY"
+  },
+  {
+    "id": 2456,
+    "nombre": "Planchas de acero laminado a gas desmontables 1000 mm",
+    "precio": 348,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/443694PGAXA1000.png",
+    "codigo": "PGAXA1000"
+  },
+  {
+    "id": 2457,
+    "nombre": "Planchas de acero laminado a gas desmontables 1200 mm",
+    "precio": 435,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/766453PGAXA1200.png",
+    "codigo": "PGAXA1200"
+  },
+  {
+    "id": 2458,
+    "nombre": "Planchas de acero laminado a gas desmontables 600 mm",
+    "precio": 248,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/plancha-hierro-gas-desmontable-eco-600mm.png",
+    "codigo": "PGAXA600"
+  },
+  {
+    "id": 2459,
+    "nombre": "Planchas de acero laminado a gas desmontables 800 mm",
+    "precio": 305,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/plancha-hierro-gas-desmontable-eco-800mm.png",
+    "codigo": "PGAXA800"
+  },
+  {
+    "id": 2460,
+    "nombre": "Planchas de acero laminado a gas desmontables serie eco 400 mm",
+    "precio": 178,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/Planchas-de- hierro-gas-desmontables.JPG",
+    "codigo": "PGAXA400"
+  }
+]

@@ -1,0 +1,562 @@
+[
+  {
+    "id": 5010,
+    "nombre": "Bandeja gastronorm gn1/1x40mm",
+    "precio": 7.58,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/8205117-7.PNG",
+    "codigo": "GN1/1X40"
+  },
+  {
+    "id": 5011,
+    "nombre": "Bandeja gastronorm gn1/1x65mm",
+    "precio": 7.6,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/8205117-7.PNG",
+    "codigo": "GN1/1X65"
+  },
+  {
+    "id": 5012,
+    "nombre": "Bandeja gastronorm gn1/1x100mm",
+    "precio": 11.04,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/8205117-7.PNG",
+    "codigo": "GN1/1X100"
+  },
+  {
+    "id": 5013,
+    "nombre": "Bandeja gastronorm gn1/1x150mm",
+    "precio": 17.31,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/8205117-7.PNG",
+    "codigo": "GN1/1X150"
+  },
+  {
+    "id": 5014,
+    "nombre": "Bandeja gastronorm gn1/1x200mm",
+    "precio": 20.1,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/8205117-7.PNG",
+    "codigo": "GN1/1X200"
+  },
+  {
+    "id": 5015,
+    "nombre": "Bandeja gastronorm gn1/2x20mm",
+    "precio": 3.42,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/44402GN1-2X20.png",
+    "codigo": "GN1/2X20"
+  },
+  {
+    "id": 5016,
+    "nombre": "Bandeja gastronorm gn1/2x40mm",
+    "precio": 4.43,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/44402GN1-2X20.png",
+    "codigo": "GN1/2X40"
+  },
+  {
+    "id": 5017,
+    "nombre": "Bandeja gastronorm gn1/2x65mm",
+    "precio": 4.92,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/44402GN1-2X20.png",
+    "codigo": "GN1/2X65"
+  },
+  {
+    "id": 5018,
+    "nombre": "Bandeja gastronorm gn1/2x100mm",
+    "precio": 10.01,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/44402GN1-2X20.png",
+    "codigo": "GN1/2X100"
+  },
+  {
+    "id": 5019,
+    "nombre": "Bandeja gastronorm gn1/2x150mm",
+    "precio": 10.53,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/44402GN1-2X20.png",
+    "codigo": "GN1/2X150"
+  },
+  {
+    "id": 5020,
+    "nombre": "Bandeja gastronorm gn1/2x200mm",
+    "precio": 13.17,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/44402GN1-2X20.png",
+    "codigo": "GN1/2X200"
+  },
+  {
+    "id": 5021,
+    "nombre": "Bandeja gastronorm gn1/3x20mm",
+    "precio": 3.08,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/4682GN1-3X20.png",
+    "codigo": "GN1/3X20"
+  },
+  {
+    "id": 5022,
+    "nombre": "Bandeja gastronorm gn1/3x40mm",
+    "precio": 5.17,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/4682GN1-3X20.png",
+    "codigo": "GN1/3X40"
+  },
+  {
+    "id": 5023,
+    "nombre": "Bandeja gastronorm gn1/3x65mm",
+    "precio": 3.97,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/4682GN1-3X20.png",
+    "codigo": "GN1/3X65"
+  },
+  {
+    "id": 5024,
+    "nombre": "Bandeja gastronorm gn1/3x100mm",
+    "precio": 5.66,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/4682GN1-3X20.png",
+    "codigo": "GN1/3X100"
+  },
+  {
+    "id": 5025,
+    "nombre": "Bandeja gastronorm gn1/3x150mm",
+    "precio": 10.01,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/4682GN1-3X20.png",
+    "codigo": "GN1/3X150"
+  },
+  {
+    "id": 5026,
+    "nombre": "Bandeja gastronorm gn1/3x200mm",
+    "precio": 11.4,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/4682GN1-3X20.png",
+    "codigo": "GN1/3X200"
+  },
+  {
+    "id": 5027,
+    "nombre": "Bandeja gastronorm gn1/4x40mm",
+    "precio": 2.51,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/675983GN1-4X40.png",
+    "codigo": "GN1/4X40"
+  },
+  {
+    "id": 5028,
+    "nombre": "Bandeja gastronorm gn1/4x65mm",
+    "precio": 3.61,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/675983GN1-4X40.png",
+    "codigo": "GN1/4X65"
+  },
+  {
+    "id": 5029,
+    "nombre": "Bandeja gastronorm gn1/4x100mm",
+    "precio": 5,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/675983GN1-4X40.png",
+    "codigo": "GN1/4X100"
+  },
+  {
+    "id": 5030,
+    "nombre": "Bandeja gastronorm gn1/4x150mm",
+    "precio": 8.93,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/675983GN1-4X40.png",
+    "codigo": "GN1/4X150"
+  },
+  {
+    "id": 5031,
+    "nombre": "Bandeja gastronorm gn1/4x200mm",
+    "precio": 10.01,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/675983GN1-4X40.png",
+    "codigo": "GN1/4X200"
+  },
+  {
+    "id": 5032,
+    "nombre": "Bandeja gastronorm gn1/6x65mm",
+    "precio": 2.96,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/41233610-10.PNG",
+    "codigo": "GN1/6X65"
+  },
+  {
+    "id": 5033,
+    "nombre": "Bandeja gastronorm gn1/6x100mm",
+    "precio": 4.05,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/91507810-10.PNG",
+    "codigo": "GN1/6X100"
+  },
+  {
+    "id": 5034,
+    "nombre": "Bandeja gastronorm gn1/6x150mm",
+    "precio": 6.44,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/91507810-10.PNG",
+    "codigo": "GN1/6X150"
+  },
+  {
+    "id": 5035,
+    "nombre": "Bandeja gastronorm gn1/6x200mm",
+    "precio": 8.89,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/91507810-10.PNG",
+    "codigo": "GN1/6X200"
+  },
+  {
+    "id": 5036,
+    "nombre": "Bandeja gastronorm gn1/9x150",
+    "precio": 5.47,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/224224GN1-6X150.png",
+    "codigo": "GN1/9X150"
+  },
+  {
+    "id": 5037,
+    "nombre": "Bandeja gastronorm gn1/9x200",
+    "precio": 4.16,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/224224GN1-6X150.png",
+    "codigo": "GN1/9X200"
+  },
+  {
+    "id": 5038,
+    "nombre": "Carro de servicio con 2 estantes ",
+    "precio": 155.1,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/770948CDS2B.png",
+    "codigo": "CDS2B"
+  },
+  {
+    "id": 5039,
+    "nombre": "Carro de servicio con 3 estantes ",
+    "precio": 172.7,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/870819CDS3B.png",
+    "codigo": "CDS3B"
+  },
+  {
+    "id": 5040,
+    "nombre": "Carro bandejero 600x400mm ",
+    "precio": 285,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/577652CDBDAI16B.png",
+    "codigo": "CDBDAI16B"
+  },
+  {
+    "id": 5041,
+    "nombre": "Carro bandejero 600x400mm ",
+    "precio": 285,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/carro-bandejas-gastronom.jpg",
+    "codigo": "CDBAIBG11"
+  },
+  {
+    "id": 5042,
+    "nombre": "Carro bandejero 600x400mm doble",
+    "precio": 350.9,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/6653CBDGN6040.png",
+    "codigo": "CBDGN6040"
+  },
+  {
+    "id": 5043,
+    "nombre": "Tapadera para bandejas gastronorm modelo gn1/1",
+    "precio": 7.43,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/566656TGN1-1.png",
+    "codigo": "TGN1/1"
+  },
+  {
+    "id": 5044,
+    "nombre": "Campana extractora mural de 1.5m",
+    "precio": 48,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/994273FLTCEX.png",
+    "codigo": "CMPRAC150"
+  },
+  {
+    "id": 5045,
+    "nombre": "Tapadera para bandejas gastronorm modelo gn1/2",
+    "precio": 4.2,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/749490TGN1-2.png",
+    "codigo": "TGN1/2"
+  },
+  {
+    "id": 5046,
+    "nombre": "Tapadera para bandejas gastronorm modelo gn1/3",
+    "precio": 2.77,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/958230TGN1-3.png",
+    "codigo": "TGN1/3"
+  },
+  {
+    "id": 5047,
+    "nombre": "Tapadera para bandejas gastronorm modelo gn1/4",
+    "precio": 3.85,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/394119TGN1-4.png",
+    "codigo": "TGN1/4"
+  },
+  {
+    "id": 5048,
+    "nombre": "Tapadera para bandejas gastronorm modelo gn1/6",
+    "precio": 1.96,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/812510TGN1-6.png",
+    "codigo": "TGN1/6"
+  },
+  {
+    "id": 5049,
+    "nombre": "Tapadera para bandejas gastronorm modelo gn1/9",
+    "precio": 2.97,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/415811TGN1-9.png",
+    "codigo": "TGN1/9"
+  },
+  {
+    "id": 5050,
+    "nombre": "Campana extractora mural de 1m",
+    "precio": 375,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/951507FLTCEX.png",
+    "codigo": "CMPRAC100"
+  },
+  {
+    "id": 5051,
+    "nombre": "Campana extractora mural de 2.5m",
+    "precio": 680,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/274138FLTCEX.png",
+    "codigo": "CMPRAC250"
+  },
+  {
+    "id": 5052,
+    "nombre": "Campana extractora mural de 2m",
+    "precio": 580,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/886559FLTCEX.png",
+    "codigo": "CMPRAC200"
+  },
+  {
+    "id": 5053,
+    "nombre": "Estanteria de pared 1000mm",
+    "precio": 62.7,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/estanteria de pared de acero inox.jpg",
+    "codigo": "EPAI100"
+  },
+  {
+    "id": 5054,
+    "nombre": "Estanteria de pared 1200mm",
+    "precio": 85.8,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/estanteria de pared de acero inox.jpg",
+    "codigo": "EPAI120"
+  },
+  {
+    "id": 5055,
+    "nombre": "Estanteria de pared 1500mm",
+    "precio": 127.6,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/estanteria de pared de acero inox.jpg",
+    "codigo": "EPAI150"
+  },
+  {
+    "id": 5056,
+    "nombre": "Estanteria de pared 2000mm",
+    "precio": 169.4,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/estanteria de pared de acero inox.jpg",
+    "codigo": "EPAI200"
+  },
+  {
+    "id": 5057,
+    "nombre": "Estenteria de pared cerrada 1000mm",
+    "precio": 300.3,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/250463ECCOA100.png",
+    "codigo": "ECCOA100"
+  },
+  {
+    "id": 5058,
+    "nombre": "Estenteria de pared cerrada 1500mm",
+    "precio": 357.5,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/250463ECCOA100.png",
+    "codigo": "ECCOA150"
+  },
+  {
+    "id": 5059,
+    "nombre": "Estenteria de pared cerrada 2000mm",
+    "precio": 449.9,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/250463ECCOA100.png",
+    "codigo": "ECCOA200"
+  },
+  {
+    "id": 5060,
+    "nombre": "Campana extractora mural de acero 3m",
+    "precio": 850,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/195047994273FLTCEX.png",
+    "codigo": "CMPRAC300"
+  },
+  {
+    "id": 5061,
+    "nombre": "Fregadero semi-industrial de fondo 500 mm",
+    "precio": 190,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/665420F1S70CS.png",
+    "codigo": "F1S50"
+  },
+  {
+    "id": 5062,
+    "nombre": "Estanteria de pie serie 500. 1500mm",
+    "precio": 399,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/EA5NP110.jpg",
+    "codigo": "EA5NP150"
+  },
+  {
+    "id": 5063,
+    "nombre": "Estanteria inox 5 estantes 1100mm fondo 500mm ",
+    "precio": 385,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/EASNP.png",
+    "codigo": "EA5NP110"
+  },
+  {
+    "id": 5064,
+    "nombre": "Estanteria inox 5 estantes 1500mm fondo 500mm ",
+    "precio": 439,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/EASNP.png",
+    "codigo": " EA5NP150"
+  },
+  {
+    "id": 5065,
+    "nombre": "Estanteria inox 5 estantes 2000mm fondo 500mm ",
+    "precio": 545,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/EASNP.png",
+    "codigo": "EA5NP200"
+  },
+  {
+    "id": 5066,
+    "nombre": "Lavamanos mural seno 500x400x250",
+    "precio": 250,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/641837LPCSXLMQ.png",
+    "codigo": "LPCSXLMQ"
+  },
+  {
+    "id": 5067,
+    "nombre": "Lavamanos mural autonomo",
+    "precio": 409,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/867103LPAUTID.png",
+    "codigo": "LPAUTID"
+  },
+  {
+    "id": 5068,
+    "nombre": "Mesa cerrada con puerta corredera 1000mm",
+    "precio": 384,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/163804MTACPC10.png",
+    "codigo": "MTACPC10"
+  },
+  {
+    "id": 5069,
+    "nombre": "Mesa cerrada con puerta corredera 1500mm",
+    "precio": 545,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/163804MTACPC10.png",
+    "codigo": "MTACPC15"
+  },
+  {
+    "id": 5070,
+    "nombre": "Mesa cerrada con puerta corredera 2000mm",
+    "precio": 595,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/163804MTACPC10.png",
+    "codigo": "MTACPC20"
+  },
+  {
+    "id": 5071,
+    "nombre": "Mesa cerrada con puerta corredera 2500mm",
+    "precio": 857,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/163804MTACPC10.png",
+    "codigo": "MTACPC25"
+  },
+  {
+    "id": 5072,
+    "nombre": "Mesa de trabajo central pre-fabricada de acero inoxidable de patas redondas",
+    "precio": 352,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/293856906127MESA CENTRAL.png",
+    "codigo": "MTCPF20CB"
+  },
+  {
+    "id": 5073,
+    "nombre": "Mesa de trabajo central pre-fabricada de acero inoxidable de patas redondas",
+    "precio": 242,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/736592MESA CENTRAL.png",
+    "codigo": "MTCPF10CB"
+  },
+  {
+    "id": 5074,
+    "nombre": "Mesa de trabajo central pre-fabricada de acero inoxidable de patas redondas",
+    "precio": 300.3,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/906127MESA CENTRAL.png",
+    "codigo": "MTCPF15CB"
+  },
+  {
+    "id": 5075,
+    "nombre": "Mesa de trabajo central pre-fabricada de acero inoxidable de patas redondas",
+    "precio": 415.8,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/990306MESA CENTRAL.png",
+    "codigo": "MTCPF25CB"
+  },
+  {
+    "id": 5076,
+    "nombre": "Mesa de trabajo con cajones y estante 1000mm",
+    "precio": 390,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/226613MTACC10.png",
+    "codigo": "MTACC10"
+  },
+  {
+    "id": 5077,
+    "nombre": "Mesa de trabajo con cajones y estante 1500mm",
+    "precio": 490,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/169934PCRG400X.png",
+    "codigo": "MTACC15"
+  },
+  {
+    "id": 5078,
+    "nombre": "Mesa de trabajo con cajones y estante 2000mm",
+    "precio": 590,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/169934PCRG400X.png",
+    "codigo": "MTACC20"
+  },
+  {
+    "id": 5079,
+    "nombre": "Mesa de trabajo con cajones y estante 2500mm",
+    "precio": 690,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/169934PCRG400X.png",
+    "codigo": "MTACC25"
+  },
+  {
+    "id": 5080,
+    "nombre": "Mesa de trabajo con tablero de polietileno 1000mm",
+    "precio": 231,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/543734MTTPL150CP.png",
+    "codigo": "MTTPL100CP"
+  },
+  {
+    "id": 5081,
+    "nombre": "Mesa de trabajo con tablero de polietileno 1500mm",
+    "precio": 310,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/543734MTTPL150CP.png",
+    "codigo": "MTTPL150CP"
+  },
+  {
+    "id": 5082,
+    "nombre": "Mesa de trabajo con tablero de polietileno 400mm",
+    "precio": 126,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/788378TJC40CP.png",
+    "codigo": "TJC40CP"
+  },
+  {
+    "id": 5083,
+    "nombre": "Mesa de trabajo mural con estante de 1000x600mm",
+    "precio": 245,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/70cm-do_algaz-pleyt-izgara-408x450.png",
+    "codigo": "MTMPF10CB"
+  },
+  {
+    "id": 5084,
+    "nombre": "Mesa de trabajo mural con estante de 1500x600mm",
+    "precio": 280,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/70cm-do_algaz-pleyt-izgara-408x450.png",
+    "codigo": "MTMPF15CB"
+  },
+  {
+    "id": 5085,
+    "nombre": "Mesa de trabajo mural con estante de 2000x600mm",
+    "precio": 329,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/275074PLH100GBY.png",
+    "codigo": "MTMPF20CB"
+  },
+  {
+    "id": 5086,
+    "nombre": "Mesa de trabajo mural con estante de 2500x600mm",
+    "precio": 399,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/275074PLH100GBY.png",
+    "codigo": "MTMPF25CB"
+  },
+  {
+    "id": 5087,
+    "nombre": "Mesas de trabajo pre-fabricadas de acero inoxidable de alta calidad",
+    "precio": 265.1,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/820217mesa-trabajo-prefabricada.jpg",
+    "codigo": " MTMPF10EM"
+  },
+  {
+    "id": 5088,
+    "nombre": "Carro soporte para platos ",
+    "precio": 495,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/934364SPC84PT.png",
+    "codigo": "SPC84PT"
+  },
+  {
+    "id": 5089,
+    "nombre": "Estufa a gas corona color negro ",
+    "precio": 192,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/51243ECNCH.jpg",
+    "codigo": "ECNCH"
+  }
+]

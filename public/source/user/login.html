@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/styles.css">
+  <link rel="stylesheet" href="../css/ownStyles.css">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+  <script src="../app/login.js"></script>
+  <title>Inicio de Sesión</title>
+</head>
+
+<body>
+  <nav>
+    <!--Aqui se inserta el script-->
+  </nav>
+  <main>
+    <section id="section" class="bg-slate-300 h-screen flex items-center justify-center">
+      <form class="flex flex-col h-3/4 w-3/4 md:h-3/5 md:w-3/5 border items-center justify-evenly bg-slate-400 rounded-md">
+        <div id="login" class="w-full h-full flex flex-col items-center justify-evenly">
+          <p class="text-center font-Montserrat text-primario text-info font-semibold">Correo Electrónico</p>
+          <input class="px-4 py-2 rounded-md w-3/5 font-medium font-Montserrat" id="email" name="email" class="w-3/5"
+            type="email" placeholder="Ingrese su correo electrónico">
+          <p class="font-Montserrat text-primario text-info font-semibold">Contraseña</p>
+          <div class="flex flex-row w-3/5 relative">
+            <input class="px-4 py-2 rounded-md w-full font-medium font-Montserrat" id="password" name="password"
+              type="password" placeholder="Ingrese su contraseña">
+            <img class="h-6 absolute right-4 top-1/2 transform -translate-y-1/2 cursor-pointer"
+              src="../../utils/images/noMostrarContrasenia.svg" alt="No mostrar contraseña" id="togglePassword">
+          </div>
+        </div>
+        <div class="flex flex-col md:flex-row w-full h-1/3 md:h-1/4 items-center justify-evenly">
+          <button id="botonIngresar"
+            class="bg-terciario text-white font-Montserrat h-10 w-28 loginButton">Ingresar</button>
+          <button class="bg-terciario text-white font-Montserrat h-10 w-32 loginButton">
+            <a href="./register.html">Crear Usuario</a>
+          </button>
+        </div>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <section class="h-8">
+        <div class="flex flex-row w-full bg-stone-200 justify-evenly">
+            <div class="m-4 flex flex-col">
+                <p>Todos los derechos reservados, <strong>ATIUM HOS S.L.®</strong></p>
+                <p>Calle La Orotava, 11 - 29006 Málaga - Málaga</p>
+                <p><strong>Telefono: </strong>+34 951 492 842</p>
+                <p><strong>Correo Electrónico: </strong>info@maquinariayhosteleria.es</p>
+            </div>
+            <div class="m-4">
+                <ul class="flex flex-col">
+                    <li><a href="../footer/somos.html">
+                            <p>¿Quienes Somos?</p>
+                        </a></li>
+                    <li><a href="../footer/legales.html">
+                            <p>Avisos Legales</p>
+                        </a></li>
+                    <li><a href="../footer/devoluciones.html">
+                            <p>Envíos y Devoluciónes</p>
+                        </a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+</footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+</body>
+
+</html>

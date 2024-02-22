@@ -1,0 +1,555 @@
+[
+  {
+    "id": 3100,
+    "nombre": "Abatidor de temperarura de 3 bandejas",
+    "precio": 1240,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/568439VN70L.png",
+    "codigo": "ADT3B"
+  },
+  {
+    "id": 3101,
+    "nombre": "Abatidor de temperarura de 10 bandejas",
+    "precio": 2950,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/568439VN70L.png",
+    "codigo": "ADT10B"
+  },
+  {
+    "id": 3102,
+    "nombre": "Abatidor de temperarura de 15 bandejas",
+    "precio": 3650,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/568439VN70L.png",
+    "codigo": "ADT15B"
+  },
+  {
+    "id": 3103,
+    "nombre": "Armario de 1 puerta de acero de congelacion fondo 83cm",
+    "precio": 1199,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/570009A1PCGJT.jpg",
+    "codigo": "A1PCGJT"
+  },
+  {
+    "id": 3104,
+    "nombre": "Armario de 1 puerta de acero refrigerado fondo 83cm",
+    "precio": 1050,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/958050A1PRFJT.jpg",
+    "codigo": "A1PRFJT"
+  },
+  {
+    "id": 3105,
+    "nombre": "Armario de 1 puerta de congelacion fondo 73cm",
+    "precio": 1300,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/AA1P.png",
+    "codigo": "AA1PCVB"
+  },
+  {
+    "id": 3106,
+    "nombre": "Armario de 1 puerta de refrigeracion fondo 73cm",
+    "precio": 1090,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/WeChat Image_20230305204007.jpg",
+    "codigo": "AA1PRVB"
+  },
+  {
+    "id": 3107,
+    "nombre": "Armario de 2 puertas de acero de congelacion fondo 83cm",
+    "precio": 1950,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/125918A2PCGJT.jpg",
+    "codigo": "A2PCGJT"
+  },
+  {
+    "id": 3108,
+    "nombre": "Armario de 2 puertas de acero refrigerado fondo 83cm",
+    "precio": 1795,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/491632A2PRFJT.jpg",
+    "codigo": "A2PRFJT"
+  },
+  {
+    "id": 3109,
+    "nombre": "Armario de 2 puertas de congelacion fondo 73cm",
+    "precio": 1930,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/AA2P.png",
+    "codigo": "AA2PCVB"
+  },
+  {
+    "id": 3110,
+    "nombre": "Armario de 2 puertas de refrigeracion fondo 73cm",
+    "precio": 1630,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/WeChat Image_20230305204007.jpg",
+    "codigo": "AA2PRVB"
+  },
+  {
+    "id": 3111,
+    "nombre": "Armario de 4 puertas de acero de congelacion fondo 83cm",
+    "precio": 2100,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/37567A4PCGJT.jpg",
+    "codigo": "A4PCGJT"
+  },
+  {
+    "id": 3112,
+    "nombre": "Armario de 4 puertas de acero refrigerado fondo 83cm",
+    "precio": 1850,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/196360A4PRFJT.jpg",
+    "codigo": "A4PRFJT"
+  },
+  {
+    "id": 3113,
+    "nombre": "Armario de 4 puertas de refrigeracion fondo 73cm",
+    "precio": 1630,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/AA4P.png",
+    "codigo": "AA4PRVB"
+  },
+  {
+    "id": 3114,
+    "nombre": "Armario de 5 puertas abatibles expositor refrigerado",
+    "precio": 2490,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/948321ADRE2500VTE.jpg",
+    "codigo": "ADRE2500VTE"
+  },
+  {
+    "id": 3115,
+    "nombre": "Armario de acero inoxidable congelacion de 400l",
+    "precio": 784,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/320264AC400ML.png",
+    "codigo": "AC400ML"
+  },
+  {
+    "id": 3116,
+    "nombre": "Armario de acero inoxidable congelacion de 580l",
+    "precio": 999,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/57316AC600ML.png",
+    "codigo": "AC600ML"
+  },
+  {
+    "id": 3117,
+    "nombre": "Armario de acero inoxidable refrigeracion 400l",
+    "precio": 705,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/539410AR400ML.png",
+    "codigo": "AR400ML"
+  },
+  {
+    "id": 3118,
+    "nombre": "Armario de acero inoxidable refrigeracion 580l",
+    "precio": 953,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/179000AR600ML.png",
+    "codigo": "AR600ML"
+  },
+  {
+    "id": 3119,
+    "nombre": "Armario de puerta de cristal congelacion 400l",
+    "precio": 953,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/359233ADCPC400ML.png",
+    "codigo": "ADCPC400ML"
+  },
+  {
+    "id": 3120,
+    "nombre": "Armario expositor de congelacion 600l ",
+    "precio": 1197,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/productoreferenciaADCPC600ML.png",
+    "codigo": "ADCPC600ML"
+  },
+  {
+    "id": 3121,
+    "nombre": "Armario de refrigeracion de puerta de cristal 600l ",
+    "precio": 999,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/productoreferenciaADRPC600ML.png",
+    "codigo": "ADRPC600ML"
+  },
+  {
+    "id": 3122,
+    "nombre": "Armario expositor de 1 puerta de congelacion fondo 73cm",
+    "precio": 1408,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/WeChat Image_20230305204007.jpg",
+    "codigo": "AAE1PCVB"
+  },
+  {
+    "id": 3123,
+    "nombre": "Armario expositor de 1 puerta de congelación fondo 83cm",
+    "precio": 1259,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/239240AE1PCGJT.jpg",
+    "codigo": "AE1PCGJT"
+  },
+  {
+    "id": 3124,
+    "nombre": "Armario expositor de 1 puerta de refrigaracion fondo 83cm",
+    "precio": 1050,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/267786AE1PRFJT.jpg",
+    "codigo": "AE1PRFJT"
+  },
+  {
+    "id": 3125,
+    "nombre": "Armario expositor de 1 puerta de refrigeracion fondo 73cm",
+    "precio": 1150,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/WeChat Image_20230305204007.jpg",
+    "codigo": "AAE1PRVB"
+  },
+  {
+    "id": 3126,
+    "nombre": "Armario expositor de 2 puertas de congelacion fondo 73cm",
+    "precio": 2180,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/488275AAE2PCVB.png",
+    "codigo": "AAE2PCVB"
+  },
+  {
+    "id": 3127,
+    "nombre": "Armario expositor de 2 puertas de congelacion fondo 83cm",
+    "precio": 1990,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/444754AE2PCGJT.jpg",
+    "codigo": "AE2PCGJT"
+  },
+  {
+    "id": 3128,
+    "nombre": "Armario expositor de 2 puertas de refrigeracion fondo 73cm",
+    "precio": 1690,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/WeChat Image_20230305204007.jpg",
+    "codigo": "AAE2PRVB"
+  },
+  {
+    "id": 3129,
+    "nombre": "Armario expositor de 2 puertas de refrigeracion fondo 83cm",
+    "precio": 1890,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/819538A2PEF80JT.jpg",
+    "codigo": "A2PEF80JT"
+  },
+  {
+    "id": 3130,
+    "nombre": "Bajo mostrador congelacion 2 puertas serie 700mm",
+    "precio": 1190,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/TARIFA FINAL FEB2022.jpg",
+    "codigo": "BM2PCGJT"
+  },
+  {
+    "id": 3131,
+    "nombre": "Bajo mostrador congelacion 3 puertas serie 700mm",
+    "precio": 1390,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/10010458-7.jpg",
+    "codigo": "BM3PCGJT"
+  },
+  {
+    "id": 3132,
+    "nombre": "Bajo mostrador congelacion 4 puertas serie 700mm",
+    "precio": 1790,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/10010459-2icD5WBB7fn0AL_600x600.png",
+    "codigo": "BM4PCGJT"
+  },
+  {
+    "id": 3133,
+    "nombre": "Bajo mostrador de 2 puertas  refrigerado 1510x800mm",
+    "precio": 1100,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/TARIFA FINAL FEB2022.jpg",
+    "codigo": "BMRF802PJT"
+  },
+  {
+    "id": 3134,
+    "nombre": "Bajo mostrador de 2 puertas de 1360x700mm",
+    "precio": 950,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/TARIFA FINAL FEB2022.jpg",
+    "codigo": "BM2PRFJT"
+  },
+  {
+    "id": 3135,
+    "nombre": "Bajo mostrador de 2 puertas de 1500x600mm",
+    "precio": 980,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/BAJOMOSTRADOR-2PUERTAS-REFRIGERADO-SERIEAMERICANA..png",
+    "codigo": "BM15RVB"
+  },
+  {
+    "id": 3136,
+    "nombre": "Bajo mostrador de 3 puertas de 1795x700mm",
+    "precio": 1150,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/10010458-2vwK6NUijNh1oC.png",
+    "codigo": "BM3PRFJT"
+  },
+  {
+    "id": 3137,
+    "nombre": "Bajo mostrador de 4 puertas de 2230x700mm",
+    "precio": 1450,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/10010459-3pHFdkCs2uTx8X_600x600.jpg",
+    "codigo": "BM4PRFJT"
+  },
+  {
+    "id": 3138,
+    "nombre": "Bajo mostrador expositor de 2 puertas de 1360x700mm",
+    "precio": 990,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/gn2100tng-fed-a.png",
+    "codigo": "BM2PCRFJT"
+  },
+  {
+    "id": 3139,
+    "nombre": "Bajo mostrador expositor de 3 puertas de 1795x700mm",
+    "precio": 1190,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/10010458-7.jpg",
+    "codigo": "BM3PCRFJT"
+  },
+  {
+    "id": 3140,
+    "nombre": "Bajo mostrador expositor de 3 puertas de 2000x600mm",
+    "precio": 1130,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/Bajomostrador de tres puertas serie americana.jpg",
+    "codigo": "BM20RVB"
+  },
+  {
+    "id": 3141,
+    "nombre": "Bajo mostrador expositor de 4 puertas de 2230x700mm",
+    "precio": 1550,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/gn4100tng_2.png",
+    "codigo": "BM4PCRFJT"
+  },
+  {
+    "id": 3142,
+    "nombre": "Bajo mostrador expositor de 4 puertas de 2500x600mm",
+    "precio": 1390,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/BAJOMOSTRADOR-3PUERTAS-REFRIGERADO-SERIE AMERICANA..png",
+    "codigo": "BMR25RVB"
+  },
+  {
+    "id": 3143,
+    "nombre": "Botellero de acero inoxidable de 1000 mm ",
+    "precio": 539,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/983470BAI100JT.jpg",
+    "codigo": "BAI100JT"
+  },
+  {
+    "id": 3144,
+    "nombre": "Botellero de acero inoxidable refrigerado de 1500 mm",
+    "precio": 643,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/230116BAI150JT.jpg",
+    "codigo": "BAI150JT"
+  },
+  {
+    "id": 3145,
+    "nombre": "Botellero de acero inoxidable refrigerado de 2000 mm",
+    "precio": 1066,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/422139BAI200JT.jpg",
+    "codigo": "BAI200JT"
+  },
+  {
+    "id": 3146,
+    "nombre": "Frente mostrador refrigerado 2 puertas serie americana",
+    "precio": 1210,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/898610FM15RVB.png",
+    "codigo": "FM15RVB"
+  },
+  {
+    "id": 3147,
+    "nombre": "Frente mostrador refrigerado 2 puertas de cristal serie americana",
+    "precio": 1330,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/994631FMPC15RVB.png",
+    "codigo": "FMPC15RVB"
+  },
+  {
+    "id": 3148,
+    "nombre": "Frente mostrador refrigerado 3 puertas serie americana",
+    "precio": 1410,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/550671FM20RVB.png",
+    "codigo": "FM20RVB"
+  },
+  {
+    "id": 3149,
+    "nombre": "Frente mostrador refrigerado 3 puertas de cristal serie americana",
+    "precio": 1550,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/396353FMPC20RVB.png",
+    "codigo": "FMPC20RVB"
+  },
+  {
+    "id": 3150,
+    "nombre": "Frente mostrador refrigerado 4 puertas serie americana",
+    "precio": 1690,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/583146FM25RVB.png",
+    "codigo": "FM25RVB"
+  },
+  {
+    "id": 3151,
+    "nombre": "Frente mostrador refrigerado 4 puertas de cristal serie americana",
+    "precio": 1850,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/793978FMPC25RVB.png",
+    "codigo": "FMPC25RVB"
+  },
+  {
+    "id": 3152,
+    "nombre": "Mesa de preparacion con cajones 2020mm ",
+    "precio": 1821,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/439398MP202SMCML.png",
+    "codigo": "MP202SMCML"
+  },
+  {
+    "id": 3153,
+    "nombre": "Mesa de preparacion granito 1360mm",
+    "precio": 925,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/646653MP136SMML.png",
+    "codigo": "MP136SMML"
+  },
+  {
+    "id": 3154,
+    "nombre": "Mesa de preparacion granito 1360mm + vitrina",
+    "precio": 1350,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/344036MP136SMML+VI.png",
+    "codigo": "MP136SMML+VI"
+  },
+  {
+    "id": 3155,
+    "nombre": "Mesa prep granito con cajones 2025mm  + vitrina ",
+    "precio": 2478,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/382731MP202SMCML+VI.png",
+    "codigo": "MP202SMCML+VI"
+  },
+  {
+    "id": 3156,
+    "nombre": "Mesa prep granito s 800 3 puertas + vitrina ",
+    "precio": 2360,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/981001MP02SMML+VI(1).png",
+    "codigo": "MP02SMML+VI"
+  },
+  {
+    "id": 3157,
+    "nombre": "Mesa preparacion con tapa abatible 1360mm",
+    "precio": 1249,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/692844MP136TAML.png",
+    "codigo": "MP136TAML"
+  },
+  {
+    "id": 3158,
+    "nombre": "Mesa preparacion con tapa abatible 1800mm",
+    "precio": 1293,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/380622MP180TAML.png",
+    "codigo": "MP180TAML"
+  },
+  {
+    "id": 3159,
+    "nombre": "Mesa preparacion con tapa abatible 2020mm",
+    "precio": 1569,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/409382MP202TAML.png",
+    "codigo": "MP202TAML"
+  },
+  {
+    "id": 3160,
+    "nombre": "Mesa preparacion con tapa abatible 900mm",
+    "precio": 787,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/174220MP90TAML.png",
+    "codigo": "MP90TAML"
+  },
+  {
+    "id": 3161,
+    "nombre": "Mesa preparacion cristal curvo 1360mm",
+    "precio": 1144,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/194956PDHSBREL.jpg",
+    "codigo": "MPR136CFCML"
+  },
+  {
+    "id": 3162,
+    "nombre": "Mesa preparacion cristal curvo 1530mm",
+    "precio": 1459,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/122577MPCC153B.png",
+    "codigo": "MPCC153B"
+  },
+  {
+    "id": 3163,
+    "nombre": "Mesa preparacion cristal curvo 900mm",
+    "precio": 870,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/578883MPR90CFCML.png",
+    "codigo": "MPR90CFCML"
+  },
+  {
+    "id": 3164,
+    "nombre": "Mesa preparacion granito eco 2 puertas",
+    "precio": 899,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/MP135SMFS.png",
+    "codigo": "MP135SMFS"
+  },
+  {
+    "id": 3165,
+    "nombre": "Mesa preparacion granito eco 2 puertas + vitrina",
+    "precio": 1290,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/29378MP135SMFS+VI.png",
+    "codigo": "MP135SMFS+VI"
+  },
+  {
+    "id": 3166,
+    "nombre": "Mesa preparacion granito serie 800 2 puertas",
+    "precio": 996,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/asdad.jpg",
+    "codigo": "MP15SMML"
+  },
+  {
+    "id": 3167,
+    "nombre": "Mesa preparacion granito serie 800 3 puertas",
+    "precio": 1711,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/30491MP02SMML+VI.png",
+    "codigo": "MP202SMML"
+  },
+  {
+    "id": 3168,
+    "nombre": "Mesa preparacion granito y hueco para cubetas 900mm",
+    "precio": 834,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/257328MP90HCML.png",
+    "codigo": "MP90HCML"
+  },
+  {
+    "id": 3169,
+    "nombre": "Mesa refigerada de preparacion - 2 puertas 900x700mm",
+    "precio": 682,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/636846194586372345_27e1.jpg",
+    "codigo": "MP90SLML"
+  },
+  {
+    "id": 3170,
+    "nombre": "Mesa refigerada de preparacion - 2 puertas 900x700mm",
+    "precio": 981,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/569717MP136SLML.png",
+    "codigo": "MP136SLML"
+  },
+  {
+    "id": 3171,
+    "nombre": "Mesa refigerada de preparacion - cajones 1/1 1365x700mm",
+    "precio": 1425,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/501447636846194623055539_56fa.jpg",
+    "codigo": "MP6CSLJT"
+  },
+  {
+    "id": 3172,
+    "nombre": "Mesa refigerada de preparacion - cajones 1/1 900x700mm",
+    "precio": 934,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/636846194623055539_56fa.jpg",
+    "codigo": "MP90C4C"
+  },
+  {
+    "id": 3173,
+    "nombre": "Mesa refrigerada granito con cajones 2000mm",
+    "precio": 1821,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/802638MESA REFRIGERADA PREPARACION PIZZA.png",
+    "codigo": " MP202SMCML"
+  },
+  {
+    "id": 3174,
+    "nombre": "Vitrina de ingredientes capacidad gn1/3x10",
+    "precio": 635,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/111227VI20ML.jpg",
+    "codigo": "VI20ML"
+  },
+  {
+    "id": 3175,
+    "nombre": "Vitrina de ingredientes capacidad gn1/3x3+gn1/2x1",
+    "precio": 309,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/558570VI12ML.jpg",
+    "codigo": "VI12ML"
+  },
+  {
+    "id": 3176,
+    "nombre": "Vitrina de ingredientes capacidad gn1/3x4+gn1/2x1",
+    "precio": 431,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/926975VI14ML.png",
+    "codigo": "VI14ML"
+  },
+  {
+    "id": 3177,
+    "nombre": "Vitrina de ingredientes capacidad gn1/3x5+gn1/2x1",
+    "precio": 440,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/507925VI15ML.jpg",
+    "codigo": "VI15ML"
+  },
+  {
+    "id": 3178,
+    "nombre": "Vitrina de ingredientes capacidad gn1/3x8",
+    "precio": 610,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/140253VI18ML.jpg",
+    "codigo": "VI18ML"
+  }
+]

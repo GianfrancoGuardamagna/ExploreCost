@@ -1,0 +1,184 @@
+[
+  {
+    "id": 2461,
+    "nombre": "Granizadora 15l",
+    "precio": 793,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/401896GRS15L.png",
+    "codigo": "GRS15L"
+  },
+  {
+    "id": 2462,
+    "nombre": "Maquina de helados soft pie 2 sabores ",
+    "precio": 1690,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/760286MHS2SDP.png",
+    "codigo": "MHS2SDP"
+  },
+  {
+    "id": 2463,
+    "nombre": "Maquina de helados soft sobremesa 1 sabor",
+    "precio": 1195,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/692495MHSSB1S.PNG",
+    "codigo": "MHSSB1S"
+  },
+  {
+    "id": 2464,
+    "nombre": "Maquina de helados soft sobremesa 2 sabores ",
+    "precio": 1390,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/959261MHS2SSM.png",
+    "codigo": "MHS2SSM"
+  },
+  {
+    "id": 2465,
+    "nombre": "Maquina de hielo 30kg/dia orion marca itv",
+    "precio": 990,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/MAQUINAS-HIELO-PORAIRE-ITV.png",
+    "codigo": "ORION30"
+  },
+  {
+    "id": 2466,
+    "nombre": "Maquina de hielo 40kg/dia orion marca itv",
+    "precio": 1160,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/433549ORION40.jpg",
+    "codigo": "ORION40"
+  },
+  {
+    "id": 2467,
+    "nombre": "Maquina de hielo 60 kg/dia orion marca itv",
+    "precio": 1470,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/27977ORION60.png",
+    "codigo": "ORION60"
+  },
+  {
+    "id": 2468,
+    "nombre": "Maquina de hielo 80kg/dia orion marca itv",
+    "precio": 1787,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/216782ORION80.png",
+    "codigo": "ORION80"
+  },
+  {
+    "id": 2469,
+    "nombre": "Maquina de hielo maquimport 120 kg/dia",
+    "precio": 1680,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/964185MHA120FS.png",
+    "codigo": "MHA120FS"
+  },
+  {
+    "id": 2470,
+    "nombre": "Maquina de hielo maquimport 35 kg/dia",
+    "precio": 682,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/Hc42e498e197846859188ff0c8324fcc8w.jpg",
+    "codigo": "MHA40FS"
+  },
+  {
+    "id": 2471,
+    "nombre": "Maquina de hielo maquimport 55 kg/dia",
+    "precio": 955,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/186361MHA60FS.png",
+    "codigo": "MHA60FS"
+  },
+  {
+    "id": 2472,
+    "nombre": "Maquina de hielo maquimport 80 kg/dia",
+    "precio": 1426,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/713139MHA80FS.png",
+    "codigo": "MHA80FS"
+  },
+  {
+    "id": 2473,
+    "nombre": "Batidora hamilton beach ",
+    "precio": 215,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/batidora hamilton beach 1.jpg",
+    "codigo": "HB908N"
+  },
+  {
+    "id": 2474,
+    "nombre": "Batidora hamilton beach con wave-action system",
+    "precio": 316.8,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/643619HBRIO.png",
+    "codigo": "HBRIO"
+  },
+  {
+    "id": 2475,
+    "nombre": "Batidoras de helados 1 litro",
+    "precio": 130,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/BATIDORAS-HELADOS-1LITRO.png",
+    "codigo": "BDHSSME"
+  },
+  {
+    "id": 2476,
+    "nombre": "Exprimidor  de zumo doble cunil",
+    "precio": 389,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/255236EDNCD.png",
+    "codigo": "EDNCD"
+  },
+  {
+    "id": 2477,
+    "nombre": "Exprimidor de naranjas automatico de acero inox",
+    "precio": 1150,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/601656EDNAIVC.png",
+    "codigo": "EDNAIVC"
+  },
+  {
+    "id": 2478,
+    "nombre": "Exprimidor de naranjas automatico eco ",
+    "precio": 850,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/exprimidor-zumos-automatico-plastico.png",
+    "codigo": "EDNAET"
+  },
+  {
+    "id": 2479,
+    "nombre": "Exprimidor de naranjas manual eco",
+    "precio": 140,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/714189EDNMET.png",
+    "codigo": "EDNMET"
+  },
+  {
+    "id": 2480,
+    "nombre": "Exprimidor de zumo simple cunil ",
+    "precio": 275,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/708780EDNCS.png",
+    "codigo": "EDNCS"
+  },
+  {
+    "id": 2481,
+    "nombre": "Exprimidor de zumo versatile pro ",
+    "precio": 4087,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/37721zumex-versatile-pro-silver.jpg",
+    "codigo": "VRPREZX"
+  },
+  {
+    "id": 2482,
+    "nombre": "Licuadora de vaso ",
+    "precio": 195,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/214035BDP2L.png",
+    "codigo": "BDP2L"
+  },
+  {
+    "id": 2483,
+    "nombre": "Licuadora de vaso con capota.",
+    "precio": 275,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/143405BDV27LCC.png",
+    "codigo": "BDV27LCC"
+  },
+  {
+    "id": 2484,
+    "nombre": "Licuadora de zumos",
+    "precio": 275,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/732558LZSBET.png",
+    "codigo": "LZSBET"
+  },
+  {
+    "id": 2485,
+    "nombre": "Licuadora extractora de zumos.",
+    "precio": 275,
+    "imagenes": "http://www.maquinariayhosteleria.es/ficheros/productos/981352LEZ5K.png",
+    "codigo": "LEZ5K"
+  },
+  {
+    "id": 2486,
+    "nombre": "Maquina de zumo soul series 2 zumex",
+    "precio": 2075,
+    "imagenes": false,
+    "codigo": "SOUL SERIES 2"
+  }
+]
