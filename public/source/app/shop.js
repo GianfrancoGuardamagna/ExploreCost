@@ -104,7 +104,7 @@ document.addEventListener('DOMContentLoaded', async function () {
                     aria-labelledby="offcanvasDarkNavbarLabel">
                     <div class="offcanvas-header justify-center">
                     <a href="../../index.html">
-                        <img class="h-12" src="../../utils/images/reducción_explorecost.png" alt="Logo Explorecost">
+                        <img class="h-12" src="../../../utils/images/reducción_explorecost.png" alt="Logo Explorecost">
                       </a>
                       <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
                         aria-label="Close"></button>
@@ -118,20 +118,20 @@ document.addEventListener('DOMContentLoaded', async function () {
                           </a>
                         </li>
                         <ul class="dropdown-menu dropdown-menu-light">
-                        <li><a class="dropdown-item" href="../shop/cocina/cocina.html">Cocina</a></li>
-                        <li><a class="dropdown-item" href="../shop/frio/frio.html">Frío</a></li>
-                        <li><a class="dropdown-item" href="../shop/hosteleria/hosteleria.html">Hostelería</a></li>
-                        <li><a class="dropdown-item" href="../shop/mobiliario/mobiliario.html">Mobiliario</a></li>
+                        <li><a class="dropdown-item" href="../cocina/cocina.html">Cocina</a></li>
+          <li><a class="dropdown-item" href="../frio/frio.html">Frío</a></li>
+          <li><a class="dropdown-item" href="../hosteleria/hosteleria.html">Hostelería</a></li>
+          <li><a class="dropdown-item" href="../mobiliario/mobiliario.html">Mobiliario</a></li>
                         </ul>
                         <form class="d-flex flex justify-center items-center" role="search">
                           <input class="form-control me-2" type="search" placeholder="Buscar artículo..." aria-label="Search">
                           <button class="btn btn-dark bg-secundario" type="submit">Buscar</button>
                         </form>
                         <li class="nav-item">
-                          <a class="nav-link" href="../user/login.html">Login</a>
+                          <a class="nav-link" href="../../user/login.html">Login</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="../shop/carrito.html">Carrito</a>
+                          <a class="nav-link" href="../../shop/carrito.html">Carrito</a>
                         </li>
                       </ul>
                     </div>
