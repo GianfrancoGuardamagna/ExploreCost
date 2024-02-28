@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function () {
         background: "linear-gradient(to right, #29235C, #1D71B8)",
       },
     }).showToast();
-  };
+  }
 
 
   const botonIngresar = document.getElementById("botonIngresar");
@@ -29,81 +29,82 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Función para enviar datos al servidor
   function enviarDatos() {
-    // Capturar datos del formulario
+
+    //   // Capturar datos del formulario
     const email = document.getElementById('email').value;
     const password = document.getElementById('password').value;
 
     // Validar que los campos no estén vacíos
     if (!email || !password) {
-        Toastify({
-            text: "Por favor complete los campos",
+      Toastify({
+        text: "Por favor complete los campos",
+        duration: 2000,
+        close: true,
+        gravity: "bottom", // `top` or `bottom`
+        position: "right", // `left`, `center` or `right`
+        stopOnFocus: true, // Prevents dismissing of toast on hover
+        style: {
+          background: "linear-gradient(to right, #29235C, #1D71B8)",
+        },
+        // onClick: function(){} // Callback after click
+      }).showToast();
+      return;
+    }
+
+    // Crear objeto con los datos
+    const datos = {
+      email: email,
+      password: password,
+    };
+
+    // Realizar la solicitud POST al servidor
+    fetch('/validar', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify(datos)
+    })
+      .then(response => {
+        return response.json();
+      })
+      .then(data => {
+        if (data.success) {
+          alert('Usuario válido');
+          // Aquí puedes redirigir a otra página o realizar otras acciones después del registro exitoso
+        } if (data.success === false || data.error === 'Usuario no registrado') {
+          Toastify({
+            text: "Email o contraseña inválida",
             duration: 2000,
             close: true,
             gravity: "bottom", // `top` or `bottom`
             position: "right", // `left`, `center` or `right`
             stopOnFocus: true, // Prevents dismissing of toast on hover
             style: {
-                background: "linear-gradient(to right, #29235C, #1D71B8)",
+              background: "linear-gradient(to right, #29235C, #1D71B8)",
             },
             // onClick: function(){} // Callback after click
+          }).showToast();
+          return;
+        }
+      })
+      .catch(error => {
+        console.error('Error en la solicitud:', JSON.parse(error));
+        Toastify({
+          text: "Error en el servidor, informe a atención al cliente",
+          duration: 2000,
+          close: true,
+          gravity: "bottom", // `top` or `bottom`
+          position: "right", // `left`, `center` or `right`
+          stopOnFocus: true, // Prevents dismissing of toast on hover
+          style: {
+            background: "linear-gradient(to right, #29235C, #1D71B8)",
+          },
+          // onClick: function(){} // Callback after click
         }).showToast();
-        return;
-    }
+      });
 
-    // Crear objeto con los datos
-    const datos = {
-        email: email,
-        password: password,
-    };
-
-    // Realizar la solicitud POST al servidor
-    fetch('/validar', {
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/json'
-        },
-        body: JSON.stringify(datos)
-    })
-        .then(response => {
-            return response.json();
-        })
-        .then(data => {
-            if (data.success) {
-                alert('Usuario válido');
-                // Aquí puedes redirigir a otra página o realizar otras acciones después del registro exitoso
-            } if (data.success === false || data.error === 'Usuario no registrado') {
-                Toastify({
-                    text: "Email o contraseña inválida",
-                    duration: 2000,
-                    close: true,
-                    gravity: "bottom", // `top` or `bottom`
-                    position: "right", // `left`, `center` or `right`
-                    stopOnFocus: true, // Prevents dismissing of toast on hover
-                    style: {
-                        background: "linear-gradient(to right, #29235C, #1D71B8)",
-                    },
-                    // onClick: function(){} // Callback after click
-                }).showToast();
-                return;
-            }
-        })
-        .catch(error => {
-            console.error('Error en la solicitud:', JSON.parse(error));
-            Toastify({
-                text: "Error en el servidor, informe a atención al cliente",
-                duration: 2000,
-                close: true,
-                gravity: "bottom", // `top` or `bottom`
-                position: "right", // `left`, `center` or `right`
-                stopOnFocus: true, // Prevents dismissing of toast on hover
-                style: {
-                    background: "linear-gradient(to right, #29235C, #1D71B8)",
-                },
-                // onClick: function(){} // Callback after click
-            }).showToast();
-        });
-
-  };
+  }
 
 
   const togglePassword = document.getElementById("togglePassword");
@@ -162,7 +163,7 @@ document.addEventListener("DOMContentLoaded", function () {
         // Aquí puedes realizar acciones adicionales con los resultados de la búsqueda
       }
     });
-  };
+  }
 
   // Verifica el ancho de la pantalla y realiza cambios en el nav
   function checkViewportWidth() {
@@ -199,10 +200,13 @@ document.addEventListener("DOMContentLoaded", function () {
                 <li><a class="dropdown-item" href="../shop/mobiliario/mobiliario.html">Mobiliario</a></li>
               </ul>
             </div>
-            <input id="search" type="text" name="q" value="" placeholder="Buscar artículo en el catálogo..."
-              class="input-text rounded-sm pl-4 w-3/5" maxlength="128" role="combobox" aria-haspopup="false"
-              aria-autocomplete="both" autocomplete="off" aria-expanded="false" readonly="" control-id="ControlID-1">
-            <a href="../user/login.html">
+            <div class="relative w-3/5">
+              <input id="search" type="text" name="q" value="" placeholder="Buscar artículo en el catálogo..."
+                  class="input-text rounded-sm pl-4 w-full" maxlength="128" role="combobox" aria-haspopup="false"
+                  aria-autocomplete="both" autocomplete="off" aria-expanded="false" control-id="ControlID-1">
+              <div id="block" class="bg-stone-100 absolute left-0 right-0 mt-1 overflow-hidden rounded-md shadow-md">
+                <p class="text-primario p-2">Presione Enter al finalizar</p>
+              </div>
               <img class="h-9" src="../../utils/images/iconoUsuario.svg" alt="Icono de usuario">
             </a>
             <a href="../shop/carrito.html">

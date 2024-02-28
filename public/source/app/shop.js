@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', async function () {
 
     //Logica buscador//
-  async function buscador() {
+    async function buscador() {
     const search = document.getElementById('search');
     const block = document.getElementById('block');
 
@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', async function () {
 
     // Cargar y analizar el archivo JSON
     try {
-      const response = await fetch('../../resources/articulosJson.json');
+      const response = await fetch('../../../resources/articulosJson.json');
       items = await response.json();
     } catch (error) {
       console.error('Error al cargar el archivo JSON:', error);
@@ -78,9 +78,14 @@ document.addEventListener('DOMContentLoaded', async function () {
           <li><a class="dropdown-item" href="../mobiliario/mobiliario.html">Mobiliario</a></li>
         </ul>
       </div>
-      <input id="search" type="text" name="q" value="" placeholder="Buscar artículo en el catálogo..."
-        class="input-text rounded-sm pl-4 w-3/5" maxlength="128" role="combobox" aria-haspopup="false"
-        aria-autocomplete="both" autocomplete="off" aria-expanded="false" readonly="" control-id="ControlID-1">
+      <div class="relative w-3/5">
+              <input id="search" type="text" name="q" value="" placeholder="Buscar artículo en el catálogo..."
+                  class="input-text rounded-sm pl-4 w-full" maxlength="128" role="combobox" aria-haspopup="false"
+                  aria-autocomplete="both" autocomplete="off" aria-expanded="false" control-id="ControlID-1">
+              <div id="block" class="bg-stone-100 absolute left-0 right-0 mt-1 overflow-hidden rounded-md shadow-md">
+                <p class="text-primario p-2">Presione Enter al finalizar</p>
+              </div>
+            </div>
       <a href="../../user/login.html">
         <img class="h-9" src="../../../utils/images/iconoUsuario.svg" alt="Icono de usuario">
       </a>

@@ -84,8 +84,8 @@ document.addEventListener("DOMContentLoaded", async function () {
                   aria-autocomplete="both" autocomplete="off" aria-expanded="false" control-id="ControlID-1">
               <div id="block" class="bg-stone-100 absolute left-0 right-0 mt-1 overflow-hidden rounded-md shadow-md">
                 <p class="text-primario p-2">Presione Enter al finalizar</p>
+              </div>
             </div>
-        </div>
             <a href="./source/user/login.html">
             <img class="h-9" src="./utils/images/iconoUsuario.svg" alt="Icono de usuario">
             </a>
