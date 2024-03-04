@@ -41,13 +41,15 @@ document.addEventListener("DOMContentLoaded", async function () {
         // Aquí puedes realizar acciones adicionales con los resultados de la búsqueda
       }
     });
-  };
+  }
 
   // Verifica el ancho de la pantalla y realiza cambios en el nav
   function checkViewportWidth() {
     const nav = document.querySelector('nav');
 
-    if (window.innerWidth >= 768) {
+    const windowWidth = window.innerWidth;
+
+    if (windowWidth >= 768) {
       nav.classList.add('navbar');
       nav.classList.add('bg-stone-200');
       nav.classList.add('flex');
@@ -93,7 +95,7 @@ document.addEventListener("DOMContentLoaded", async function () {
             <img class="h-9" src="./utils/images/iconoCarrito.svg" alt="Icono de carrito">
             </a>
         </div>`;
-    } else {
+    } else if(windowWidth <= 768){
       nav.classList.add('navbar');
       nav.classList.add('navbar-light');
       nav.classList.add('fixed-top');
@@ -116,20 +118,22 @@ document.addEventListener("DOMContentLoaded", async function () {
               </div>
               <div class="offcanvas-body">
                 <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                      aria-expanded="false">
-                      Categorías
-                    </a>
-                  </li>
-                  <ul class="dropdown-menu dropdown-menu-light">
-                    <li><a class="dropdown-item" href="./source/shop/cocina/cocina.html">Cocina</a></li>
-                    <li><a class="dropdown-item" href="./source/shop/frio/frio.html">Frio</a></li>
-                    <li><a class="dropdown-item" href="./source/shop/hosteleria/hosteleria.html">Hosteleria</a></li>
-                    <li><a class="dropdown-item" href="./source/shop/mobiliario/mobiliario.html">Mobiliario</a></li>
-                  </ul>
+                <div class="dropdown">
+                <button class="dropdown-toggle text-primario" type="button" aria-expanded="false">
+                  Categorías
+                </button>
+                <ul class="dropdown-menu bg-stone-200">
+                  <li><a class="dropdown-item" href="./source/shop/cocina/cocina.html">Cocina</a></li>
+                  <li><a class="dropdown-item" href="./source/shop/frio/frio.html">Frío</a></li>
+                  <li><a class="dropdown-item" href="./source/shop/hosteleria/hosteleria.html">Hostelería</a></li>
+                  <li><a class="dropdown-item" href="./source/shop/mobiliario/mobiliario.html">Mobiliario</a></li>
+                </ul>
+              </div>
                   <form class="d-flex flex justify-center items-center" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Buscar artículo..." aria-label="Search">
+                    <input id="search" class="form-control me-2" type="search" placeholder="Buscar artículo..." aria-label="Search">
+                    <div id="block" class="bg-stone-100 absolute left-0 right-0 top-1/3 mt-1 overflow-hidden rounded-md shadow-md">
+                      <p class="text-primario p-2">Presione Buscar al finalizar</p>
+                    </div>
                     <button class="btn btn-dark bg-secundario" type="submit">Buscar</button>
                   </form>
                   <li class="nav-item">

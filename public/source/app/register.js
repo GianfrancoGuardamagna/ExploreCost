@@ -232,19 +232,17 @@ document.addEventListener("DOMContentLoaded", function () {
                         aria-label="Close"></button>
                     </div>
                     <div class="offcanvas-body">
-                      <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                        <li class="nav-item dropdown">
-                          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Categorías
-                          </a>
-                        </li>
-                        <ul class="dropdown-menu dropdown-menu-light">
-                        <li><a class="dropdown-item" href="../shop/cocina/cocina.html">Cocina</a></li>
-                        <li><a class="dropdown-item" href="../shop/frio/frio.html">Frío</a></li>
-                        <li><a class="dropdown-item" href="../shop/hosteleria/hosteleria.html">Hostelería</a></li>
-                        <li><a class="dropdown-item" href="../shop/mobiliario/mobiliario.html">Mobiliario</a></li>
-                        </ul>
+                    <div class="dropdown">
+                    <button class="dropdown-toggle text-primario" type="button" aria-expanded="false">
+                      Categorías
+                    </button>
+                    <ul class="dropdown-menu bg-stone-200">
+                      <li><a class="dropdown-item" href="../shop/cocina/cocina.html">Cocina</a></li>
+                      <li><a class="dropdown-item" href="../shop/frio/frio.html">Frío</a></li>
+                      <li><a class="dropdown-item" href="../shop/hosteleria/hosteleria.html">Hostelería</a></li>
+                      <li><a class="dropdown-item" href="../shop/mobiliario/mobiliario.html">Mobiliario</a></li>
+                    </ul>
+                  </div>
                         <form class="d-flex flex justify-center items-center" role="search">
                           <input class="form-control me-2" type="search" placeholder="Buscar artículo..." aria-label="Search">
                           <button class="btn btn-dark bg-secundario" type="submit">Buscar</button>
