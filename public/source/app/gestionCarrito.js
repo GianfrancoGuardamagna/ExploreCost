@@ -36,10 +36,8 @@ async function gestionCarrito() {
 
             if (!estaEnCarrito) {
                 carrito.push(producto);
-                // Resto del código...
             } else if (estaEnCarrito) {
                 carrito = carrito.filter(item => item.id !== productoId);
-                // Resto del código...
             }
 
             // Guardar el carrito actualizado en el localStorage
