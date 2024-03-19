@@ -1,6 +1,6 @@
-document.addEventListener('DOMContentLoaded', () => {
+let carrito = JSON.parse(localStorage.getItem('Carrito')) || []
 
-    let carrito = JSON.parse(localStorage.getItem('Carrito')) || [];
+document.addEventListener('DOMContentLoaded', () => {
 
     let spanTotal = document.getElementById('costoTotal')
 
@@ -40,10 +40,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
     }
     gestionTotal()
-
-    // Gestión del pedido
-    let pedido = carrito
-    pedido.forEach(items=>{
-        console.log(items.precio)
-    })
 })
+
+export default carrito
