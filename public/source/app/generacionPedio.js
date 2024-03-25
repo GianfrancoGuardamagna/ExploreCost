@@ -9,8 +9,12 @@ document.addEventListener("DOMContentLoaded",()=>{
         console.log(carrito)
         carrito.forEach(producto => {
             let cantidad = (producto.totalProducto)/(producto.precio)
-            console.log(cantidad)
+            producto.cantidad = cantidad
         })
+
+    
+        
+        let pedido = {}
 
     })
 

@@ -7,9 +7,17 @@ document.addEventListener("DOMContentLoaded", async function () {
 
     let items; // Variable para almacenar los items cargados desde el archivo JSON
 
+    let rutaArticulos = ''
+
+    if(document.title === 'Inicio de Sesión' || document.title === 'Crea tu usuario' || document.title === 'Mi Carrito' || document.title === 'Quienes Somos' || document.title === 'Avisos legales' || document.title === 'Devoluciones'){
+      rutaArticulos = '../../resources/articulosJson.json'
+    }else{
+      rutaArticulos = './resources/articulosJson.json'
+    }
+
     // Cargar y analizar el archivo JSON
     try {
-      const response = await fetch('./resources/articulosJson.json');
+      const response = await fetch(rutaArticulos);
       items = await response.json();
     } catch (error) {
       console.error('Error al cargar el archivo JSON:', error);
@@ -49,7 +57,35 @@ document.addEventListener("DOMContentLoaded", async function () {
 
     const windowWidth = window.innerWidth;
 
+    const title = document.title
+    console.log(title)
+      let rutaIconoLogo = ''
+      let rutaIconoUsuario = ''
+      let rutaIconoCarrito = ''
+      let rutaLogo = ''
+      let rutaUsuario = ''
+      let rutaCarrito = ''
+
+      if(title === 'Inicio de Sesión' || title === 'Crea tu usuario' || title === 'Mi Carrito' || title === 'Quienes Somos' || title === 'Avisos legales' || title === 'Devoluciones'){
+        rutaIconoLogo = '../../utils/images/logoExplorecost.png'
+        rutaIconoUsuario = '../../utils/images/iconoUsuario.svg'
+        rutaIconoCarrito = '../../utils/images/iconoCarrito.svg'
+        rutaLogo = '../../index.html'
+        rutaUsuario = '../../source/user/login.html'
+        rutaCarrito = '../../source/shop/carrito.html'
+
+      }else{
+        rutaIconoLogo = "./utils/images/logoExplorecost.png"
+        rutaIconoUsuario = './utils/images/iconoUsuario.svg'
+        rutaIconoCarrito = "./utils/images/iconoCarrito.svg"
+        rutaLogo = './index.html'
+        rutaUsuario = './source/user/login.html'
+        rutaCarrito = './source/shop/carrito.html'
+
+      }
+
     if (windowWidth >= 768) {
+
       nav.classList.add('navbar');
       nav.classList.add('bg-stone-200');
       nav.classList.add('flex');
@@ -65,8 +101,8 @@ document.addEventListener("DOMContentLoaded", async function () {
       nav.classList.add('fixed');
       nav.classList.add('w-full');
       nav.classList.add('z-50');
-      nav.innerHTML = `<a href="#">
-            <img class="h-12" src="./utils/images/logo explorecost.png" alt="Logo Explorecost">
+      nav.innerHTML = `<a href="${rutaLogo}">
+            <img class="h-12" src=${rutaIconoLogo} alt="Logo Explorecost">
           </a>
           <div class="flex flex-row items-center justify-end gap-5 w-3/4">
             <div class="dropdown">
@@ -88,11 +124,11 @@ document.addEventListener("DOMContentLoaded", async function () {
                 <p class="text-primario p-2">Presione Enter al finalizar</p>
               </div>
             </div>
-            <a href="./source/user/login.html">
-            <img class="h-9" src="./utils/images/iconoUsuario.svg" alt="Icono de usuario">
+            <a href=${rutaUsuario}>
+            <img class="h-9" src=${rutaIconoUsuario} alt="Icono de usuario">
             </a>
-            <a href="./source/shop/carrito.html">
-            <img class="h-9" src="./utils/images/iconoCarrito.svg" alt="Icono de carrito">
+            <a href=${rutaCarrito}>
+            <img class="h-9" src=${rutaIconoCarrito} alt="Icono de carrito">
             </a>
         </div>`;
     } else if(windowWidth <= 768){
@@ -110,8 +146,8 @@ document.addEventListener("DOMContentLoaded", async function () {
             <div class="offcanvas offcanvas-start text-bg-light gap-4" tabindex="-1" id="offcanvasDarkNavbar"
               aria-labelledby="offcanvasDarkNavbarLabel">
               <div class="offcanvas-header justify-center">
-                <a href="#">
-                  <img class="h-12" src="./utils/images/reducción_explorecost.png" alt="Logo Explorecost">
+                <a href="${rutaLogo}">
+                  <img class="h-12" src=${rutaIconoLogo} alt="Logo Explorecost">
                 </a>
                 <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
                   aria-label="Close"></button>
@@ -129,18 +165,18 @@ document.addEventListener("DOMContentLoaded", async function () {
                   <li><a class="dropdown-item" href="./source/shop/mobiliario/mobiliario.html">Mobiliario</a></li>
                 </ul>
               </div>
-                  <form class="d-flex flex justify-center items-center" role="search">
+                  <!--<form class="d-flex flex justify-center items-center" role="search">
                     <input id="search" class="form-control me-2" type="search" placeholder="Buscar artículo..." aria-label="Search">
                     <div id="block" class="bg-stone-100 absolute left-0 right-0 top-1/3 mt-1 overflow-hidden rounded-md shadow-md">
                       <p class="text-primario p-2">Presione Buscar al finalizar</p>
                     </div>
                     <button class="btn btn-dark bg-secundario" type="submit">Buscar</button>
-                  </form>
+                  </form>-->
                   <li class="nav-item">
-                    <a class="nav-link" href="./source/user/login.html">Login</a>
+                    <a class="nav-link" href=${rutaUsuario}>Login</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="./source/shop/carrito.html">Carrito</a>
+                    <a class="nav-link" href=${rutaCarrito}>Carrito</a>
                   </li>
                 </ul>
               </div>

@@ -264,7 +264,4 @@ document.addEventListener("DOMContentLoaded", function () {
 
     buscador();
   }
-
-  // Ejecuta la función al cargar la página y al cambiar el tamaño de la pantalla
-  window.onload = window.onresize = checkViewportWidth;
 });
