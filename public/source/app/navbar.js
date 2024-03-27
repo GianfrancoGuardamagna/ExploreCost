@@ -58,7 +58,6 @@ document.addEventListener("DOMContentLoaded", async function () {
     const windowWidth = window.innerWidth;
 
     const title = document.title
-    console.log(title)
       let rutaIconoLogo = ''
       let rutaIconoUsuario = ''
       let rutaIconoCarrito = ''

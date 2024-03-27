@@ -6,6 +6,7 @@ import { dirname, join } from 'path';
 import mysql from 'mysql2';
 import dotenv from 'dotenv';
 import morgan from 'morgan';
+import jwt from 'jsonwebtoken';
 
 dotenv.config();
 
@@ -28,7 +29,7 @@ app.use(morgan(customFormat));
 
 //Conexión a MySql
 const connectionRegister = mysql.createPool({
-  host: '178.211.133.37',
+  host: process.env.DB_HOST,
   database: process.env.DB_NAME,
   user: process.env.DB_USER_REGISTER,
   password: process.env.DB_PASSWORD_REGISTER
@@ -43,39 +44,38 @@ const connectionLogin = mysql.createPool({
 
 
 // Conexión a login
-app.post("/validar", async function (req, res) {
+// app.post("/validar", async function (req, res) {
 
-  const capture = req.body;
-  console.log(capture);
+//   const capture = req.body;
 
-  let email = capture.email;
-  let password = capture.password;
+//   let email = capture.email;
+//   let password = capture.password;
 
-  if (!email) {
-    res.json({ success: false, error: 'Sin Correo' });
-    return
-  } if (!password) {
-    res.json({ success: false, error: 'Sin Contraseña' });
-    return
-  }
+//   if (!email) {
+//     res.json({ success: false, error: 'Sin Correo' });
+//     return
+//   } if (!password) {
+//     res.json({ success: false, error: 'Sin Contraseña' });
+//     return
+//   }
 
-  const login = 'SELECT * FROM usuarios WHERE email = ? AND password = ?';
+//   const login = 'SELECT * FROM usuarios WHERE email = ? AND password = ?';
 
-  connectionLogin.query(login, [email, password], (err, results) => {
-    if (err) {
-      res.json({ success: false, error: 'Error en el servidor' });
-      return;
-    }
+//   connectionLogin.query(login, [email, password], (err, results) => {
+//     if (err) {
+//       res.json({ success: false, error: 'Error en el servidor' });
+//       return;
+//     }
 
-    if (results.length > 0) {
-      // El usuario existe, puedes hacer algo aquí, como iniciar sesión
-      res.json({ success: true, message: 'Usuario válido' });
-    } else {
-      // El usuario no existe
-      res.json({ success: false, error: 'Usuario no registrado' });
-    }
-  });
-});
+//     if (results.length > 0) {
+//       // El usuario existe, puedes hacer algo aquí, como iniciar sesión
+//       res.json({ success: true, message: 'Usuario válido' });
+//     } else {
+//       // El usuario no existe
+//       res.json({ success: false, error: 'Usuario no registrado' });
+//     }
+//   });
+// });
 
   //Conexion a register
   app.post("/registro", async function (req, res) {
@@ -124,8 +124,47 @@ app.post("/validar", async function (req, res) {
     });
   });
 
+  // Validacion de usuario
+
+  app.post('/auth', (req,res)=>{
+
+    const {email,password} = req.body
+
+    const credentials = {email: email,password: password}
+    const accessToken = generateAccessToken(credentials)
+    res.status(200).json({
+      success: true,
+      token: accessToken,
+    })
+  })
+
+  function generateAccessToken(credentials){
+    return jwt.sign(credentials,process.env.KEY, {expiresIn: '90m'})
+  }
+
+  function validateToken(req,res,next){
+    const accessToken = req.headers[accessToken]
+    jwt.verify(accessToken, process.env.KEY,(err,user)=>{
+      if(err){
+        res.send('Acceso denegado, token expirado o incorrecto')
+      }else{
+        next()
+      }
+    })
+  }
+
+  app.get('/jsonwebtoken', validateToken,(req,res)=>{
+    res.json({
+      usuario: 'Gianfranco',
+      direccion: 'Avenida Siempre Viva 7332',
+      key: process.env.KEY
+    })
+  })
+
+  //////////////////////////////////
+
   const PORT = 5500;
-  // Configuración de otras rutas si es necesario
+  
   app.listen(PORT, () => {
     console.log(`Servidor escuchando en el puerto ${PORT}`);
   });
