@@ -59,26 +59,20 @@ document.addEventListener("DOMContentLoaded", async function () {
 
     const title = document.title
       let rutaIconoLogo = ''
-      let rutaIconoUsuario = ''
       let rutaIconoCarrito = ''
       let rutaLogo = ''
-      let rutaUsuario = ''
       let rutaCarrito = ''
 
       if(title === 'Inicio de Sesión' || title === 'Crea tu usuario' || title === 'Mi Carrito' || title === 'Quienes Somos' || title === 'Avisos legales' || title === 'Devoluciones'){
         rutaIconoLogo = '../../utils/images/logoExplorecost.png'
-        rutaIconoUsuario = '../../utils/images/iconoUsuario.svg'
         rutaIconoCarrito = '../../utils/images/iconoCarrito.svg'
         rutaLogo = '../../index.html'
-        rutaUsuario = '../../source/user/login.html'
         rutaCarrito = '../../source/shop/carrito.html'
 
       }else{
         rutaIconoLogo = "./utils/images/logoExplorecost.png"
-        rutaIconoUsuario = './utils/images/iconoUsuario.svg'
         rutaIconoCarrito = "./utils/images/iconoCarrito.svg"
         rutaLogo = './index.html'
-        rutaUsuario = './source/user/login.html'
         rutaCarrito = './source/shop/carrito.html'
 
       }
@@ -123,9 +117,6 @@ document.addEventListener("DOMContentLoaded", async function () {
                 <p class="text-primario p-2">Presione Enter al finalizar</p>
               </div>
             </div>
-            <a href=${rutaUsuario}>
-            <img class="h-9" src=${rutaIconoUsuario} alt="Icono de usuario">
-            </a>
             <a href=${rutaCarrito}>
             <img class="h-9" src=${rutaIconoCarrito} alt="Icono de carrito">
             </a>
@@ -171,9 +162,6 @@ document.addEventListener("DOMContentLoaded", async function () {
                     </div>
                     <button class="btn btn-dark bg-secundario" type="submit">Buscar</button>
                   </form>-->
-                  <li class="nav-item">
-                    <a class="nav-link" href=${rutaUsuario}>Login</a>
-                  </li>
                   <li class="nav-item">
                     <a class="nav-link" href=${rutaCarrito}>Carrito</a>
                   </li>
