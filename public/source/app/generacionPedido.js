@@ -14,7 +14,6 @@ document.addEventListener("DOMContentLoaded", () => {
     let cPostal = ''
     let nROI = ''
     let nIVA = ''
-    console.log(carrito)
     const { value: formValues } = await Swal.fire({
       title: "Complete los datos del pedido",
       html: `
@@ -86,7 +85,12 @@ document.addEventListener("DOMContentLoaded", () => {
         showCancelButton: true,
       }).then((result) => {
         if (result.isConfirmed) {
-          window.location.href = '/payment'
+          // window.location.href = '/payment'
+          let objetoPedido = {nombre,apellido,email,telefono,rubro,direccion,cPostal,nROI,nIVA}
+          for(let item of carrito){
+            item.cantidad = (item.totalProducto/item.precio)
+          }
+          console.log(objetoPedido,carrito)
         }
       })
     }
