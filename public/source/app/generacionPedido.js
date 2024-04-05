@@ -1,20 +1,21 @@
-import carrito from './gestionPedido.js'
+import carrito from "./gestionPedido.js";
+
+let objetoPedido = {}
 
 document.addEventListener("DOMContentLoaded", () => {
+  let botonPagar = document.getElementById("generarPedido");
 
-  let botonPagar = document.getElementById("generarPedido")
-
-  botonPagar.addEventListener('click', async () => {
-    let nombre = ''
-    let apellido = ''
-    let email = ''
-    let telefono = ''
-    let rubro = ''
-    let direccion = ''
-    let cPostal = ''
-    let nROI = ''
-    let nIVA = ''
-    const { value: formValues } = await Swal.fire({
+  botonPagar.addEventListener("click", () => {
+    let nombre = "";
+    let apellido = "";
+    let email = "";
+    let telefono = "";
+    let rubro = "";
+    let direccion = "";
+    let cPostal = "";
+    let nROI = "";
+    let nIVA = "";
+    const { value: formValues } = Swal.fire({
       title: "Complete los datos del pedido",
       html: `
               <label>Nombre</label>
@@ -66,11 +67,10 @@ document.addEventListener("DOMContentLoaded", () => {
         cPostal = document.getElementById("swal-input7").value;
         nROI = document.getElementById("swal-input8").value;
         nIVA = document.getElementById("swal-input9").value;
-      }
-    })
-    if (formValues) {
-      Swal.fire({
-        title: 'Corrobore sus datos',
+      },
+    }).then((formValues) => {
+      if(formValues){Swal.fire({
+        title: "Corrobore sus datos",
         html: `<ul>
           <li><strong>Nombre:</strong> ${nombre}</li>
           <li><strong>Apellido:</strong> ${apellido}</li>
@@ -84,15 +84,32 @@ document.addEventListener("DOMContentLoaded", () => {
         </ul>`,
         showCancelButton: true,
       }).then((result) => {
-        if (result.isConfirmed) {
-          // window.location.href = '/payment'
-          let objetoPedido = {nombre,apellido,email,telefono,rubro,direccion,cPostal,nROI,nIVA}
-          for(let item of carrito){
-            item.cantidad = (item.totalProducto/item.precio)
+          if (result.isConfirmed) {
+            for (let item of carrito) {
+              item.cantidad = item.totalProducto / item.precio;
+            }
+            objetoPedido = {
+              nombre,
+              apellido,
+              email,
+              telefono,
+              rubro,
+              direccion,
+              cPostal,
+              nROI,
+              nIVA,
+              carrito,
+            }
           }
-          console.log(objetoPedido,carrito)
-        }
-      })
-    }
-  })
-})
+          fetch("/generar-pedido", {
+              method: "POST",
+              headers: {
+                "Content-Type": "application/json",
+              },
+              body: JSON.stringify(objetoPedido),
+            })
+        })
+      }
+    })
+  })//cierre EventListner boton
+})//cierre EventListner DOM

@@ -1,4 +1,3 @@
-// Define una función que encapsula tu código
 async function gestionCarrito() {
     const botones = document.querySelectorAll('#agregarCarrito');
     const items = await fetch('../../../resources/articulosJson.json');

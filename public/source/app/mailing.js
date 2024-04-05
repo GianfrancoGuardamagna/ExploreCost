@@ -2,7 +2,6 @@ import nodemailer from "nodemailer"
 import dotenv from 'dotenv'
 dotenv.config()
 
-
 const transporter = nodemailer.createTransport({
   host: "smtp.gmail.com",
   service: "gmail",
@@ -15,12 +14,38 @@ const transporter = nodemailer.createTransport({
   authMethod: "LOGIN"
 });
 
+const objetoPedido = JSON.parse(process.argv[2])
+
 let mail = {
     from: process.env.CORREO,
-    to: process.env.CORREO,
+    to: process.env.CORREOTEST,
     subject: "Compra Web",
     text: "Primera prueba Mailer",
-    html: "<h5>Primera prueba Node</h5>",
+    html: `
+    <h1>Detalles del pedido:</h1>
+    <p>Nombre: ${objetoPedido.nombre}</p>
+    <p>Apellido: ${objetoPedido.apellido}</p>
+    <p>Email: ${objetoPedido.email}</p>
+    <p>Telefono: ${objetoPedido.telefono}</p>
+    <p>Rubro: ${objetoPedido.rubro}</p>
+    <p>Direccion: ${objetoPedido.direccion}</p>
+    <p>Codigo Postal: ${objetoPedido.cPostal}</p>
+    <p>Numero de ROI: ${objetoPedido.nROI}</p>
+    <p>Numero de IVA: ${objetoPedido.nIVA}</p>
+    <ul>
+            ${objetoPedido.carrito.map(item => `
+                <li>
+                    <p>Nombre: ${item.nombre}</p>
+                    <p>Precio: ${item.precio}</p>
+                    <p>ID: ${item.id}</p>
+                    <p>Codigo: ${item.cantidad}</p>
+                    <p>Imagen: ${item.imagenes}</p>
+                    <p>Cantidad: ${item.cantidad}</p>
+                    <p>Monto total: ${item.totalProducto}</p>
+                </li>
+            `).join('')}
+        </ul>
+`,
 }
 
 transporter.sendMail(mail, (err, info)=>{
