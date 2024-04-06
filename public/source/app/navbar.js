@@ -62,19 +62,30 @@ document.addEventListener("DOMContentLoaded", async function () {
       let rutaIconoCarrito = ''
       let rutaLogo = ''
       let rutaCarrito = ''
+      let rutaCocina = ''
+      let rutaFrio = ''
+      let rutaHosteleria = ''
+      let rutaMobiliario = ''
 
-      if(title === 'Inicio de Sesión' || title === 'Crea tu usuario' || title === 'Mi Carrito' || title === 'Quienes Somos' || title === 'Avisos legales' || title === 'Devoluciones'){
+      if(title === 'Mi Carrito' || title === 'Quienes Somos' || title === 'Avisos legales' || title === 'Devoluciones'){
         rutaIconoLogo = '../../utils/images/logoExplorecost.png'
         rutaIconoCarrito = '../../utils/images/iconoCarrito.svg'
         rutaLogo = '../../index.html'
         rutaCarrito = '../../source/shop/carrito.html'
+        rutaCocina = '../../source/shop/cocina/cocina.html'
+        rutaFrio = '../../source/shop/frio/frio.html'
+        rutaHosteleria = '../../source/shop/hosteleria/hosteleria.html'
+        rutaMobiliario = '../../source/shop/mobiliario/mobiliario.html'
 
       }else{
         rutaIconoLogo = "./utils/images/logoExplorecost.png"
         rutaIconoCarrito = "./utils/images/iconoCarrito.svg"
         rutaLogo = './index.html'
         rutaCarrito = './source/shop/carrito.html'
-
+        rutaCocina = './source/shop/cocina/cocina.html'
+        rutaFrio = './source/shop/frio/frio.html'
+        rutaHosteleria = './source/shop/hosteleria/hosteleria.html'
+        rutaMobiliario = './source/shop/mobiliario/mobiliario.html'
       }
 
     if (windowWidth >= 768) {
@@ -103,10 +114,10 @@ document.addEventListener("DOMContentLoaded", async function () {
                 Categorías
               </button>
               <ul class="dropdown-menu bg-stone-200">
-                <li><a class="dropdown-item" href="./source/shop/cocina/cocina.html">Cocina</a></li>
-                <li><a class="dropdown-item" href="./source/shop/frio/frio.html">Frío</a></li>
-                <li><a class="dropdown-item" href="./source/shop/hosteleria/hosteleria.html">Hostelería</a></li>
-                <li><a class="dropdown-item" href="./source/shop/mobiliario/mobiliario.html">Mobiliario</a></li>
+                <li><a class="dropdown-item" href=${rutaCocina}>Cocina</a></li>
+                <li><a class="dropdown-item" href=${rutaFrio}>Frío</a></li>
+                <li><a class="dropdown-item" href=${rutaHosteleria}>Hostelería</a></li>
+                <li><a class="dropdown-item" href=${rutaMobiliario}>Mobiliario</a></li>
               </ul>
             </div>
             <div class="relative w-3/5">
@@ -136,7 +147,7 @@ document.addEventListener("DOMContentLoaded", async function () {
             <div class="offcanvas offcanvas-start text-bg-light gap-4" tabindex="-1" id="offcanvasDarkNavbar"
               aria-labelledby="offcanvasDarkNavbarLabel">
               <div class="offcanvas-header justify-center">
-                <a href="${rutaLogo}">
+                <a href=${rutaLogo}>
                   <img class="h-12" src=${rutaIconoLogo} alt="Logo Explorecost">
                 </a>
                 <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
@@ -149,10 +160,10 @@ document.addEventListener("DOMContentLoaded", async function () {
                   Categorías
                 </button>
                 <ul class="dropdown-menu bg-stone-200">
-                  <li><a class="dropdown-item" href="./source/shop/cocina/cocina.html">Cocina</a></li>
-                  <li><a class="dropdown-item" href="./source/shop/frio/frio.html">Frío</a></li>
-                  <li><a class="dropdown-item" href="./source/shop/hosteleria/hosteleria.html">Hostelería</a></li>
-                  <li><a class="dropdown-item" href="./source/shop/mobiliario/mobiliario.html">Mobiliario</a></li>
+                <li><a class="dropdown-item" href=${rutaCocina}>Cocina</a></li>
+                <li><a class="dropdown-item" href=${rutaFrio}>Frío</a></li>
+                <li><a class="dropdown-item" href=${rutaHosteleria}>Hostelería</a></li>
+                <li><a class="dropdown-item" href=${rutaMobiliario}>Mobiliario</a></li>
                 </ul>
               </div>
                   <!--<form class="d-flex flex justify-center items-center" role="search">

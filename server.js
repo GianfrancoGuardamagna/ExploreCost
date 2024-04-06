@@ -98,31 +98,8 @@ app.use(morgan(customFormat));
       
         childProcess.on('close', (code) => {
           console.log(`Child process exited with code ${code}`);
-          res.redirect('/');
         });
   })
-
-  // app.get('/mailing', (req, res) => {
-  //   if (!objetoPedidoCache) {
-  //     res.status(400).send('No hay datos de pedido para enviar.');
-  //     return;
-  //   }
-  
-  //   const childProcess = spawn('node', ['./public/source/app/mailing.js', JSON.stringify(objetoPedidoCache)]);
-  
-  //   childProcess.stdout.on('data', (data) => {
-  //     console.log(`stdout: ${data}`);
-  //   });
-  
-  //   childProcess.stderr.on('data', (data) => {
-  //     console.error(`stderr: ${data}`);
-  //   });
-  
-  //   childProcess.on('close', (code) => {
-  //     console.log(`Child process exited with code ${code}`);
-  //     res.redirect('/');
-  //   });
-  // });
 
   //////////////////////////////////
 
