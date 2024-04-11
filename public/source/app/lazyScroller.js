@@ -37,10 +37,7 @@ document.addEventListener("DOMContentLoaded", async function () {
 
     productosParaCrear.forEach((producto) => {
       const productoDiv = document.createElement("div");
-      productoDiv.className =
-        "col-span-1 flex items-center justify-around flex-col bg-slate-400 m-4 mt-8 p-4 w-72 h-full rounded-md producto";
-
-      // Genera el contenido del producto (ajusta según la estructura de tu HTML)
+      productoDiv.className = "col-span-1 flex items-center justify-around flex-col bg-slate-400 m-4 mt-8 p-4 w-72 h-full rounded-md producto";
       productoDiv.innerHTML = `<div class="h-32 w-fit">
             <a href="../productos/producto-${producto.id}.html"><img src="${producto.imagen}"
             class="h-32 itemCard hover:h-36" alt="imagen del producto ${producto.nombre}"></a>
@@ -53,7 +50,6 @@ document.addEventListener("DOMContentLoaded", async function () {
             <button id="agregarCarrito" data-producto-id="${producto.id}" type="button"
             class="bg-terciario text-white itemCard w-4/6 hover:w-5/6 h-10 hover:h-12">Agregar al Carrito</button>
             </div>`;
-
       // Agrega el producto al contenedor
       sectorItems.appendChild(productoDiv);
     });

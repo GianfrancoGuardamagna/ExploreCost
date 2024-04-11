@@ -7,8 +7,8 @@ document.addEventListener('DOMContentLoaded', () => {
     //Inicializacion del total
     let totalInicial = []
     carrito.forEach(producto => {
-        totalInicial.push(producto.precio)
-        producto.totalProducto = producto.precio
+        totalInicial.push(producto.precioFinal)
+        producto.totalProducto = producto.precioFinal
     })
     totalInicial = totalInicial.reduce((total, numero) => total + numero, 0)
     spanTotal.innerText = totalInicial.toFixed(2)
@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 // Maneja costo y cantidad con los inputs
                 let productId = parseInt(inputs[i].dataset.cantidad)
                 let product = carrito.filter(item => item.id === productId)
-                let productCost = product[0].precio
+                let productCost = product[0].precioFinal
                 let currentProductCost = (productCost * (inputs[i].value))
 
                 carrito[i].totalProducto = currentProductCost

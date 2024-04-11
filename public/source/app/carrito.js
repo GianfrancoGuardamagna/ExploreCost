@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 <img src="${producto.imagen}">
                 <div class="flex flex-col font-Montserrat items-start justify-evenly font-bold">
                     <h2>${producto.nombre}</h2>
-                    <h2>$<span class='costo' id='costo' data-precio="${producto.precioFinal}">${producto.precioFInal}</span></h2>
+                    <h2>$<span class='costo' id='costo' data-precio="${producto.precioFinal}">${producto.precioFinal}</span></h2>
                 </div>
             </div>
             <div class="flex flex-col items-center justify-center gap-2">
