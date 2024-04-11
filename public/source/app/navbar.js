@@ -9,10 +9,12 @@ document.addEventListener("DOMContentLoaded", async function () {
 
     let rutaArticulos = ''
 
-    if(document.title === 'Inicio de Sesión' || document.title === 'Crea tu usuario' || document.title === 'Mi Carrito' || document.title === 'Quienes Somos' || document.title === 'Avisos legales' || document.title === 'Devoluciones'){
-      rutaArticulos = '../../resources/articulosJson.json'
+    if(document.title === 'Mi Carrito' || document.title === 'Quienes Somos' || document.title === 'Avisos legales' || document.title === 'Devoluciones' || document.title === "Lavado" || document.title === "Cocina" || document.title === "Frio" || document.title === "Mobiliario"){
+      rutaArticulos = '../../resources/ods.json'
+    }else if(document.title === 'Inicio'){
+      rutaArticulos = './resources/ods.json'
     }else{
-      rutaArticulos = './resources/articulosJson.json'
+      rutaArticulos = '../../resources/ods.json'
     }
 
     // Cargar y analizar el archivo JSON
@@ -67,7 +69,7 @@ document.addEventListener("DOMContentLoaded", async function () {
       let rutaHosteleria = ''
       let rutaMobiliario = ''
 
-      if(title === 'Mi Carrito' || title === 'Quienes Somos' || title === 'Avisos legales' || title === 'Devoluciones'){
+      if(title === 'Mi Carrito' || title === 'Quienes Somos' || title === 'Avisos legales' || title === 'Devoluciones' || title === "Lavado" || title === "Cocina" || title === "Frio" || title === "Mobiliario"){
         rutaIconoLogo = '../../utils/images/logoExplorecost.png'
         rutaIconoCarrito = '../../utils/images/iconoCarrito.svg'
         rutaLogo = '../../index.html'
@@ -76,8 +78,7 @@ document.addEventListener("DOMContentLoaded", async function () {
         rutaFrio = '../../source/shop/frio/frio.html'
         rutaHosteleria = '../../source/shop/hosteleria/hosteleria.html'
         rutaMobiliario = '../../source/shop/mobiliario/mobiliario.html'
-
-      }else{
+      }else if(title === 'Inicio'){
         rutaIconoLogo = "./utils/images/logoExplorecost.png"
         rutaIconoCarrito = "./utils/images/iconoCarrito.svg"
         rutaLogo = './index.html'
@@ -86,6 +87,15 @@ document.addEventListener("DOMContentLoaded", async function () {
         rutaFrio = './source/shop/frio/frio.html'
         rutaHosteleria = './source/shop/hosteleria/hosteleria.html'
         rutaMobiliario = './source/shop/mobiliario/mobiliario.html'
+      }else{ //Este else está tomando a todos los productos
+        rutaIconoLogo = '../../utils/images/logoExplorecost.png'
+        rutaIconoCarrito = '../../utils/images/iconoCarrito.svg'
+        rutaLogo = '../../index.html'
+        rutaCarrito = '../../source/shop/carrito.html'
+        rutaCocina = '../../source/shop/cocina/cocina.html'
+        rutaFrio = '../../source/shop/frio/frio.html'
+        rutaHosteleria = '../../source/shop/hosteleria/hosteleria.html'
+        rutaMobiliario = '../../source/shop/mobiliario/mobiliario.html'
       }
 
     if (windowWidth >= 768) {

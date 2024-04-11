@@ -24,10 +24,10 @@ document.addEventListener("DOMContentLoaded", () => {
         // Personaliza la card según tus necesidades, por ejemplo:
         card.innerHTML = `
             <div class="h-full w-3/5 flex flex-row gap-4">
-                <img src="${producto.imagenes}">
+                <img src="${producto.imagen}">
                 <div class="flex flex-col font-Montserrat items-start justify-evenly font-bold">
                     <h2>${producto.nombre}</h2>
-                    <h2>$<span class='costo' id='costo' data-precio="${producto.precio}">${producto.precio}</span></h2>
+                    <h2>$<span class='costo' id='costo' data-precio="${producto.precioFinal}">${producto.precioFInal}</span></h2>
                 </div>
             </div>
             <div class="flex flex-col items-center justify-center gap-2">

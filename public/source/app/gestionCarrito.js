@@ -1,6 +1,6 @@
 async function gestionCarrito() {
     const botones = document.querySelectorAll('#agregarCarrito');
-    const items = await fetch('../../../resources/articulosJson.json');
+    const items = await fetch('../../../resources/ods.json');
     const productos = await items.json();
     let carrito = JSON.parse(localStorage.getItem('Carrito')) || [];
 
@@ -8,6 +8,7 @@ async function gestionCarrito() {
         botones.forEach(boton => {
             const productoId = parseInt(boton.dataset.productoId);
             const estaEnCarrito = carrito.some(item => item.id === productoId);
+            console.log(estaEnCarrito)
 
             if (estaEnCarrito) {
                 boton.classList.remove("bg-terciario");
