@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
                 spanTotal.innerText = precioTotal
 
-                cantidadActual[i] = inputs[i].value;
+                cantidadActual[i] = inputs[i].value
             })
         }
 

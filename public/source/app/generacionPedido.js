@@ -86,7 +86,7 @@ document.addEventListener("DOMContentLoaded", () => {
       }).then((result) => {
           if (result.isConfirmed) {
             for (let item of carrito) {
-              item.cantidad = item.totalProducto / item.precio;
+              item.cantidad = item.totalProducto / item.precioFinal;
             }
             objetoPedido = {
               nombre,
@@ -102,6 +102,13 @@ document.addEventListener("DOMContentLoaded", () => {
             }
           }
           fetch("/generar-pedido", {
+              method: "POST",
+              headers: {
+                "Content-Type": "application/json",
+              },
+              body: JSON.stringify(objetoPedido),
+            })
+            fetch("/db", {
               method: "POST",
               headers: {
                 "Content-Type": "application/json",

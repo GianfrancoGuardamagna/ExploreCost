@@ -18,7 +18,7 @@ const objetoPedido = JSON.parse(process.argv[2])
 
 let mail = {
     from: process.env.CORREO,
-    to: process.env.CORREOTEST,
+    to: [process.env.CORREOTEST,objetoPedido.email],
     subject: "Compra Web",
     text: "Primera prueba Mailer",
     html: `
@@ -36,10 +36,10 @@ let mail = {
             ${objetoPedido.carrito.map(item => `
                 <li>
                     <p>Nombre: ${item.nombre}</p>
-                    <p>Precio: ${item.precio}</p>
+                    <p>Precio: ${item.precioFinal}</p>
                     <p>ID: ${item.id}</p>
-                    <p>Codigo: ${item.cantidad}</p>
-                    <p>Imagen: ${item.imagenes}</p>
+                    <p>Codigo: ${item.codigo}</p>
+                    <p>Imagen: ${item.imagen}</p>
                     <p>Cantidad: ${item.cantidad}</p>
                     <p>Monto total: ${item.totalProducto}</p>
                 </li>

@@ -66,7 +66,7 @@ document.addEventListener("DOMContentLoaded", async function () {
       let rutaCarrito = ''
       let rutaCocina = ''
       let rutaFrio = ''
-      let rutaHosteleria = ''
+      let rutaLavado = ''
       let rutaMobiliario = ''
 
       if(title === 'Mi Carrito' || title === 'Quienes Somos' || title === 'Avisos legales' || title === 'Devoluciones' || title === "Lavado" || title === "Cocina" || title === "Frio" || title === "Mobiliario"){
@@ -74,28 +74,28 @@ document.addEventListener("DOMContentLoaded", async function () {
         rutaIconoCarrito = '../../utils/images/iconoCarrito.svg'
         rutaLogo = '../../index.html'
         rutaCarrito = '../../source/shop/carrito.html'
-        rutaCocina = '../../source/shop/cocina/cocina.html'
-        rutaFrio = '../../source/shop/frio/frio.html'
-        rutaHosteleria = '../../source/shop/hosteleria/hosteleria.html'
-        rutaMobiliario = '../../source/shop/mobiliario/mobiliario.html'
+        rutaCocina = '../../source/shop/cocina.html'
+        rutaFrio = '../../source/shop/frio.html'
+        rutaLavado = '../../source/shop/lavado.html'
+        rutaMobiliario = '../../source/shop/mobiliario.html'
       }else if(title === 'Inicio'){
         rutaIconoLogo = "./utils/images/logoExplorecost.png"
         rutaIconoCarrito = "./utils/images/iconoCarrito.svg"
         rutaLogo = './index.html'
         rutaCarrito = './source/shop/carrito.html'
-        rutaCocina = './source/shop/cocina/cocina.html'
-        rutaFrio = './source/shop/frio/frio.html'
-        rutaHosteleria = './source/shop/hosteleria/hosteleria.html'
-        rutaMobiliario = './source/shop/mobiliario/mobiliario.html'
-      }else{ //Este else está tomando a todos los productos
+        rutaCocina = './source/shop/cocina.html'
+        rutaFrio = './source/shop/frio.html'
+        rutaLavado = './source/shop/lavado.html'
+        rutaMobiliario = './source/shop/mobiliario.html'
+      }else{ //Este else está tomando a todos los productos.html
         rutaIconoLogo = '../../utils/images/logoExplorecost.png'
         rutaIconoCarrito = '../../utils/images/iconoCarrito.svg'
         rutaLogo = '../../index.html'
         rutaCarrito = '../../source/shop/carrito.html'
-        rutaCocina = '../../source/shop/cocina/cocina.html'
-        rutaFrio = '../../source/shop/frio/frio.html'
-        rutaHosteleria = '../../source/shop/hosteleria/hosteleria.html'
-        rutaMobiliario = '../../source/shop/mobiliario/mobiliario.html'
+        rutaCocina = '../../source/shop/cocina.html'
+        rutaFrio = '../../source/shop/frio.html'
+        rutaLavado = '../../source/shop/lavado.html'
+        rutaMobiliario = '../../source/shop/mobiliario.html'
       }
 
     if (windowWidth >= 768) {
@@ -126,7 +126,7 @@ document.addEventListener("DOMContentLoaded", async function () {
               <ul class="dropdown-menu bg-stone-200">
                 <li><a class="dropdown-item" href=${rutaCocina}>Cocina</a></li>
                 <li><a class="dropdown-item" href=${rutaFrio}>Frío</a></li>
-                <li><a class="dropdown-item" href=${rutaHosteleria}>Hostelería</a></li>
+                <li><a class="dropdown-item" href=${rutaLavado}>Lavado</a></li>
                 <li><a class="dropdown-item" href=${rutaMobiliario}>Mobiliario</a></li>
               </ul>
             </div>
@@ -172,7 +172,7 @@ document.addEventListener("DOMContentLoaded", async function () {
                 <ul class="dropdown-menu bg-stone-200">
                 <li><a class="dropdown-item" href=${rutaCocina}>Cocina</a></li>
                 <li><a class="dropdown-item" href=${rutaFrio}>Frío</a></li>
-                <li><a class="dropdown-item" href=${rutaHosteleria}>Hostelería</a></li>
+                <li><a class="dropdown-item" href=${rutaLavado}>Lavado</a></li>
                 <li><a class="dropdown-item" href=${rutaMobiliario}>Mobiliario</a></li>
                 </ul>
               </div>

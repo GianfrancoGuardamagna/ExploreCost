@@ -1536,10 +1536,6 @@ video {
   height: 3rem;
 }
 
-.hover\:h-28:hover {
-  height: 7rem;
-}
-
 .hover\:h-36:hover {
   height: 9rem;
 }
