@@ -1,20 +1,29 @@
 document.addEventListener("DOMContentLoaded", async function () {
-
-  //Logica buscador//
+  // //Logica buscador//
   async function buscador() {
-    const search = document.getElementById('search');
-    const block = document.getElementById('block');
+    const search = document.getElementById("search");
+    const block = document.getElementById("block");
 
     let items; // Variable para almacenar los items cargados desde el archivo JSON
 
-    let rutaArticulos = ''
+    let rutaArticulos = "";
 
-    if(document.title === 'Mi Carrito' || document.title === 'Quienes Somos' || document.title === 'Avisos legales' || document.title === 'Devoluciones' || document.title === "Lavado" || document.title === "Cocina" || document.title === "Frio" || document.title === "Mobiliario"){
-      rutaArticulos = '../../resources/ods.json'
-    }else if(document.title === 'Inicio'){
-      rutaArticulos = './resources/ods.json'
-    }else{
-      rutaArticulos = '../../resources/ods.json'
+    if (
+      document.title === "Mi Carrito" ||
+      document.title === "Quienes Somos" ||
+      document.title === "Avisos legales" ||
+      document.title === "Devoluciones" ||
+      document.title === "Lavado" ||
+      document.title === "Cocina" ||
+      document.title === "Frio" ||
+      document.title === "Mobiliario" ||
+      document.title === "Buscador"
+    ) {
+      rutaArticulos = "../../resources/ods.json";
+    } else if (document.title === "Inicio") {
+      rutaArticulos = "./resources/ods.json";
+    } else {
+      rutaArticulos = "../../resources/ods.json";
     }
 
     // Cargar y analizar el archivo JSON
@@ -22,99 +31,115 @@ document.addEventListener("DOMContentLoaded", async function () {
       const response = await fetch(rutaArticulos);
       items = await response.json();
     } catch (error) {
-      console.error('Error al cargar el archivo JSON:', error);
+      console.error("Error al cargar el archivo JSON:", error);
     }
 
-    block.style.display = 'none';
+    block.style.display = "none";
 
-    search.addEventListener('input', () => {
-      if (search.value === '') {
-        block.style.display = 'none';
-      } if (search.value !== '') {
-        block.style.display = 'block';
+    search.addEventListener("input", () => {
+      if (search.value === "") {
+        block.style.display = "none";
+      }
+      if (search.value !== "") {
+        block.style.display = "block";
       }
     });
 
-    search.addEventListener('keyup', (event) => {
+    search.addEventListener("keyup", (event) => {
+      if (event.key === "Enter") {
+        block.style.display = "none";
 
-      if (event.key === 'Enter') {
-        block.style.display = 'none';
         const searchTerm = search.value.toLowerCase();
 
-        // Filtrar los items que coinciden con el término de búsqueda
-        const resultados = items.filter(item => item.nombre.toLowerCase().includes(searchTerm));
+        const resultados = items.filter((item) =>
+          item.nombre.toLowerCase().includes(searchTerm)
+        );
 
-        console.log(resultados);
+        search.value = "";
 
-        search.value = '';
-
-        // Aquí puedes realizar acciones adicionales con los resultados de la búsqueda
+        sessionStorage.setItem("Busqueda", JSON.stringify(resultados));
+        window.location.assign("./source/shop/buscador.html");
+        if (document.title === "Buscador") {
+          window.location.assign("./buscador.html")
+        } else {
+          window.location.assign("./source/shop/buscador.html");
+        }
       }
     });
   }
 
   // Verifica el ancho de la pantalla y realiza cambios en el nav
   function checkViewportWidth() {
-    const nav = document.querySelector('nav');
+    const nav = document.querySelector("nav");
 
     const windowWidth = window.innerWidth;
 
-    const title = document.title
-      let rutaIconoLogo = ''
-      let rutaIconoCarrito = ''
-      let rutaLogo = ''
-      let rutaCarrito = ''
-      let rutaCocina = ''
-      let rutaFrio = ''
-      let rutaLavado = ''
-      let rutaMobiliario = ''
+    const title = document.title;
+    let rutaIconoLogo = "";
+    let rutaIconoCarrito = "";
+    let rutaLogo = "";
+    let rutaCarrito = "";
+    let rutaCocina = "";
+    let rutaFrio = "";
+    let rutaLavado = "";
+    let rutaMobiliario = "";
 
-      if(title === 'Mi Carrito' || title === 'Quienes Somos' || title === 'Avisos legales' || title === 'Devoluciones' || title === "Lavado" || title === "Cocina" || title === "Frio" || title === "Mobiliario"){
-        rutaIconoLogo = '../../utils/images/logoExplorecost.png'
-        rutaIconoCarrito = '../../utils/images/iconoCarrito.svg'
-        rutaLogo = '../../index.html'
-        rutaCarrito = '../../source/shop/carrito.html'
-        rutaCocina = '../../source/shop/cocina.html'
-        rutaFrio = '../../source/shop/frio.html'
-        rutaLavado = '../../source/shop/lavado.html'
-        rutaMobiliario = '../../source/shop/mobiliario.html'
-      }else if(title === 'Inicio'){
-        rutaIconoLogo = "./utils/images/logoExplorecost.png"
-        rutaIconoCarrito = "./utils/images/iconoCarrito.svg"
-        rutaLogo = './index.html'
-        rutaCarrito = './source/shop/carrito.html'
-        rutaCocina = './source/shop/cocina.html'
-        rutaFrio = './source/shop/frio.html'
-        rutaLavado = './source/shop/lavado.html'
-        rutaMobiliario = './source/shop/mobiliario.html'
-      }else{ //Este else está tomando a todos los productos.html
-        rutaIconoLogo = '../../utils/images/logoExplorecost.png'
-        rutaIconoCarrito = '../../utils/images/iconoCarrito.svg'
-        rutaLogo = '../../index.html'
-        rutaCarrito = '../../source/shop/carrito.html'
-        rutaCocina = '../../source/shop/cocina.html'
-        rutaFrio = '../../source/shop/frio.html'
-        rutaLavado = '../../source/shop/lavado.html'
-        rutaMobiliario = '../../source/shop/mobiliario.html'
-      }
+    if (
+      title === "Mi Carrito" ||
+      title === "Quienes Somos" ||
+      title === "Avisos legales" ||
+      title === "Devoluciones" ||
+      title === "Lavado" ||
+      title === "Cocina" ||
+      title === "Frio" ||
+      title === "Mobiliario" ||
+      title === "Buscador"
+    ) {
+      rutaIconoLogo = "../../utils/images/logoExplorecost.png";
+      rutaIconoCarrito = "../../utils/images/iconoCarrito.svg";
+      rutaLogo = "../../index.html";
+      rutaCarrito = "../../source/shop/carrito.html";
+      rutaCocina = "../../source/shop/cocina.html";
+      rutaFrio = "../../source/shop/frio.html";
+      rutaLavado = "../../source/shop/lavado.html";
+      rutaMobiliario = "../../source/shop/mobiliario.html";
+    } else if (title === "Inicio") {
+      rutaIconoLogo = "./utils/images/logoExplorecost.png";
+      rutaIconoCarrito = "./utils/images/iconoCarrito.svg";
+      rutaLogo = "./index.html";
+      rutaCarrito = "./source/shop/carrito.html";
+      rutaCocina = "./source/shop/cocina.html";
+      rutaFrio = "./source/shop/frio.html";
+      rutaLavado = "./source/shop/lavado.html";
+      rutaMobiliario = "./source/shop/mobiliario.html";
+    } else {
+      //Este else está tomando a todos los productos.html
+      rutaIconoLogo = "../../utils/images/logoExplorecost.png";
+      rutaIconoCarrito = "../../utils/images/iconoCarrito.svg";
+      rutaLogo = "../../index.html";
+      rutaCarrito = "../../source/shop/carrito.html";
+      rutaCocina = "../../source/shop/cocina.html";
+      rutaFrio = "../../source/shop/frio.html";
+      rutaLavado = "../../source/shop/lavado.html";
+      rutaMobiliario = "../../source/shop/mobiliario.html";
+    }
 
     if (windowWidth >= 768) {
-
-      nav.classList.add('navbar');
-      nav.classList.add('bg-stone-200');
-      nav.classList.add('flex');
-      nav.classList.add('flex-row');
-      nav.classList.add('pl-6');
-      nav.classList.add('pr-6');
-      nav.classList.add('h-16');
-      nav.classList.add('top-0');
-      nav.classList.add('items-center');
-      nav.classList.add('justify-between');
-      nav.classList.add('font-Montserrat');
-      nav.classList.add('font-semibold');
-      nav.classList.add('fixed');
-      nav.classList.add('w-full');
-      nav.classList.add('z-50');
+      nav.classList.add("navbar");
+      nav.classList.add("bg-stone-200");
+      nav.classList.add("flex");
+      nav.classList.add("flex-row");
+      nav.classList.add("pl-6");
+      nav.classList.add("pr-6");
+      nav.classList.add("h-16");
+      nav.classList.add("top-0");
+      nav.classList.add("items-center");
+      nav.classList.add("justify-between");
+      nav.classList.add("font-Montserrat");
+      nav.classList.add("font-semibold");
+      nav.classList.add("fixed");
+      nav.classList.add("w-full");
+      nav.classList.add("z-50");
       nav.innerHTML = `<a href="${rutaLogo}">
             <img class="h-12" src=${rutaIconoLogo} alt="Logo Explorecost">
           </a>
@@ -142,13 +167,13 @@ document.addEventListener("DOMContentLoaded", async function () {
             <img class="h-9" src=${rutaIconoCarrito} alt="Icono de carrito">
             </a>
         </div>`;
-    } else if(windowWidth <= 768){
-      nav.classList.add('navbar');
-      nav.classList.add('navbar-light');
-      nav.classList.add('fixed-top');
-      nav.classList.add('w-screen');
-      nav.classList.add('font-Montserrat');
-      nav.classList.add('font-semibold');
+    } else if (windowWidth <= 768) {
+      nav.classList.add("navbar");
+      nav.classList.add("navbar-light");
+      nav.classList.add("fixed-top");
+      nav.classList.add("w-screen");
+      nav.classList.add("font-Montserrat");
+      nav.classList.add("font-semibold");
       nav.innerHTML = `<div class="container-fluid">
             <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar"
               aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
