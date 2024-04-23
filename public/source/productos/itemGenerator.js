@@ -1,9 +1,9 @@
-import fs from 'fs';
+import fs from "fs";
 
 // Lee el archivo JSON
-fs.readFile('../../resources/ods.json', 'utf8', (err, data) => {
+fs.readFile("./public/resources/ods.json", "utf8", (err, data) => {
   if (err) {
-    console.error('Error al leer el archivo JSON:', err);
+    console.error("Error al leer el archivo JSON:", err);
     return;
   }
 
@@ -11,8 +11,8 @@ fs.readFile('../../resources/ods.json', 'utf8', (err, data) => {
   const productos = JSON.parse(data);
 
   // Itera sobre cada producto
-  productos.forEach(producto => {
-    const { codigo, nombre, precioFinal, imagen, id} = producto;
+  productos.forEach((producto) => {
+    const { codigo, nombre, precioFinal, imagen, id, descripcion } = producto;
 
     // Genera el contenido HTML para la página
     const htmlContent = `
@@ -54,8 +54,7 @@ fs.readFile('../../resources/ods.json', 'utf8', (err, data) => {
                     <li>Producto nuevo</li>
                     <li>Garantía de un año en piezas</li>
                 </ul>
-                <h2>Descripción del producto:</h2>
-                <p class="p-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem modi exercitationem dolor unde atque ipsum vel nemo? Quibusdam ex culpa quae debitis possimus? Dolores sint quasi nemo vitae at dignissimos, modi ipsam. Veritatis voluptatum quidem maiores reprehenderit ratione possimus autem, esse expedita porro odio a enim dicta, eum aliquam! Accusamus nam nisi numquam praesentium iste. Vero recusandae ea nihil fuga assumenda exercitationem dolore, reiciendis culpa ad illum temporibus, odio deleniti sed atque iusto qui obcaecati minus reprehenderit ut, fugiat ducimus vel. Maiores repudiandae quam omnis praesentium ipsa deserunt amet sapiente rerum sunt earum reiciendis expedita optio id eos, aut blanditiis accusantium libero harum quidem ducimus magni alias enim. Deleniti aperiam officia mollitia iste itaque, assumenda laboriosam delectus dolore repellat officiis nihil nemo veniam ipsum inventore pariatur corrupti ullam. Officiis dolore ipsum enim tempore possimus? Debitis sed iure voluptatem magni quasi, reprehenderit ut iste, deserunt deleniti temporibus rem ea quam voluptas quae? Quis assumenda culpa molestias, expedita accusantium illum repellendus doloribus libero, veniam, voluptates quasi consequatur iste blanditiis. Porro dolores magnam aperiam! Ipsum quas fugit, quidem cumque perferendis, ea minus provident sapiente suscipit doloremque, recusandae fuga magnam officiis velit delectus natus dolore iste aperiam ipsam accusantium nobis sunt distinctio! Ea maiores qui exercitationem optio deserunt consequuntur libero aperiam explicabo aut iusto blanditiis placeat repellat ut ullam, dolorem nostrum, sed ipsa et porro nobis illum nisi voluptatibus! Deleniti repudiandae reprehenderit accusantium? Ratione id ea, dolor nisi, quisquam eum doloribus, possimus numquam sunt quis ad cum harum. Dolor consequatur dolore maxime ullam sequi placeat laborum unde quas commodi odio veritatis, voluptatum aperiam explicabo dolores repellat. Provident laudantium nisi quaerat sed repellendus voluptatum hic, quo voluptatem laborum rem doloremque dicta saepe eos, qui ullam minus tenetur accusantium delectus nostrum. At modi eveniet asperiores voluptate ex ipsa voluptas, doloribus corporis neque repellendus odit hic nulla vel, necessitatibus, sunt optio maxime laborum eaque sequi. Veritatis quas, animi natus rem aliquid facilis nulla explicabo possimus perspiciatis sapiente quo eius deleniti dolorem dolor tempora ab libero saepe pariatur debitis non sit dolorum inventore! Consequatur ut numquam cumque itaque excepturi recusandae corporis molestias exercitationem esse totam provident, dolore atque?</p>
+                <div id="descripcion">${descripcion}</div>
             </section>
         </main>
         <footer>
@@ -106,9 +105,12 @@ fs.readFile('../../resources/ods.json', 'utf8', (err, data) => {
     `;
 
     // Escribe el contenido HTML en un archivo
-    fs.writeFile(`producto-${id}.html`, htmlContent, err => {
+    fs.writeFile(`producto-${id}.html`, htmlContent, (err) => {
       if (err) {
-        console.error(`Error al escribir el archivo para el producto ${id}:`, err);
+        console.error(
+          `Error al escribir el archivo para el producto ${id}:`,
+          err
+        );
         return;
       }
       console.log(`Archivo producto-${id}.html generado exitosamente.`);
