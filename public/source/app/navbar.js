@@ -34,26 +34,28 @@ document.addEventListener("DOMContentLoaded", async function () {
       console.error("Error al cargar el archivo JSON:", error);
     }
 
-    block.style.display = "none";
+    if (block !== null){
+      block.style.display = "none" //Setting inicial del block
 
-    search.addEventListener("input", () => {
-      if (search.value === "") {
-        block.style.display = "none";
-      }
-      if (search.value !== "") {
-        block.style.display = "block";
-      }
-    });
+      search.addEventListener("input", () => { //Aquí el block se transforma dependiendo del valor de 'search'
+        if (search.value === "") {
+          block.style.display = "none"
+        }
+        if (search.value !== "") {
+          block.style.display = "block"
+        }
+      })
+    }
+    
 
     search.addEventListener("keyup", (event) => {
       if (event.key === "Enter") {
-        block.style.display = "none";
 
-        const searchTerm = search.value.toLowerCase();
+        const searchTerm = search.value.toLowerCase()
 
         const resultados = items.filter((item) =>
           item.nombre.toLowerCase().includes(searchTerm)
-        );
+        )
 
         search.value = "";
 
@@ -124,7 +126,7 @@ document.addEventListener("DOMContentLoaded", async function () {
       rutaMobiliario = "../../source/shop/mobiliario.html";
     }
 
-    if (windowWidth >= 768) {
+    if (windowWidth > 768) {
       nav.classList.add("navbar");
       nav.classList.add("bg-stone-200");
       nav.classList.add("flex");
@@ -201,15 +203,11 @@ document.addEventListener("DOMContentLoaded", async function () {
                 <li><a class="dropdown-item" href=${rutaMobiliario}>Mobiliario</a></li>
                 </ul>
               </div>
-                  <!--<form class="d-flex flex justify-center items-center" role="search">
-                    <input id="search" class="form-control me-2" type="search" placeholder="Buscar artículo..." aria-label="Search">
-                    <div id="block" class="bg-stone-100 absolute left-0 right-0 top-1/3 mt-1 overflow-hidden rounded-md shadow-md">
-                      <p class="text-primario p-2">Presione Buscar al finalizar</p>
-                    </div>
-                    <button class="btn btn-dark bg-secundario" type="submit">Buscar</button>
-                  </form>-->
+              <input id="search" type="text" name="q" value="" placeholder="Buscar..."
+              class="input-text rounded-sm my-4 w-3/4 nav-item" maxlength="128" role="combobox" aria-haspopup="false"
+              aria-autocomplete="both" autocomplete="off" aria-expanded="false" control-id="ControlID-1">
                   <li class="nav-item">
-                    <a class="nav-link" href=${rutaCarrito}>Carrito</a>
+                    <a class="nav-link text-primario" href=${rutaCarrito}>Carrito</a>
                   </li>
                 </ul>
               </div>
