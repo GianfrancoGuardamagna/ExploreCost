@@ -2,6 +2,16 @@ document.addEventListener("DOMContentLoaded",()=>{
 
     let busqueda = JSON.parse(sessionStorage.getItem('Busqueda'))
 
+    if(busqueda === null || busqueda.length === 0){
+
+      let main = document.getElementById('main')
+      main.className = "h-screen bg-slate-300 overflow-scroll py-6 flex items-center justify-center"
+
+      main.innerHTML = "<div class='text-primario font-Montserrat text-info flex items-center justify-center'><h2>Lo sentimos pero no encontramos ningun artículo...</h2></div>"
+
+      sessionStorage.clear()
+    }else{
+
     let divItems = document.getElementById('renderItems')
 
     busqueda.forEach((producto) => {
@@ -21,7 +31,8 @@ document.addEventListener("DOMContentLoaded",()=>{
         </div>`;
         // Agrega el producto al contenedor
         divItems.appendChild(productoDiv);
-      });
-    
+      })
+      sessionStorage.clear()
+    }
 
 })
