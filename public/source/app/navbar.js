@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", async function () {
       console.error("Error al cargar el archivo JSON:", error);
     }
 
-    if (block !== null){
+    if (block !== null) {
       block.style.display = "none" //Setting inicial del block
 
       search.addEventListener("input", () => { //Aquí el block se transforma dependiendo del valor de 'search'
@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", async function () {
         }
       })
     }
-    
+
 
     search.addEventListener("keyup", (event) => {
       if (event.key === "Enter") {
@@ -60,11 +60,24 @@ document.addEventListener("DOMContentLoaded", async function () {
         search.value = "";
 
         sessionStorage.setItem("Busqueda", JSON.stringify(resultados));
-        window.location.assign("./source/shop/buscador.html");
-        if (document.title === "Buscador") {
+
+        if (document.title === "Buscador" ||
+          document.title === "Lavado" ||
+          document.title === "Cocina" ||
+          document.title === "Frio" ||
+          document.title === "Mobiliario" ||
+          document.title === "Mi Carrito") {
+
           window.location.assign("./buscador.html")
+
+        } if (document.title === "Inicio") {
+
+          window.location.assign("./source/shop/buscador.html")
+
         } else {
-          window.location.assign("./source/shop/buscador.html");
+
+          window.location.assign("../shop/buscador.html")
+
         }
       }
     });
