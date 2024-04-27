@@ -21,55 +21,7 @@
       </head>
       <body id="body">
         <nav></nav>
-        <main class="bg-slate-300">
-            <section class="h-full flex flex-col justify-start items-center py-24 gap-4">
-                <img src="https://img.freepik.com/vector-gratis/esquema-color-rayo_78370-517.jpg" alt="Imagen del producto PLANCHA DE CROMODURO SUPER A GAS 400 mm" class="w-3/5">
-                <h1 class="text-3vh text-center p-4">PLANCHA DE CROMODURO SUPER A GAS 400 mm</h1>
-                <p>Codigo: PCRG400X</p>
-                <p class="text-subinfo">Precio: 429€</p>
-                <div class="flex items-center justify-center w-full">
-                    <button id="agregarCarrito" data-producto-id="1065" type="button"
-                      class="bg-terciario text-white itemCard w-4/6 hover:w-5/6 h-10 hover:h-12">Agregar al Carrito</button>
-                  </div>
-                <ul class="list-disc flex flex-col items-center">
-                    <li>Iva incluido</li>
-                    <li>Porte gratis</li>
-                    <li>Producto nuevo</li>
-                    <li>Garantía de un año en piezas</li>
-                </ul>
-                <div id="descripcion"><ul class="list" id="descripcionmovil">
-<p class="ache3-negro">Descripción</p>
-<li><p><span style="font-size:14px"><strong>Plancha eléctrica de cromo-duro super a gas de 400 mm</strong>. <strong>Profesional </strong>y<strong> </strong>perfecta para<strong> preparar platos sabrosos y de calidad. Fabricado </strong>con <strong>acero inoxidable de alta calidad, </strong>gantizando<strong> durabilidad en el producto</strong> y<strong> buen servicio. Recomendada para uso profesional en establecimientos como bares y restaurantes. </strong>Fácil <strong>limpieza y mantenimiento</strong> para el usuario.</span></p>
-<br/>
-<span style="font-size:14px"><span style="font-family:arial,helvetica,sans-serif"><strong>Datos técnicos: </strong></span></span><br/>
- 
-<div><span style="font-size:14px"><span style="font-family:arial,helvetica,sans-serif">Potencia: 3 Kw</span></span></div>
-<div><span style="font-size:14px"><span style="font-family:arial,helvetica,sans-serif">Tipo de gas: butano/propano</span></span></div>
-<div><span style="font-size:14px"><span style="font-family:arial,helvetica,sans-serif">Valvulas: 1</span></span></div>
-<div><span style="font-size:14px"><span style="font-family:arial,helvetica,sans-serif">Quemadores: 1</span></span></div>
-<div><span style="font-size:14px"><span style="font-family:arial,helvetica,sans-serif">Medidas útil: 350x400 mm</span></span></div>
-<div><span style="font-size:14px"><span style="font-family:arial,helvetica,sans-serif">Medidas exteriores: 400x610x340 mm</span></span></div>
-<span style="font-size:14px"> <span style="font-family:arial,helvetica,sans-serif">Peso: 22 Kg</span></span><br/>
- 
-<p><span style="font-size:14px"><strong>Características:</strong><br/>
-<br/>
-- <strong>Plancha de cromo duro super a gas</strong>, que permite <strong>eleborar los alimentos</strong> de una manera <strong>correcta y rápida</strong>.<br/>
--<strong> Plancha a gas de 16 mm de espesor</strong>, con baño de cromo-duro de 50 micras, con <strong>peto lateral y peto trasero en acero inoxidable</strong>.<br/>
-- Fabricadas de <strong>acero inoxidable de alta calidad</strong> con diseño <strong>elegante y construcción robusta</strong>.<br/>
-- <strong>Dotada de quemadores de gas de gran eficiencia y válvulas de gas de alta calidad</strong> que proporcionan una gran potencia y seguridad.<br/>
-- La válvula de gas dispone de un <strong>control de llama alta/baja y dispositivo de seguridad antifallo</strong> de llama.<br/>
-- Sistema de <strong>encendido automático</strong> por piezoeléctrico, para garantizar un <strong>uso cómodo, duradero y seguro.</strong><br/>
-- <strong>Cajón recoge-grasas en acero inoxidable</strong>, encastrado en el mueble.<br/>
-- <strong>Regulador de la temperatura.</strong><br/>
-- Opción para cambio a gas natural, +10 €/válvula.</span><br/>
-<br/>
-<span style="font-size:16px"><span style="color:#FF0000"><strong>ENVÍOS GRATIS A PENÍNSULA</strong></span></span></p>
-<h1><span style="font-size:20px"><strong></strong><strong><a href="tel:+34"></a></strong></span></h1>
-</li>
-<li>
-<p class="avisoModificaciones">ENVÍOS GRATIS A TODA LA PENÍNSULA, ¿TIENES DUDAS? LLÁMANOS SIN COMPROMISO <a href="tel:+34951492842">951492842</a>.</p></li>
-</ul></div>
-            </section>
+        <main class="bg-slate-300" id="render">
         </main>
         <footer>
           <section class="h-8">
@@ -106,8 +58,9 @@
             </div>
           </section>
         </footer>
-        <script src="../app/carrito.js"></script>
         <script src="../app/navbar.js"></script>
+        <script src="../app/items.js"></script>
+        <script src="../app/renderItems.js"></script>
         <script
           src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
           integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"

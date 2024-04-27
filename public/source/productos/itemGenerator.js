@@ -1,7 +1,7 @@
 import fs from "fs";
 
 // Lee el archivo JSON
-fs.readFile("./public/resources/ods.json", "utf8", (err, data) => {
+fs.readFile("../../resources/ods.json", "utf8", (err, data) => {
   if (err) {
     console.error("Error al leer el archivo JSON:", err);
     return;
@@ -38,24 +38,7 @@ fs.readFile("./public/resources/ods.json", "utf8", (err, data) => {
       </head>
       <body id="body">
         <nav></nav>
-        <main class="bg-slate-300">
-            <section class="h-full flex flex-col justify-start items-center py-24 gap-4">
-                <img src="${imagen}" alt="Imagen del producto ${nombre}" class="w-3/5">
-                <h1 class="text-3vh text-center p-4">${nombre}</h1>
-                <p>Codigo: ${codigo}</p>
-                <p class="text-subinfo">Precio: ${precioFinal}€</p>
-                <div class="flex items-center justify-center w-full">
-                    <button id="agregarCarrito" data-producto-id="${id}" type="button"
-                      class="bg-terciario text-white itemCard w-4/6 hover:w-5/6 h-10 hover:h-12">Agregar al Carrito</button>
-                  </div>
-                <ul class="list-disc flex flex-col items-center">
-                    <li>Iva incluido</li>
-                    <li>Porte gratis</li>
-                    <li>Producto nuevo</li>
-                    <li>Garantía de un año en piezas</li>
-                </ul>
-                <div id="descripcion">${descripcion}</div>
-            </section>
+        <main class="bg-slate-300" id="render">
         </main>
         <footer>
           <section class="h-8">
@@ -92,8 +75,9 @@ fs.readFile("./public/resources/ods.json", "utf8", (err, data) => {
             </div>
           </section>
         </footer>
-        <script src="../app/carrito.js"></script>
         <script src="../app/navbar.js"></script>
+        <script src="../app/items.js"></script>
+        <script src="../app/renderItems.js"></script>
         <script
           src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
           integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"

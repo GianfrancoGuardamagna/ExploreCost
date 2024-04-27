@@ -21,24 +21,7 @@
       </head>
       <body id="body">
         <nav></nav>
-        <main class="bg-slate-300">
-            <section class="h-full flex flex-col justify-start items-center py-24 gap-4">
-                <img src="https://img.freepik.com/vector-gratis/esquema-color-rayo_78370-517.jpg" alt="Imagen del producto FREIDORA A GAS 13 + 13 LITROS" class="w-3/5">
-                <h1 class="text-3vh text-center p-4">FREIDORA A GAS 13 + 13 LITROS</h1>
-                <p>Codigo: FG1313LFS</p>
-                <p class="text-subinfo">Precio: 517€</p>
-                <div class="flex items-center justify-center w-full">
-                    <button id="agregarCarrito" data-producto-id="1079" type="button"
-                      class="bg-terciario text-white itemCard w-4/6 hover:w-5/6 h-10 hover:h-12">Agregar al Carrito</button>
-                  </div>
-                <ul class="list-disc flex flex-col items-center">
-                    <li>Iva incluido</li>
-                    <li>Porte gratis</li>
-                    <li>Producto nuevo</li>
-                    <li>Garantía de un año en piezas</li>
-                </ul>
-                <div id="descripcion">undefined</div>
-            </section>
+        <main class="bg-slate-300" id="render">
         </main>
         <footer>
           <section class="h-8">
@@ -75,8 +58,9 @@
             </div>
           </section>
         </footer>
-        <script src="../app/carrito.js"></script>
         <script src="../app/navbar.js"></script>
+        <script src="../app/items.js"></script>
+        <script src="../app/renderItems.js"></script>
         <script
           src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
           integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"

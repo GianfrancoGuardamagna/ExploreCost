@@ -21,44 +21,7 @@
       </head>
       <body id="body">
         <nav></nav>
-        <main class="bg-slate-300">
-            <section class="h-full flex flex-col justify-start items-center py-24 gap-4">
-                <img src="https://img.freepik.com/vector-gratis/esquema-color-rayo_78370-517.jpg" alt="Imagen del producto FREIDORA ELECTRICA DE 8 LITROS" class="w-3/5">
-                <h1 class="text-3vh text-center p-4">FREIDORA ELECTRICA DE 8 LITROS</h1>
-                <p>Codigo: F8ES</p>
-                <p class="text-subinfo">Precio: 206.8€</p>
-                <div class="flex items-center justify-center w-full">
-                    <button id="agregarCarrito" data-producto-id="1091" type="button"
-                      class="bg-terciario text-white itemCard w-4/6 hover:w-5/6 h-10 hover:h-12">Agregar al Carrito</button>
-                  </div>
-                <ul class="list-disc flex flex-col items-center">
-                    <li>Iva incluido</li>
-                    <li>Porte gratis</li>
-                    <li>Producto nuevo</li>
-                    <li>Garantía de un año en piezas</li>
-                </ul>
-                <div id="descripcion"><ul class="list" id="descripcionmovil">
-<p class="ache3-negro">Descripción</p>
-<li>Mueble construido íntegramente en acero inoxidable.<br/>
-Cuba de acero inoxidable desmontable y extraible para su mejor limpieza.<br/>
-Panel de Mandos y laterales construidos en acero inoxidable, situado fuera de la fuente de calor y estanco a cualquier líquido o suciedad. Resistencia blindada de acero inoxidable.<br/>
-Cabezal (Panel de Mandos y Resistencia) extraible para su mejor limpieza.<br/>
-Protector de los capilares de los termostatos. (Mayor seguridad)<br/>
-Provistas de Termostato de Seguridad.<br/>
-Cestas con mango de bakelita.<br/>
-Zona fría. (No se mezclan los sabores)<br/>
-<br/>
-Voltaje 220v - 50 Hz<br/>
-Potencia: 3,5 Kw<br/>
-Valvulas 1<br/>
-Resistencias: 1<br/>
-Capacidad: 10 litros cuba - 8 litros de trabajo<br/>
-Medidas cesta: 205x260x100 mm<br/>
-Medidas freidora: 265x423x325 mm</li>
-<li>
-<p class="avisoModificaciones">ENVÍOS GRATIS A TODA LA PENÍNSULA, ¿TIENES DUDAS? LLÁMANOS SIN COMPROMISO <a href="tel:+34951492842">951492842</a>.</p></li>
-</ul></div>
-            </section>
+        <main class="bg-slate-300" id="render">
         </main>
         <footer>
           <section class="h-8">
@@ -95,8 +58,9 @@ Medidas freidora: 265x423x325 mm</li>
             </div>
           </section>
         </footer>
-        <script src="../app/carrito.js"></script>
         <script src="../app/navbar.js"></script>
+        <script src="../app/items.js"></script>
+        <script src="../app/renderItems.js"></script>
         <script
           src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
           integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"

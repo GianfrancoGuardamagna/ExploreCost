@@ -21,53 +21,7 @@
       </head>
       <body id="body">
         <nav></nav>
-        <main class="bg-slate-300">
-            <section class="h-full flex flex-col justify-start items-center py-24 gap-4">
-                <img src="https://img.freepik.com/vector-gratis/esquema-color-rayo_78370-517.jpg" alt="Imagen del producto COCINA DE 4 FUEGOS CON HORNO A GAS" class="w-3/5">
-                <h1 class="text-3vh text-center p-4">COCINA DE 4 FUEGOS CON HORNO A GAS</h1>
-                <p>Codigo: C4FCHBY</p>
-                <p class="text-subinfo">Precio: 1637.9€</p>
-                <div class="flex items-center justify-center w-full">
-                    <button id="agregarCarrito" data-producto-id="1056" type="button"
-                      class="bg-terciario text-white itemCard w-4/6 hover:w-5/6 h-10 hover:h-12">Agregar al Carrito</button>
-                  </div>
-                <ul class="list-disc flex flex-col items-center">
-                    <li>Iva incluido</li>
-                    <li>Porte gratis</li>
-                    <li>Producto nuevo</li>
-                    <li>Garantía de un año en piezas</li>
-                </ul>
-                <div id="descripcion"><ul class="list" id="descripcionmovil">
-<p class="ache3-negro">Descripción</p>
-<li><div style="box-sizing: border-box; color: rgb(0, 0, 0); font-family: Poppins, sans-serif; font-size: 13px;"><span style="font-size:14px"><strong>Cocina de 4 fuegos</strong> serie Magma <strong>fabricada en Europa</strong> y elaborada con <strong>materiales de calidad y máxima durabilidad</strong> que garantiza un <strong>buen rendimiento</strong>. Esta cocina profesional está <strong>dotada de llama piloto y termopar de seguridad</strong> y estructura de <strong>acero inoxidable. </strong>  </span></div>
-<div style="box-sizing: border-box; color: rgb(0, 0, 0); font-family: Poppins, sans-serif; font-size: 13px;">
-<h3><strong><span style="font-size:14px">Datos técnicos:</span></strong></h3>
-<div style="box-sizing: border-box;">
-<div><span style="font-size:14px">Valvulas: 5</span></div>
-<div><span style="font-size:14px">Quemadores: 5</span></div>
-<div><span style="font-size:14px">Potencia quemadores: 26.8 Kw</span></div>
-<div><span style="font-size:14px">Potencia horno: 6,7 Kw</span></div>
-<div><span style="font-size:14px">Tipo de gas: butano/propano</span></div>
-<div><span style="font-size:14px">Medidas horno: 670x460x315 mm</span></div>
-<div><span style="font-size:14px">Medidas exteriores: 800x700x850 mm</span></div>
-<div><span style="font-size:14px">Peso: 120 Kg</span></div>
-</div>
-</div>
-<h3><span style="color:#000000"><strong><span style="font-size:14px">Características:</span></strong></span></h3>
-<div style="box-sizing: border-box; color: rgb(0, 0, 0); font-family: Poppins, sans-serif; font-size: 13px;"><span style="font-size:14px">- Formada por <strong>parrillas de hierro fundido esmaltado negro</strong> resistente a los ácidos para una <strong>rápida y eficaz limpieza</strong>.<br/>
-- Cuenta con <strong>quemadores </strong>“SUPER BURNER” de <strong>doble corona y de llama estabilizada.</strong><br/>
-- Distancia entre los quemadores: 370 mm entre los horizontales 210 entre los verticales.</span></div>
-<div style="box-sizing: border-box; color: rgb(0, 0, 0); font-family: Poppins, sans-serif; font-size: 13px;"><span style="font-size:14px">- <strong>Mando robusto y de calidad</strong> para regular la llama.</span></div>
-<div style="box-sizing: border-box; color: rgb(0, 0, 0); font-family: Poppins, sans-serif; font-size: 13px;"><span style="font-size:14px">- <strong>Hornos de quemador tubular</strong> con interior esmaltado y <strong>aislado térmicamente</strong> con lana de vidrio que permite <strong>ahorrar energia.</strong><br/>
-- <strong>Parrilla interior</strong> de 1333x430 mm, <strong>ajustable a 2 niveles y robusta </strong>que permite acomodar cacerolas y cazuelas de grandes dimensiones. <br/>
-- <strong>Patas de acero inoxidable</strong>. </span><br/>
-<br/>
-<strong><span style="color:#FF0000"><span style="font-size:18px">ENVÍOS GRATIS A TODA LA PENÍNSULA</span></span></strong></div>
-</li>
-<li>
-<p class="avisoModificaciones">ENVÍOS GRATIS A TODA LA PENÍNSULA, ¿TIENES DUDAS? LLÁMANOS SIN COMPROMISO <a href="tel:+34951492842">951492842</a>.</p></li>
-</ul></div>
-            </section>
+        <main class="bg-slate-300" id="render">
         </main>
         <footer>
           <section class="h-8">
@@ -104,8 +58,9 @@
             </div>
           </section>
         </footer>
-        <script src="../app/carrito.js"></script>
         <script src="../app/navbar.js"></script>
+        <script src="../app/items.js"></script>
+        <script src="../app/renderItems.js"></script>
         <script
           src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
           integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"

@@ -37,7 +37,8 @@ document.addEventListener("DOMContentLoaded", async function () {
 
     productosParaCrear.forEach((producto) => {
       const productoDiv = document.createElement("div");
-      productoDiv.className = "col-span-1 flex items-center justify-around flex-col bg-slate-400 mt-8 md:p-4 w-42 md:w-full h-full rounded-md producto";
+      productoDiv.className =
+        "col-span-1 flex items-center justify-around flex-col bg-slate-400 mt-8 md:p-4 w-42 md:w-full h-full rounded-md producto";
       productoDiv.innerHTML = `<div class="h-32 w-fit">
             <a href="../productos/producto-${producto.id}.html"><img src="${producto.imagen}"
             class="h-32 itemCard hover:h-36" alt="imagen del producto ${producto.nombre}"></a>
@@ -82,7 +83,7 @@ document.addEventListener("DOMContentLoaded", async function () {
           boton.classList.add("bg-terciario");
           boton.textContent = "Agregar al carrito";
         }
-      });
+      })
     }
 
     actualizarEstadoBotones();
@@ -105,7 +106,7 @@ document.addEventListener("DOMContentLoaded", async function () {
         // Guardar el carrito actualizado en el localStorage
         localStorage.setItem("Carrito", JSON.stringify(carrito));
 
-        actualizarEstadoBotones()
+        actualizarEstadoBotones();
       });
     });
   }

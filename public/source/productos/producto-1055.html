@@ -21,56 +21,7 @@
       </head>
       <body id="body">
         <nav></nav>
-        <main class="bg-slate-300">
-            <section class="h-full flex flex-col justify-start items-center py-24 gap-4">
-                <img src="https://img.freepik.com/vector-gratis/esquema-color-rayo_78370-517.jpg" alt="Imagen del producto COCINA DE 2 FUEGOS CON HORNO A GAS" class="w-3/5">
-                <h1 class="text-3vh text-center p-4">COCINA DE 2 FUEGOS CON HORNO A GAS</h1>
-                <p>Codigo: C2FCHBY</p>
-                <p class="text-subinfo">Precio: 740.3€</p>
-                <div class="flex items-center justify-center w-full">
-                    <button id="agregarCarrito" data-producto-id="1055" type="button"
-                      class="bg-terciario text-white itemCard w-4/6 hover:w-5/6 h-10 hover:h-12">Agregar al Carrito</button>
-                  </div>
-                <ul class="list-disc flex flex-col items-center">
-                    <li>Iva incluido</li>
-                    <li>Porte gratis</li>
-                    <li>Producto nuevo</li>
-                    <li>Garantía de un año en piezas</li>
-                </ul>
-                <div id="descripcion"><ul class="list" id="descripcionmovil">
-<p class="ache3-negro">Descripción</p>
-<li><div style="box-sizing: border-box; color: rgb(0, 0, 0); font-family: Poppins, sans-serif; font-size: 13px;"><span style="font-size:14px">Esta cocina de <strong>3 fuegos con horno </strong>esta formada por parrillas de hierro fundido esmaltado negro resistente a los ácidos para su eficaz limpieza. Tiene quemadores “SUPER BURNER” de doble corona y de llama estabilizada. Están dotadas de llama piloto y termopar de seguridad y esrtuctura de acero inoxidable. <br/>
-Horno con parrilla interior de 1333x430 mm, ajustable a 2 niveles, modelo C3FCHBY</span><br/>
- </div>
-<div style="box-sizing: border-box; color: rgb(0, 0, 0); font-family: Poppins, sans-serif; font-size: 13px;">
-<h3><span style="font-size:14px">Datos técnicos:</span></h3>
-<div style="box-sizing: border-box;">
-<div><span style="font-size:14px">Valvulas: 4</span></div>
-<div><span style="font-size:14px">Quemadores: 4</span></div>
-<div><span style="font-size:14px">Potencia quemadores: 20,1 Kw</span></div>
-<div><span style="font-size:14px">Potencia horno: 6,7 Kw</span></div>
-<div><span style="font-size:14px">Tipo de gas: butano/propano</span></div>
-<div><span style="font-size:14px">Medidas horno: 1375x485x315 mm</span></div>
-<div><span style="font-size:14px">Medidas exteriores: 1500x600x850 mm</span></div>
-<div><span style="font-size:14px">Peso: 80 Kg</span></div>
-</div>
-</div>
-<h3><span style="font-size:14px">Otras características técnicas:</span></h3>
-<div style="box-sizing: border-box; color: rgb(0, 0, 0); font-family: Poppins, sans-serif; font-size: 13px;"><span style="font-size:14px">Distancia entre los quemadores: 370 mm entre los horizontales 210 entre los verticales.</span></div>
-<div style="box-sizing: border-box; color: rgb(0, 0, 0); font-family: Poppins, sans-serif; font-size: 13px;"><span style="font-size:14px">Mando robusto y de calidad para regular la llama.</span></div>
-<div style="box-sizing: border-box; color: rgb(0, 0, 0); font-family: Poppins, sans-serif; font-size: 13px;"><span style="font-size:14px"><strong>Hornos de quemador tubular</strong> con interior esmaltado y aislado térmicamente con lana de vidrio, para ahorrar energia.</span></div>
-<div style="box-sizing: border-box; color: rgb(0, 0, 0); font-family: Poppins, sans-serif; font-size: 13px;"><span style="font-size:14px"><strong>Horno con parrilla interior</strong> de 620x430 mm, ajustable a 2 niveles, modelo C2FCHBY.</span><br/>
-<span style="font-size:14px"><strong>Parrillas de hierro</strong> fundido esmaltado negro resistente  a los ácidos para su eficaz limpieza.<br/>
-Estructura de acero inoxidable.<br/>
-Quemadores “SUPER BURNER” de doble corona y de llama estabilizada.<br/>
-Dotadas de llama piloto y termopar de seguridad.</span><br/>
-<br/>
- </div>
-</li>
-<li>
-<p class="avisoModificaciones">ENVÍOS GRATIS A TODA LA PENÍNSULA, ¿TIENES DUDAS? LLÁMANOS SIN COMPROMISO <a href="tel:+34951492842">951492842</a>.</p></li>
-</ul></div>
-            </section>
+        <main class="bg-slate-300" id="render">
         </main>
         <footer>
           <section class="h-8">
@@ -107,8 +58,9 @@ Dotadas de llama piloto y termopar de seguridad.</span><br/>
             </div>
           </section>
         </footer>
-        <script src="../app/carrito.js"></script>
         <script src="../app/navbar.js"></script>
+        <script src="../app/items.js"></script>
+        <script src="../app/renderItems.js"></script>
         <script
           src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
           integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
