@@ -1605,6 +1605,10 @@ video {
   font-size: 10vh;
 }
 
+.text-8vh {
+  font-size: 8vh;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -1707,10 +1711,6 @@ video {
   height: 3rem;
 }
 
-.hover\:h-36:hover {
-  height: 9rem;
-}
-
 .hover\:w-28:hover {
   width: 7rem;
 }
@@ -1798,6 +1798,22 @@ video {
 
   .md\:text-title {
     font-size: 10vh;
+  }
+
+  .md\:text-8vh {
+    font-size: 8vh;
+  }
+
+  .md\:font-medium {
+    font-weight: 500;
+  }
+
+  .md\:font-normal {
+    font-weight: 400;
+  }
+
+  .md\:font-semibold {
+    font-weight: 600;
   }
 }
 

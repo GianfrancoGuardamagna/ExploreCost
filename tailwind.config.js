@@ -14,6 +14,7 @@ module.exports = {
       'cardTitle' : '4vh',
       '3vh' : '3vh',
       '5vh' : '5vh',
+      '8vh' : '8vh'
     },
     extend: {
       colors: {
