@@ -41,10 +41,10 @@ document.addEventListener("DOMContentLoaded", async function () {
         "col-span-1 flex items-center justify-around flex-col bg-slate-400 mt-8 md:p-4 w-42 md:w-full h-full rounded-md producto";
       productoDiv.innerHTML = `<div class="h-32 w-fit">
             <a href="../productos/producto-${producto.id}.html"><img src="${producto.imagen}"
-            class="h-32 itemCard hover:h-36" alt="imagen del producto ${producto.nombre}"></a>
+            class="h-32 itemCard" alt="imagen del producto ${producto.nombre}"></a>
             </div>
             <div class="h-1/3 w-full flex items-center justify-evenly flex-col">
-            <a href="../productos/producto-${producto.id}.html"><p class="md:text-info text-xs text-primario text-center">${producto.nombre}</p></a>
+            <a href="../productos/producto-${producto.id}.html"><p class="md:text-3vh text-xs text-primario text-center">${producto.nombre}</p></a>
             <p class="md:text-info text-subinfo text-primario">$${producto.precioFinal}</p>
             </div>
             <div class="flex justify-center w-full">
