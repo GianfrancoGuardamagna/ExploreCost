@@ -5,14 +5,14 @@ document.addEventListener("DOMContentLoaded", async function () {
       entradas.forEach((entrada) => {
         if (entrada.isIntersecting) {
           primerCorte = ultimoCorte;
-          ultimoCorte = ultimoCorte + 20;
-          renderizadoProductos();
+          ultimoCorte = ultimoCorte + 20
+          renderizadoProductos()
 
           // Obtén el nuevo último elemento y obsérvalo
-          const enPantalla = document.querySelectorAll("#productos .producto");
-          let nuevoUltimoItem = enPantalla[enPantalla.length - 1];
-          observador.observe(nuevoUltimoItem);
-          gestionCarrito();
+          const enPantalla = document.querySelectorAll("#productos .producto")
+          let nuevoUltimoItem = enPantalla[enPantalla.length - 1]
+          observador.observe(nuevoUltimoItem)
+          gestionCarrito()
         }
       });
     },
@@ -23,25 +23,87 @@ document.addEventListener("DOMContentLoaded", async function () {
   );
 
   // Renderizado de objetos
-  const sectorItems = document.getElementById("productos");
+  const sectorItems = document.getElementById("productos")
 
-  const baseDatos = "../../../resources/ods.json";
-  const items = await fetch(baseDatos);
-  const data = await items.json();
+  const baseDatos = "../../../resources/ods.json"
+  const items = await fetch(baseDatos)
+  const data = await items.json()
 
-  let primerCorte = 0;
-  let ultimoCorte = 20;
+  function imagenes(data){
+    data.forEach(producto => {
+      let imagenes = producto.imagen
+      if(Array.isArray(imagenes) && imagenes.length > 1){
+        imagenes.forEach(link => {
+          fetch(link)
+          .then(response => {
+            // console.log(response.status)
+          })
+        })
+      }
+    })
+  }
+
+  imagenes(data)
+
+  let primerCorte = 0
+  let ultimoCorte = 20
 
   async function renderizadoProductos() {
-    const productosParaCrear = data.slice(primerCorte, ultimoCorte);
+    const productosParaCrear = data.slice(primerCorte, ultimoCorte)
 
     productosParaCrear.forEach((producto) => {
-      const productoDiv = document.createElement("div");
+
+      function CarreteImagenes(producto) {
+
+        let html = ``
+
+        if (typeof (producto.imagen) === 'object') {
+
+          let cantidadImagenes = ((producto.imagen).length)
+
+          function imagenes(cantidadImagenes,producto){
+
+            let htmlImagen = ``
+
+            for (let i = 1; i < cantidadImagenes; i++) {
+              htmlImagen += `<div class="carousel-item">
+              <img src="${producto.imagen[i]}" class="d-block w-100 h-32 itemCard" alt="producto ${producto.nombre}">
+              </div>`
+            }
+
+            return htmlImagen
+          }
+
+          html = `<div id="${producto.codigo}" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="${producto.imagen[0]}" class="d-block w-100 h-32 itemCard" alt="producto ${producto.nombre}">
+            </div>
+            ${imagenes(cantidadImagenes,producto)}
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#${producto.codigo}" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#${producto.codigo}" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>`
+
+        } if (typeof (producto.imagen) === 'string') {
+          html = `<img src="${producto.imagen}"
+          class="h-32 itemCard" alt="imagen del producto ${producto.nombre}">`
+        }
+
+        return html
+      }
+
+      const productoDiv = document.createElement("div")
       productoDiv.className =
-        "col-span-1 flex items-center justify-around flex-col bg-slate-400 mt-8 md:p-4 w-42 md:w-full h-full rounded-md producto";
+        "col-span-1 flex items-center justify-around flex-col bg-white mt-8 md:p-4 w-42 md:w-full h-full rounded-md producto"
       productoDiv.innerHTML = `<div class="h-32 w-fit">
-            <a href="../productos/producto-${producto.id}.html"><img src="${producto.imagen}"
-            class="h-32 itemCard" alt="imagen del producto ${producto.nombre}"></a>
+            <a href="../productos/producto-${producto.id}.html">${CarreteImagenes(producto)}</a>
             </div>
             <div class="h-1/3 w-full flex items-center justify-evenly flex-col">
             <a href="../productos/producto-${producto.id}.html"><p class="md:text-3vh text-xs text-primario text-center">${producto.nombre}</p></a>
