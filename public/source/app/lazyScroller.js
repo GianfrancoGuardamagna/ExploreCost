@@ -27,23 +27,17 @@ document.addEventListener("DOMContentLoaded", async function () {
 
   const baseDatos = "../../../resources/ods.json"
   const items = await fetch(baseDatos)
-  const data = await items.json()
+  let data = await items.json()
 
-  function imagenes(data){
-    data.forEach(producto => {
-      let imagenes = producto.imagen
-      if(Array.isArray(imagenes) && imagenes.length > 1){
-        imagenes.forEach(link => {
-          fetch(link)
-          .then(response => {
-            // console.log(response.status)
-          })
-        })
-      }
-    })
+  if(document.title === "Cocina"){
+    data = data.filter(item => item.seccion === "cocina")
+  }if(document.title === "Frio"){
+    data = data.filter(item => item.seccion === "frio")
+  }if(document.title === "Lavado"){
+    data = data.filter(item => item.seccion === "lavado")
+  }if(document.title === "Mobiliario"){
+    data = data.filter(item => item.seccion === "mobiliario")
   }
-
-  imagenes(data)
 
   let primerCorte = 0
   let ultimoCorte = 20
@@ -74,7 +68,7 @@ document.addEventListener("DOMContentLoaded", async function () {
             return htmlImagen
           }
 
-          html = `<div id="${producto.codigo}" class="carousel slide">
+          html = `<div id="${producto.codigo}" class="carousel carousel-dark slide">
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img src="${producto.imagen[0]}" class="d-block w-100 h-32 itemCard" alt="producto ${producto.nombre}">

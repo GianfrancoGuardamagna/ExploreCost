@@ -25,6 +25,7 @@
     "express": "^4.18.2",
     "jsdom": "^24.0.0",
     "jsonwebtoken": "^9.0.2",
+    "leven": "^4.0.0",
     "morgan": "^1.10.0",
     "node-fetch": "^3.3.2",
     "nodemailer": "^6.9.13",

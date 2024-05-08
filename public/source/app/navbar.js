@@ -47,7 +47,6 @@ document.addEventListener("DOMContentLoaded", async function () {
       })
     }
 
-
     search.addEventListener("keyup", (event) => {
       if (event.key === "Enter") {
 
@@ -59,7 +58,7 @@ document.addEventListener("DOMContentLoaded", async function () {
 
         search.value = "";
 
-        sessionStorage.setItem("Busqueda", JSON.stringify(resultados));
+        sessionStorage.setItem("Busqueda", JSON.stringify(resultados))
 
         if (document.title === "Buscador" ||
           document.title === "Lavado" ||
@@ -72,7 +71,7 @@ document.addEventListener("DOMContentLoaded", async function () {
 
         } if (document.title === "Inicio") {
 
-          window.location.assign("./source/shop/buscador.html")
+          // window.location.assign("./source/shop/buscador.html")
 
         } else {
 
