@@ -6,7 +6,9 @@
     "id": 1001,
     "imagen": "https://img.freepik.com/vector-gratis/esquema-color-rayo_78370-517.jpg",
     "precioSIVA": 60,
-    "seccion" : "mobiliario"
+    "seccion" : "mobiliario",
+    "familia" : "estanterias",
+    "medida" : 800
   },
   {
     "codigo": "EPESP100",
@@ -15,7 +17,9 @@
     "id": 1002,
     "imagen": "https://img.freepik.com/vector-gratis/esquema-color-rayo_78370-517.jpg",
     "precioSIVA": 73,
-    "seccion" : "mobiliario"
+    "seccion" : "mobiliario",
+    "familia" : "estanterias",
+    "medida" : 1000
   },
   {
     "codigo": "EPESP120",
@@ -24,7 +28,9 @@
     "id": 1003,
     "imagen": "https://img.freepik.com/vector-gratis/esquema-color-rayo_78370-517.jpg",
     "precioSIVA": 75,
-    "seccion" : "mobiliario"
+    "seccion" : "mobiliario",
+    "familia" : "estanterias",
+    "medida" : 1200
   },
   {
     "codigo": "EPESP150",
@@ -33,7 +39,9 @@
     "id": 1004,
     "imagen": "https://img.freepik.com/vector-gratis/esquema-color-rayo_78370-517.jpg",
     "precioSIVA": 116,
-    "seccion" : "mobiliario"
+    "seccion" : "mobiliario",
+    "familia" : "estanterias",
+    "medida" : 1500
   },
   {
     "codigo": "EPESP200",
@@ -42,7 +50,9 @@
     "id": 1005,
     "imagen": "https://img.freepik.com/vector-gratis/esquema-color-rayo_78370-517.jpg",
     "precioSIVA": 146,
-    "seccion" : "mobiliario"
+    "seccion" : "mobiliario",
+    "familia" : "estanterias",
+    "medida" : 2000
   },
   {
     "codigo": "HJS-601",
@@ -51,7 +61,10 @@
     "id": 1006,
     "imagen": "https://img.freepik.com/vector-gratis/esquema-color-rayo_78370-517.jpg",
     "precioSIVA": 190,
-    "seccion" : "lavado"
+    "seccion" : "lavado",
+    "familia" : "fregaderos",
+    "seno" : 1,
+    "escurridor" : false
   },
   {
     "codigo": "F1SF60",
@@ -60,7 +73,10 @@
     "id": 1007,
     "imagen": "https://img.freepik.com/vector-gratis/esquema-color-rayo_78370-517.jpg",
     "precioSIVA": 230,
-    "seccion" : "lavado"
+    "seccion" : "lavado",
+    "familia" : "fregaderos",
+    "seno" : 1,
+    "escurridor" : false
   },
   {
     "codigo": "SC-606D",
@@ -69,7 +85,10 @@
     "id": 1008,
     "imagen": "https://img.freepik.com/vector-gratis/esquema-color-rayo_78370-517.jpg",
     "precioSIVA": 290,
-    "seccion" : "lavado"
+    "seccion" : "lavado",
+    "familia" : "fregaderos",
+    "seno" : 1,
+    "escurridor" : false
   },
   {
     "codigo": "SX-126D",
@@ -78,7 +97,10 @@
     "id": 1009,
     "imagen": "https://img.freepik.com/vector-gratis/esquema-color-rayo_78370-517.jpg",
     "precioSIVA": 290,
-    "seccion" : "lavado"
+    "seccion" : "lavado",
+    "familia" : "fregaderos",
+    "seno" : 1,
+    "escurridor" : true
   },
   {
     "codigo": "SX-126L",
@@ -87,7 +109,10 @@
     "id": 1010,
     "imagen": "https://img.freepik.com/vector-gratis/esquema-color-rayo_78370-517.jpg",
     "precioSIVA": 290,
-    "seccion" : "lavado"
+    "seccion" : "lavado",
+    "familia" : "fregaderos",
+    "seno" : 1,
+    "escurridor" : true
   },
   {
     "codigo": "SA-126D",
@@ -96,7 +121,10 @@
     "id": 1011,
     "imagen": "https://img.freepik.com/vector-gratis/esquema-color-rayo_78370-517.jpg",
     "precioSIVA": 310,
-    "seccion" : "lavado"
+    "seccion" : "lavado",
+    "familia" : "fregaderos",
+    "seno" : 1,
+    "escurridor" : true
   },
   {
     "codigo": "SA-126L",
@@ -105,7 +133,10 @@
     "id": 1012,
     "imagen": "https://img.freepik.com/vector-gratis/esquema-color-rayo_78370-517.jpg",
     "precioSIVA": 310,
-    "seccion" : "lavado"
+    "seccion" : "lavado",
+    "familia" : "fregaderos",
+    "seno" : 1,
+    "escurridor" : true
   },
   {
     "codigo": "SA-166D",
@@ -114,7 +145,10 @@
     "id": 1013,
     "imagen": "https://img.freepik.com/vector-gratis/esquema-color-rayo_78370-517.jpg",
     "precioSIVA": 410,
-    "seccion" : "lavado"
+    "seccion" : "lavado",
+    "familia" : "fregaderos",
+    "seno" : 2,
+    "escurridor" : true
   },
   {
     "codigo": "SA-166L",
@@ -123,7 +157,10 @@
     "id": 1014,
     "imagen": "https://img.freepik.com/vector-gratis/esquema-color-rayo_78370-517.jpg",
     "precioSIVA": 410,
-    "seccion" : "lavado"
+    "seccion" : "lavado",
+    "familia" : "fregaderos",
+    "seno" : 2,
+    "escurridor" : true
   },
   {
     "codigo": "SX-166D",
@@ -132,7 +169,10 @@
     "id": 1015,
     "imagen": "https://img.freepik.com/vector-gratis/esquema-color-rayo_78370-517.jpg",
     "precioSIVA": 410,
-    "seccion" : "lavado"
+    "seccion" : "lavado",
+    "familia" : "fregaderos",
+    "seno" : 2,
+    "escurridor" : true
   },
   {
     "codigo": "SX-166L",
@@ -141,7 +181,10 @@
     "id": 1016,
     "imagen": "https://img.freepik.com/vector-gratis/esquema-color-rayo_78370-517.jpg",
     "precioSIVA": 410,
-    "seccion" : "lavado"
+    "seccion" : "lavado",
+    "familia" : "fregaderos",
+    "seno" : 2,
+    "escurridor" : true
   },
   {
     "codigo": "ADT3B",
@@ -155,7 +198,9 @@
     ],
     "precioSIVA": 1240,
     "descripcion": "<ul class=\"list\" id=\"descripcionmovil\">\n<p class=\"ache3-negro\">Descripción</p>\n<li><div><span style=\"font-size:14px\">Este<strong> abatidor de temperatura de 3 bandejas</strong>, fabricado con <strong>acero inoxidable de alta calidad AISI- 304,</strong> cuenta con uniones curvas que facilitan la limpieza del mismo. Tiene <strong>control de regulación digital</strong> por lo que puedes programar la temperaturea. Además, tiene un <strong>sistema de refrigeración</strong> por tiro forzado con circulación de aire totalmente optimizada.<br/>\n<br/>\n<strong>Especificaciones técnicas:</strong><br/>\n<br/>\r\nVoltaje: 220 - 240V</span></div>\n<div><span style=\"font-size:14px\">Potencia: 0,86 Kw</span></div>\n<div><span style=\"font-size:14px\">Temperatura: +3° / -35°C</span></div>\n<div><span style=\"font-size:14px\">Refrigeracion: Ventilada</span></div>\n<div><span style=\"font-size:14px\">Capaciadad: 3xGn1/1</span></div>\n<div><span style=\"font-size:14px\">Medidas externas: 710x700x560 mm</span></div>\n<div><span style=\"font-size:14px\">Medidas internas: 570x350x250 mm<br/>\n<br/>\n<span style=\"color:#000000\"><strong>Otras características:</strong></span></span></div>\n<div> </div>\n<div><span style=\"font-size:14px\">Fabricación en acero inoxidable de alta calidad AISI-304</span></div>\n<div><span style=\"font-size:14px\">Uniones curvas que facilitan la limpieza del equipo.</span></div>\n<div><span style=\"font-size:14px\">Refrigeración por tiro forzado con circulación de aire optimizada.</span></div>\n<div><span style=\"font-size:14px\">Guías internas incluidas para bandejas GN1/1</span></div>\n<div><span style=\"font-size:14px\">Control digital de programación y temperatura.</span></div>\n<div><span style=\"font-size:14px\">Tiene 4 patas de soporte ajustables de acero inoxidable.</span></div>\n<div><span style=\"font-size:14px\">Medido de temperatura o termómetro digital fabricado en Italia.<br/>\r\nCompresor fabricado en francia de alta capacidad.</span><br/>\r\nAccesorios:<br/>\r\nRuedas  +135€<br/>\n<br/>\n<span style=\"color:#FF0000\"><span style=\"font-size:16px\"><strong></strong></span></span>\n<h1><span style=\"font-size:20px\"><strong>¿Tienes dudas? LLámanos sin compromiso <a href=\"tel:+34\"></a></strong></span></h1>\n</div>\n</li>\n<li>\n<p class=\"avisoModificaciones\">ENVÍOS GRATIS A TODA LA PENÍNSULA, ¿TIENES DUDAS? LLÁMANOS SIN COMPROMISO <a href=\"tel:+34951492842\">951492842</a>.</p></li>\n</ul>",
-    "seccion": "frio"
+    "seccion": "frio",
+    "familia": "abatidores",
+    "bandejas": 3
   },
   {
     "codigo": "ADT5B",
@@ -169,7 +214,9 @@
     ],
     "precioSIVA": 1780,
     "descripcion": "<ul class=\"list\" id=\"descripcionmovil\">\n<p class=\"ache3-negro\">Descripción</p>\n<li><div><span style=\"font-size:14px\">Este<strong> abatidor de temperatura de 5 bandejas</strong>, fabricado con <strong>acero inoxidable de alta calidad AISI- 304,</strong> cuenta con uniones curvas que facilitan la limpieza del mismo. Tiene <strong>control de regulación digital</strong> por lo que puedes programar la temperaturea. Además, tiene un <strong>sistema de refrigeración</strong> por tiro forzado con circulación de aire totalmente optimizada.<br/>\n<br/>\n<strong><span style=\"color:#000000\">Especificaciones técnicas:</span></strong><br/>\n<br/>\r\nVoltaje: 221 - 240V</span></div>\n<div><span style=\"font-size:14px\">Potencia: 0,86 Kw</span></div>\n<div><span style=\"font-size:14px\">Temperatura: +3° / -35°C</span></div>\n<div><span style=\"font-size:14px\">Refrigeracion: Ventilada</span></div>\n<div><span style=\"font-size:14px\">Capaciadad: 5xGn1/1</span></div>\n<div><span style=\"font-size:14px\">Medidas externas: 800x800x1000 mm</span></div>\n<div><span style=\"font-size:14px\">Medidas internas: 660x430x500 mm<br/>\n<br/>\n<span style=\"color:#000000\"><strong>Otras características:</strong></span></span><br/>\r\n \r\n<div><span style=\"font-size:14px\">Fabricación en acero inoxidable de alta calidad AISI-304</span></div>\n<div><span style=\"font-size:14px\">Uniones curvas que facilitan la limpieza del equipo.</span></div>\n<div><span style=\"font-size:14px\">Refrigeración por tiro forzado con circulación de aire optimizada.</span></div>\n<div><span style=\"font-size:14px\">Guías internas incluidas para bandejas GN1/1</span></div>\n<div><span style=\"font-size:14px\">Control digital de programación y temperatura.</span></div>\n<div><span style=\"font-size:14px\">Tiene 4 patas de soporte ajustables de acero inoxidable.</span></div>\n<div><span style=\"font-size:14px\">Medido de temperatura o termómetro digital fabricado en Italia.<br/>\r\nCompresor fabricado en francia de alta capacidad.<br/>\r\nAccesorios:<br/>\r\nRuedas + 135€</span><br/>\n<br/>\n<span style=\"color:#FF0000\"><span style=\"font-size:16px\"><strong></strong></span></span>\n<h1><span style=\"font-size:20px\"><strong>¿Tienes dudas? LLámanos sin compromiso <a href=\"tel:+34\"></a></strong></span></h1>\n</div>\n</div>\n</li>\n<li>\n<p class=\"avisoModificaciones\">ENVÍOS GRATIS A TODA LA PENÍNSULA, ¿TIENES DUDAS? LLÁMANOS SIN COMPROMISO <a href=\"tel:+34951492842\">951492842</a>.</p></li>\n</ul>",
-    "seccion": "frio"
+    "seccion": "frio",
+    "familia": "abatidores",
+    "bandejas": 5
   },
   {
     "codigo": "ADT10B",
@@ -183,47 +230,65 @@
     ],
     "precioSIVA": 2950,
     "descripcion": "<ul class=\"list\" id=\"descripcionmovil\">\n<p class=\"ache3-negro\">Descripción</p>\n<li><div><span style=\"font-size:14px\">Este<strong> abatidor de temperatura de 10 bandejas</strong>, fabricado con <strong>acero inoxidable de alta calidad AISI- 304,</strong> cuenta con uniones curvas que facilitan la limpieza del mismo. Tiene <strong>control de regulación digital</strong> por lo que puedes programar la temperaturea. Además, tiene un <strong>sistema de refrigeración</strong> por tiro forzado con circulación de aire totalmente optimizada.<br/>\n<strong>VERSION ORIGINAL SIN RUEDAS</strong><br/>\n<br/>\n<strong>Especificaciones técnicas:</strong><br/>\n<br/>\r\nVoltaje: 222 - 240V</span></div>\n<div><span style=\"font-size:14px\">Potencia: 1,2 Kw</span></div>\n<div><span style=\"font-size:14px\">Temperatura: +3° / -35°C</span></div>\n<div><span style=\"font-size:14px\">Refrigeracion: Ventilada</span></div>\n<div><span style=\"font-size:14px\">Capaciadad: 10xGn1/1</span></div>\n<div><span style=\"font-size:14px\">Medidas externas: 800x800x1850 mm</span></div>\n<div><span style=\"font-size:14px\">Medidas internas: 660x430x980 mm<br/>\n<br/>\n<strong>Otras características:</strong></span>\n<div> </div>\n<div><span style=\"font-size:14px\">Uniones curvas que facilitan la limpieza del equipo.</span></div>\n<div><span style=\"font-size:14px\">Refrigeración por tiro forzado con circulación de aire optimizada.</span></div>\n<div><span style=\"font-size:14px\">Guías internas incluidas para bandejas GN1/1</span></div>\n<div><span style=\"font-size:14px\">Control digital de programación y temperatura.</span></div>\n<div><span style=\"font-size:14px\">Tiene 4 patas de soporte ajustables de acero inoxidable.</span></div>\n<div><span style=\"font-size:14px\">Medido de temperatura o termómetro digital.</span><br/>\n<span style=\"font-size:14px\">Compresor fabricado en francia de alta capacidad.<br/>\r\nAccesorios:<br/>\r\nRuedas +135€</span><br/>\n<span style=\"color:#FF0000\"><span style=\"font-size:16px\"><strong></strong></span></span>\n<h1><span style=\"font-size:20px\"><strong>¿Tienes dudas? LLámanos sin compromiso <a href=\"tel:+34\"></a></strong></span></h1>\n</div>\n</div>\n</li>\n<li>\n<p class=\"avisoModificaciones\">ENVÍOS GRATIS A TODA LA PENÍNSULA, ¿TIENES DUDAS? LLÁMANOS SIN COMPROMISO <a href=\"tel:+34951492842\">951492842</a>.</p></li>\n</ul>",
-    "seccion": "frio"
+    "seccion": "frio",
+    "familia": "abatidores",
+    "bandejas": 10
   },
   {
     "codigo": "ARB600ML",
-    "nombre": "ARMARIOS BLANCOS SERIE M REFRIGERACION/CONGELACION FONDO 730mm",
+    "nombre": "ARMARIO BLANCO SERIE M REFRIGERACION/CONGELACION FONDO 730mm",
     "precioFinal": 803,
     "id": 1020,
     "imagen": "https://img.freepik.com/vector-gratis/esquema-color-rayo_78370-517.jpg",
     "precioSIVA": 730,
-    "seccion": "frio"
+    "seccion": "frio",
+    "familia":"armarios",
+    "tipo":"congelacion",
+    "color":"blanco",
+    "medida":730
   },
   {
     "codigo": "ACB600ML",
-    "nombre": "ARMARIOS BLANCOS SERIE M REFRIGERACION/CONGELACION FONDO 730mm",
+    "nombre": "ARMARIO BLANCO SERIE M REFRIGERACION/CONGELACION FONDO 730mm",
     "precioFinal": 957,
     "id": 1021,
     "imagen": "https://img.freepik.com/vector-gratis/esquema-color-rayo_78370-517.jpg",
     "precioSIVA": 870,
-    "seccion": "frio"
+    "seccion": "frio",
+    "familia":"armarios",
+    "tipo":"congelacion",
+    "color":"blanco",
+    "medida":730
   },
   {
     "codigo": "ARB400ML",
-    "nombre": "ARMARIOS BLANCOS SERIE M REFRIGERACION/CONGELACION FONDO 600mm",
+    "nombre": "ARMARIO BLANCO SERIE M REFRIGERACION/CONGELACION FONDO 600mm",
     "precioFinal": 687.5,
     "id": 1022,
     "imagen": "https://img.freepik.com/vector-gratis/esquema-color-rayo_78370-517.jpg",
     "precioSIVA": 625,
-    "seccion": "frio"
+    "seccion": "frio",
+    "familia":"armarios",
+    "tipo":"congelacion",
+    "color":"blanco",
+    "medida":600
   },
   {
     "codigo": "ACB400ML",
-    "nombre": "ARMARIOS BLANCOS SERIE M REFRIGERACION/CONGELACION FONDO 600mm",
+    "nombre": "ARMARIO BLANCO SERIE M REFRIGERACION/CONGELACION FONDO 600mm",
     "precioFinal": 774.4,
     "id": 1023,
     "imagen": "https://img.freepik.com/vector-gratis/esquema-color-rayo_78370-517.jpg",
     "precioSIVA": 704,
-    "seccion": "frio"
+    "seccion": "frio",
+    "familia":"armarios",
+    "tipo":"congelacion",
+    "color":"blanco",
+    "medida":600
   },
   {
     "codigo": "AR600ML",
-    "nombre": "ARMARIOS DE ACERO INOX SERIE M REFRIGERACION/CONGELACION FONDO 730mm",
+    "nombre": "ARMARIO DE ACERO INOX SERIE M REFRIGERACION/CONGELACION FONDO 730mm",
     "precioFinal": 891,
     "id": 1024,
     "imagen": [
@@ -232,11 +297,15 @@
     ],
     "precioSIVA": 810,
     "descripcion": "<ul class=\"list\" id=\"descripcionmovil\">\n<p class=\"ache3-negro\">Descripción</p>\n<li><div><strong>Armario de acero inoxidable</strong>, <strong>Serie M. </strong>Fabricado con <strong>materiales de alta calidad para una excelente conservación de los alimentos</strong>. Fácil limpieza y mantenimiento por el usuario. <br/>\n<br/>\n<strong>Datos técnicos:</strong><br/>\n<br/>\r\nVoltaje: 220v <br/>\r\nPotencia: 0,35Kw<br/>\r\nTemperatura: +0° / +10°C<br/>\r\nRefrigeracion: Ventilada<br/>\r\nCapaciadad: 600 litros<br/>\r\nPuertas: 1 <br/>\r\nParrillas: 6<br/>\n<br/>\n<strong>Características: </strong><br/>\n<br/>\n<strong>- Fondo de 735 mm.<br/>\r\n- Dotado parrillas, ajustables </strong>para un almacenaje personalizado y adecuado a cada usuario<br/>\n<strong>- Tirador fusionados a las puertas, lo que proporciona más durabilidad y facilidad al usuario.</strong><strong> </strong><br/>\r\n- <strong>Fabicados exteriormente en acero inoxidable de alta calidad que garantiza su durabilidad y rendimiento</strong>. <br/>\r\n- Interior en ABS pintado en blanco.<br/>\r\n- <strong>Aislamiento de poliuretano inyectado a alta presion</strong>, que garantiza un <strong>mejor rendimiento energetic</strong>o.<br/>\r\n- <strong>Termostato digital y regulable, con display.</strong> <br/>\r\n- <strong>Indicador de temperatura y descongelamiento</strong> controlado electrónicamente.<br/>\r\n- <strong>Sistema de enfriamiento asistido por ventilador</strong>, para reciclar la temperatura interna, y <strong>evitar un mayor consumo energetico</strong>.<br/>\r\n- <strong>Desescarche automatico en refrigeracion y manual en congelacion</strong>.<br/>\r\n- <strong>Puerta abatible con cerradura</strong> (de serie).<br/>\n<strong>- Bisagras de puerta irrompibles.</strong><br/>\n<br/>\r\nNOTA: Posibilidad de colocar hasta un máximo de 13 cajones en Modelo AC600ML.<br/>\r\n <br/>\n<span style=\"color:#FF0000\"><span style=\"font-size:18px\"><strong>ENVÍOS GRATIS A PENÍNSULA</strong></span></span>\n<h1><span style=\"font-size:20px\"><strong></strong><strong><a href=\"tel:+34\"></a></strong></span></h1>\n<br/>\n<br/>\r\n </div>\n</li>\n<li>\n<p class=\"avisoModificaciones\">ENVÍOS GRATIS A TODA LA PENÍNSULA, ¿TIENES DUDAS? LLÁMANOS SIN COMPROMISO <a href=\"tel:+34951492842\">951492842</a>.</p></li>\n</ul>",
-    "seccion": "frio"
+    "seccion": "frio",
+    "familia":"armarios",
+    "tipo":"congelacion",
+    "color":"acero",
+    "medida":730
   },
   {
     "codigo": "AC600ML",
-    "nombre": "ARMARIOS DE ACERO INOX SERIE M REFRIGERACION/CONGELACION FONDO 730mm",
+    "nombre": "ARMARIO DE ACERO INOX SERIE M REFRIGERACION/CONGELACION FONDO 730mm",
     "precioFinal": 1045,
     "id": 1025,
     "imagen": [
@@ -246,11 +315,15 @@
     ],
     "precioSIVA": 950,
     "descripcion": "<ul class=\"list\" id=\"descripcionmovil\">\n<p class=\"ache3-negro\">Descripción</p>\n<li><strong>Armario de acero inoxidable de congelación</strong>, <strong>Serie M. </strong>Fabricado con <strong>materiales de alta calidad para una excelente conservación de los alimentos</strong>. Fácil limpieza y mantenimiento por el usuario. <br/>\n<br/>\n<strong>Datos técnicos:</strong><br/>\n<br/>\r\nVoltaje: 220v <br/>\r\nPotencia: 0,60Kw<br/>\r\nTemperatura: -10° / -25°C<br/>\r\nRefrigeracion: Estatica<br/>\r\nCapaciadad: 600 litros<br/>\r\nPuertas: 1 <br/>\r\nParrillas: 6<br/>\n<br/>\r\nNota.Posibilidad de colocar hasta un máximo de 13 cajones en Modelo AC600ML.<br/>\n<br/>\n<strong>Características:</strong><br/>\n<br/>\n<strong>- Fondo de 730 mm.<br/>\r\n- Dotado de parrillas ajustables </strong>para un almacenaje personalizado y adecuado a cada usuario<br/>\n<strong>- Tirador fusionados a las puertas, lo que proporciona más durabilidad y facilidad al usuario.</strong><strong> </strong><br/>\r\n- <strong>Fabicados exteriormente en acero inoxidable de alta calidad que garantiza su durabilidad y rendimiento</strong>. <br/>\r\n- Interior en ABS pintado en blanco.<br/>\r\n- <strong>Aislamiento de poliuretano inyectado a alta presion</strong>, que garantiza un <strong>mejor rendimiento energetic</strong>o.<br/>\r\n- <strong>Termostato digital y regulable, con display.</strong> <br/>\r\n- <strong>Indicador de temperatura y descongelamiento</strong> controlado electrónicamente.<br/>\r\n- <strong>Sistema de enfriamiento asistido por ventilador</strong>, para reciclar la temperatura interna, y <strong>evitar un mayor consumo energetico</strong>.<br/>\r\n- <strong>Desescarche automatico en refrigeracion y manual en congelacion</strong>.<br/>\r\n- <strong>Puerta abatible con cerradura</strong> (de serie).<br/>\n<strong>- Bisagras de puerta irrompibles.</strong><br/>\r\n <br/>\n<span style=\"color:#FF0000\"><span style=\"font-size:18px\"><strong>ENVÍOS GRATIS A PENÍNSULA</strong></span></span>\n<h1><span style=\"font-size:20px\"><strong></strong><strong><a href=\"tel:+34\"></a></strong></span></h1>\n</li>\n<li>\n<p class=\"avisoModificaciones\">ENVÍOS GRATIS A TODA LA PENÍNSULA, ¿TIENES DUDAS? LLÁMANOS SIN COMPROMISO <a href=\"tel:+34951492842\">951492842</a>.</p></li>\n</ul>",
-    "seccion": "frio"
+    "seccion": "frio",
+    "familia":"armarios",
+    "tipo":"congelacion",
+    "color":"acero",
+    "medida":730
   },
   {
     "codigo": "AR400ML",
-    "nombre": "ARMARIOS DE ACERO INOX SERIE M REFRIGERACION/CONGELACION FONDO 600mm",
+    "nombre": "ARMARIO DE ACERO INOX SERIE M REFRIGERACION/CONGELACION FONDO 600mm",
     "precioFinal": 775.5,
     "id": 1026,
     "imagen": [
@@ -259,17 +332,25 @@
     ],
     "precioSIVA": 705,
     "descripcion": "<ul class=\"list\" id=\"descripcionmovil\">\n<p class=\"ache3-negro\">Descripción</p>\n<li><strong>Armario de acero inoxidable</strong>, <strong>Serie M. </strong>Fabricado con <strong>materiales de alta calidad para una excelente conservación de los alimentos</strong>. Fácil limpieza y mantenimiento por el usuario. <br/>\r\n <br/>\n<strong>Datos técnicos:</strong><br/>\n<br/>\r\nVoltaje: 220v <br/>\r\nPotencia: 0,18Kw<br/>\r\nTemperatura: +0° / +10°C<br/>\r\nRefrigeracion: Ventilada<br/>\r\nCapaciadad: 400 litros<br/>\r\nPuertas: 1 <br/>\r\nParrillas: 6<br/>\r\n <br/>\n<strong>Características:</strong><br/>\n<br/>\n<strong>- Fondo de 735 mm.<br/>\r\n- Dotado de parrillas ajustables </strong>para un almacenaje personalizado y adecuado a cada usuario<br/>\n<strong>- Tirador fusionados a las puertas, lo que proporciona más durabilidad y facilidad al usuario.</strong><strong> </strong><br/>\r\n- <strong>Fabicados exteriormente en acero inoxidable de alta calidad que garantiza su durabilidad y rendimiento</strong>. <br/>\r\n- Interior en ABS pintado en blanco.<br/>\r\n- <strong>Aislamiento de poliuretano inyectado a alta presion</strong>, que garantiza un <strong>mejor rendimiento energetic</strong>o.<br/>\r\n- <strong>Termostato digital y regulable, con display.</strong> <br/>\r\n- <strong>Indicador de temperatura y descongelamiento</strong> controlado electrónicamente.<br/>\r\n- <strong>Sistema de enfriamiento asistido por ventilador</strong>, para reciclar la temperatura interna, y <strong>evitar un mayor consumo energetico</strong>.<br/>\r\n- <strong>Desescarche automatico en refrigeracion y manual en congelacion</strong>.<br/>\r\n- <strong>Puerta abatible con cerradura</strong> (de serie).<br/>\n<strong>- Bisagras de puerta irrompibles.</strong><br/>\r\n <br/>\n<strong><span style=\"color:#FF0000\"><span style=\"font-size:18px\">ENVÍOS GRATIS A PENÍNSULA</span></span></strong>\n<h1><span style=\"font-size:20px\"><strong></strong><strong><a href=\"tel:+34\"></a></strong></span></h1>\n<br/>\r\n </li>\n<li>\n<p class=\"avisoModificaciones\">ENVÍOS GRATIS A TODA LA PENÍNSULA, ¿TIENES DUDAS? LLÁMANOS SIN COMPROMISO <a href=\"tel:+34951492842\">951492842</a>.</p></li>\n</ul>",
-    "seccion": "frio"
+    "seccion": "frio",
+    "familia":"armarios",
+    "tipo":"congelacion",
+    "color":"acero",
+    "medida":600
   },
   {
     "codigo": "AC400ML",
-    "nombre": "ARMARIOS DE ACERO INOX SERIE M REFRIGERACION/CONGELACION FONDO 600mm",
+    "nombre": "ARMARIO DE ACERO INOX SERIE M REFRIGERACION/CONGELACION FONDO 600mm",
     "precioFinal": 862.4,
     "id": 1027,
     "imagen": "../utils/images/carpeta_de_imagenes/AC400ML/320264AC400ML.png",
     "precioSIVA": 784,
     "descripcion": "<ul class=\"list\" id=\"descripcionmovil\">\n<p class=\"ache3-negro\">Descripción</p>\n<li><strong>Armario de acero inoxidable de refrigeración/congelación</strong>, <strong>Serie M. </strong>Fabricado con <strong>materiales de alta calidad para una excelente conservación de los alimentos</strong>. Fácil limpieza y mantenimiento por el usuario. <br/>\n<br/>\n<strong>Datos técnicos:</strong><br/>\n<br/>\r\nVoltaje: 220v <br/>\r\nPotencia: 0,75Kw<br/>\r\nTemperatura: -10° / -25°C<br/>\r\nRefrigeracion: Estatica<br/>\r\nCapaciadad: 400 litros<br/>\r\nPuertas: 1 <br/>\r\nParrillas: 6<br/>\r\n <br/>\n<strong>Características:</strong><br/>\n<br/>\n<strong>- Fondo de 600 mm.<br/>\r\n- Dotado de parrillas ajustables </strong>para un almacenaje personalizado y adecuado a cada usuario<br/>\n<strong>- Tirador fusionados a las puertas, lo que proporciona más durabilidad y facilidad al usuario.</strong><strong> </strong><br/>\r\n- <strong>Fabicados exteriormente en acero inoxidable de alta calidad que garantiza su durabilidad y rendimiento</strong>. <br/>\r\n- Interior en ABS pintado en blanco.<br/>\r\n- <strong>Aislamiento de poliuretano inyectado a alta presion</strong>, que garantiza un <strong>mejor rendimiento energetic</strong>o.<br/>\r\n- <strong>Termostato digital y regulable, con display.</strong> <br/>\r\n- <strong>Indicador de temperatura y descongelamiento</strong> controlado electrónicamente.<br/>\r\n- <strong>Sistema de enfriamiento asistido por ventilador</strong>, para reciclar la temperatura interna, y <strong>evitar un mayor consumo energetico</strong>.<br/>\r\n- <strong>Desescarche automatico en refrigeracion y manual en congelacion</strong>.<br/>\r\n- <strong>Puerta abatible con cerradura</strong> (de serie).<br/>\n<strong>- Bisagras de puerta irrompibles.</strong><br/>\r\n <br/>\n<span style=\"color:#FF0000\"><span style=\"font-size:18px\"><strong>ENVÍOS GRATIS A PENÍNSULA</strong></span></span>\n<h1><span style=\"font-size:20px\"><strong></strong><strong><a href=\"tel:+34\"></a></strong></span></h1>\n<br/>\r\n </li>\n<li>\n<p class=\"avisoModificaciones\">ENVÍOS GRATIS A TODA LA PENÍNSULA, ¿TIENES DUDAS? LLÁMANOS SIN COMPROMISO <a href=\"tel:+34951492842\">951492842</a>.</p></li>\n</ul>",
-    "seccion": "frio"
+    "seccion": "frio",
+    "familia":"armarios",
+    "tipo":"congelacion",
+    "color":"acero",
+    "medida":600
   },
   {
     "codigo": "BAI100JT",
@@ -279,7 +360,9 @@
     "imagen": "../utils/images/carpeta_de_imagenes/BAI100JT/983470BAI100JT.jpg",
     "precioSIVA": 539,
     "descripcion": "<ul class=\"list\" id=\"descripcionmovil\">\n<p class=\"ache3-negro\">Descripción</p>\n<li><span style=\"font-size:14px\"><strong>Botellero de acero inoxidable <br/>\n<br/>\r\nEspecificaciones téncicas: </strong></span><br/>\n<br/>\n<strong><span style=\"font-size:14px\">Voltaje:</span></strong><span style=\"font-size:14px\"> 220v – 50 Hz<br/>\n<strong>Potencia:</strong> 0,21 Kw<br/>\n<strong>Temperatura:</strong> 0°/+8°<br/>\n<strong>Refrigeración:</strong> Estática<br/>\n<strong>Capacidad:</strong> 264 litros<br/>\n<strong>Puertas:</strong> 2<br/>\n<strong>Medidas externas:</strong> 1000x579x862 mm<br/>\n<strong>Peso:</strong> 55 Kg</span></li>\n<li>\n<p class=\"avisoModificaciones\">ENVÍOS GRATIS A TODA LA PENÍNSULA, ¿TIENES DUDAS? LLÁMANOS SIN COMPROMISO <a href=\"tel:+34951492842\">951492842</a>.</p></li>\n</ul>",
-    "seccion": "frio"
+    "seccion": "frio",
+    "familia" : "botelleros",
+    "medida" : 1000
   },
   {
     "codigo": "BAI150JT",
@@ -289,7 +372,9 @@
     "imagen": "../utils/images/carpeta_de_imagenes/BAI150JT/230116BAI150JT.jpg",
     "precioSIVA": 643,
     "descripcion": "<ul class=\"list\" id=\"descripcionmovil\">\n<p class=\"ache3-negro\">Descripción</p>\n<li><span style=\"font-size:14px\"><strong>Botellero de acero inoxidable refrigerado</strong> de 1500 mm<br/>\n<br/>\n<strong>Especificaciones técnicas:</strong></span><br/>\n<br/>\n<strong><span style=\"font-size:14px\">Voltaje:</span></strong><span style=\"font-size:14px\"> 220v – 50 Hz<br/>\n<strong>Potencia:</strong> 0,29 Kw<br/>\n<strong>Temperatura:</strong> 0°/+8°<br/>\n<strong>Refrigeración:</strong> Estática<br/>\n<strong>Capacidad:</strong> 438 litros<br/>\n<strong>Puertas:</strong> 3<br/>\n<strong>Medidas externas:</strong> 1500x579x862 mm<br/>\n<strong>Peso:</strong> 72 Kg</span></li>\n<li>\n<p class=\"avisoModificaciones\">ENVÍOS GRATIS A TODA LA PENÍNSULA, ¿TIENES DUDAS? LLÁMANOS SIN COMPROMISO <a href=\"tel:+34951492842\">951492842</a>.</p></li>\n</ul>",
-    "seccion": "frio"
+    "seccion": "frio",
+    "familia" : "botelleros",
+    "medida" : 1500
   },
   {
     "codigo": "BAI200JT",
@@ -299,7 +384,9 @@
     "imagen": "../utils/images/carpeta_de_imagenes/BAI200JT/422139BAI200JT.jpg",
     "precioSIVA": 1066,
     "descripcion": "<ul class=\"list\" id=\"descripcionmovil\">\n<p class=\"ache3-negro\">Descripción</p>\n<li><span style=\"font-size:14px\"><strong>Botellero de acero inoxidable refrigerado</strong> de 2000 mm<br/>\n<br/>\n<strong>Especifiaciones técnicas: </strong><br/>\n<strong>Voltaje:</strong> 220v – 50 Hz<br/>\n<strong>Potencia:</strong> 0,33 Kw<br/>\n<strong>Temperatura:</strong> 0°/+8°<br/>\n<strong>Refrigeración:</strong> Estática<br/>\n<strong>Capacidad:</strong> 612 litros<br/>\n<strong>Puertas:</strong> 4<br/>\n<strong>Medidas externas:</strong> 2000x579x862 mm<br/>\n<strong>Peso:</strong> 86,5 Kg</span></li>\n<li>\n<p class=\"avisoModificaciones\">ENVÍOS GRATIS A TODA LA PENÍNSULA, ¿TIENES DUDAS? LLÁMANOS SIN COMPROMISO <a href=\"tel:+34951492842\">951492842</a>.</p></li>\n</ul>",
-    "seccion": "frio"
+    "seccion": "frio",
+    "familia" : "botelleros",
+    "medida" : 2000
   },
   {
     "codigo": "MP155MML",
@@ -308,7 +395,9 @@
     "id": 1031,
     "imagen": "https://img.freepik.com/vector-gratis/esquema-color-rayo_78370-517.jpg",
     "precioSIVA": 996,
-    "seccion": "frio"
+    "seccion": "frio",
+    "familia":"mesas refrigeradas",
+    "vitrina":false
   },
   {
     "codigo": "MP155MML-VI",
@@ -317,7 +406,9 @@
     "id": 1032,
     "imagen": "https://img.freepik.com/vector-gratis/esquema-color-rayo_78370-517.jpg",
     "precioSIVA": 1400,
-    "seccion": "frio"
+    "seccion": "frio",
+    "familia":"mesas refrigeradas",
+    "vitrina":true
   },
   {
     "codigo": "ADRE400VTE",
@@ -331,7 +422,10 @@
     ],
     "precioSIVA": 525,
     "descripcion": "<ul class=\"list\" id=\"descripcionmovil\">\n<p class=\"ache3-negro\">Descripción</p>\n<li><span style=\"font-size:14px\"><strong>Armarios expositor refrigerador de 1 puerta, Serie Estándar.  (LATERALES COLOR NEGRO)</strong>Fabricado con materiales de calidad que le aportan un <strong>máximo rendimiento y durabilidad</strong>.<strong> P</strong>erfecto para una adecuada exposición de alimentos, bebidas o cualquier producto que necesite una <strong>correcta temperartura.</strong> Fácil limpieza y mantenimiento para el usuario.<br/>\n<br/>\n<strong>Datos técnicos: </strong><br/>\n<br/>\r\nVoltaje: 220v - 50 Hz</span>\n<div><span style=\"font-size:14px\">Potencia: 0,20 Kw</span></div>\n<div><span style=\"font-size:14px\">Temperatura: +2° / +8°C</span></div>\n<div><span style=\"font-size:14px\">Refrigeracion: Ventilada</span></div>\n<div><span style=\"font-size:14px\">Capaciadad: 388 litros</span></div>\n<div><span style=\"font-size:14px\">Parrillias: 4</span></div>\n<div><span style=\"font-size:14px\">Puertas: 1 Abatible</span></div>\n<div><span style=\"font-size:14px\">Medidas externas: 590x536x1930 mm</span></div>\n<span style=\"font-size:14px\"> Peso: 50 Kg<br/>\n<br/>\n<br/>\n<strong>Características:</strong><br/>\n<br/>\r\n- Armario expositor de refrigeración Serie Standard  que demuestra su gran potencia y sostiene un rendimiento muy eficaz.<br/>\r\n- <strong>Puertas de cristal doble templado</strong>, con sistema anti condensación, <strong>cierre automático</strong>, cerradura con llave, con <strong>apertura pivotante</strong>.<br/>\r\n- <strong>Estantería ajustable plastificada</strong>, para lograr las diferentes alturas deseadas y <strong>aprovechar al máximo el espacio interior</strong> del armario.<br/>\r\n- <strong>Iluminación interna vertical</strong>, que permite visualizar todo el armario en su interior correctamente.<br/>\r\n- <strong>Marco de puertas en ABS</strong>, con <strong>tirador embutido</strong> para un grato contacto para el consumidor.<br/>\r\n- <strong>Exterior en chapa de acero laqueado color negro</strong> anticorrosivo de calidad.<br/>\r\n-<strong> Interior en chapa laqueada color blanco</strong>, lo que permite que la iluminación interior sea más uniforme y refleje con mayor énfasis en su interior, con esto se logra una <strong>correcta visualización de los productos</strong>. <br/>\r\n- <strong>Aislamiento de poliuretano </strong>inyectado a alta presión, que garantiza un mejor rendimiento energético.<br/>\r\n- <strong>Dispone de ruedas</strong>, para <strong>facilitar su movimiento y manipulación</strong> aun estando lleno de productos.<br/>\r\n- <strong>Termostato digital</strong> y <strong>regulable </strong>que permite <strong>aprovechar al máximo los recursos energéticos</strong>, y ajustarlo a la temperatura deseada.<br/>\r\n- <strong>Sistema de enfriamiento asistido por ventilador</strong>, para reciclar la temperatura interna y <strong>evitar un mayor consumo energético.<br/>\n<img alt=\"\" src=\"http://www.maquinariayhosteleria.es//ckfinder/userfiles/images/evaporador-termostatodigital.jpg\" style=\"width:100%\"/></strong></span></li>\n<li>\n<p class=\"avisoModificaciones\">ENVÍOS GRATIS A TODA LA PENÍNSULA, ¿TIENES DUDAS? LLÁMANOS SIN COMPROMISO <a href=\"tel:+34951492842\">951492842</a>.</p></li>\n</ul>",
-    "seccion": "frio"
+    "seccion": "frio",
+    "familia":"armarios",
+    "tipo":"expositor",
+    "puertas": 1
   },
   {
     "codigo": "ADRE1000VTE",
@@ -344,7 +438,10 @@
     ],
     "precioSIVA": 1050,
     "descripcion": "<ul class=\"list\" id=\"descripcionmovil\">\n<p class=\"ache3-negro\">Descripción</p>\n<li><div style=\"text-align: justify;\"><strong>Armarios Expositores de Refrigeración, Serie Estándar (LATERALES EN NEGRO)</strong>fabricado con <strong>materiales de calidad</strong> que aportan un alto <strong>rendimiento </strong>y <strong>durabilidad</strong>. Tendrás todo lo que necesitas para almacenar tus productos de forma ordenada, eficaz y con grato contacto para el consumidor a un buen precio. <strong>Fácil limpieza y mantenimiento</strong> para el usuario.<br/>\n<br/>\n<strong>Datos técnicos:</strong><br/>\r\n </div>\n<div style=\"text-align: justify;\">Voltaje: 220v - 50 Hz</div>\n<div style=\"text-align: justify;\">Potencia: 0,23 Kw</div>\n<div style=\"text-align: justify;\">Temperatura: +2° / +8°C</div>\n<div style=\"text-align: justify;\">Refrigeracion: Ventilada</div>\n<div style=\"text-align: justify;\">Capaciadad: 600 litros</div>\n<div style=\"text-align: justify;\">Parrillias: 4</div>\n<div style=\"text-align: justify;\">Puertas: 2 Abatibles</div>\n<div style=\"text-align: justify;\">Medidas externas: 1195X560X1945 mm</div>\n<div style=\"text-align: justify;\">Peso: 80 Kg</div>\n<div style=\"text-align: justify;\"><br/>\r\nCon Evaporador y termostato digital.<br/>\n<br/>\n<br/>\r\n <br/>\n<strong>Características:</strong><br/>\n<br/>\r\n- <strong>Armario expositor refrigerador de serie Standard</strong>, que demuestra su <strong>gran potencia</strong> y sostiene un <strong>rendimiento muy eficaz</strong>.<br/>\r\n- Puertas de <strong>cristal doble templado,</strong> con sistema <strong>anticondensación </strong>que permite la perfecta visualización del producto, con <strong>cierre automático</strong>, cerradura con llave, con <strong>apertura pivotante</strong>. <br/>\r\n- <strong>Estantería ajustable plastificada </strong>que permite<strong> </strong>lograr las diferentes alturas deseadas y aprovechar al máximo el espacio interior. <br/>\r\n- Iluminación interna vertical, que permite la <strong>perfecta visualización del producto en cada estante</strong>.<br/>\r\n- Marco de <strong>puertas en ABS</strong>, con tirador embutido para un grato contacto para el consumidor.<br/>\r\n- Interior en <strong>chapa laqueada color blanco</strong>, lo que permite que la <strong>iluminación interior sea más uniforme</strong> y refleje con mayor énfasis en su interior.<br/>\r\n- <strong>Aislamiento de poliuretano</strong> inyectado a alta presión, que garantiza un <strong>mejor rendimiento energético</strong>.<br/>\r\n- Dispone de <strong>ruedas, </strong>para <strong>facilitar su manipulación. </strong><br/>\r\n-<strong> Evaporador y termostato</strong> mecánico que permite <strong>aprovechar al máximo los recursos energéticos</strong>, y regulable para ajustarlo a la temperatura deseada.<br/>\r\n- Sistema de <strong>enfriamiento asistido por ventilador</strong>, para reciclar la temperatura interna y <strong>evitar un mayor consumo energético.</strong><br/>\n<br/>\n<span style=\"color:#FF0000\"><span style=\"font-size:18px\"><strong></strong></span></span>\n<h1><span style=\"font-size:20px\"><strong></strong><strong><a href=\"tel:+34\"></a></strong></span></h1>\n</div>\n</li>\n<li>\n<p class=\"avisoModificaciones\">ENVÍOS GRATIS A TODA LA PENÍNSULA, ¿TIENES DUDAS? LLÁMANOS SIN COMPROMISO <a href=\"tel:+34951492842\">951492842</a>.</p></li>\n</ul>",
-    "seccion": "frio"
+    "seccion": "frio",
+    "familia":"armarios",
+    "tipo":"expositor",
+    "puertas": 2
   },
   {
     "codigo": "ADRE1600VTE",
@@ -357,7 +454,10 @@
     ],
     "precioSIVA": 1850,
     "descripcion": "<ul class=\"list\" id=\"descripcionmovil\">\n<p class=\"ache3-negro\">Descripción</p>\n<li><strong>Armarios Expositores de Refrigeración (LATERALES EN NEGRO)</strong> de 3 puertas Serie Estandar con <strong>materiales de calidad</strong> que aportan un alto <strong>rendimiento </strong>y <strong>durabilidad</strong>. Tendrás todo lo que necesitas para almacenar tus productos de forma ordenada, eficaz y con grato contacto para el consumidor a un buen precio. <strong>Fácil limpieza y mantenimiento</strong> para el usuario. <br/>\n<br/>\n<strong>Datos técnicos:</strong><br/>\n<br/>\r\nVoltaje: 220v - 50 Hz\r\n<div>Potencia: 0,31 Kw</div>\n<div>Temperatura: +2° / +8°C</div>\n<div>Refrigeracion: Ventilada</div>\n<div>Capaciadad: 1000 litros</div>\n<div>Parrillias: 4</div>\n<div>Puertas: 3 Abatibles</div>\n<div>Medidas internas: 1700x500x1230 mm</div>\n<div>Medidas externas: 1800x580x1950 mm</div>\n<div>Peso: 120 Kg</div>\r\nCon Evaporador y termostato digital.<br/>\r\n <br/>\n<em>Nuestra serie económica, diseñada para poder ofrecer soluciones con gran fiabilidad y profesionalidad.</em><br/>\r\n <br/>\n<strong>Características:</strong><br/>\n<br/>\r\n- Puertas de <strong>cristal doble templado,</strong> con sistema <strong>anticondensación </strong>que permite la perfecta visualización del producto, con <strong>cierre automático</strong>, cerradura con llave, con <strong>apertura pivotante</strong>. (Salvo modelo ADREC1000VT, que lleva sistema de apertura corredera).<br/>\r\n- <strong>Estantería ajustable plastificada </strong>que permite<strong> </strong>lograr las diferentes alturas deseadas y aprovechar al máximo el espacio interior. <br/>\r\n- Iluminación interna vertical, que permite la perfecta visualización del producto en cada estante.<br/>\r\n- Marco de <strong>puertas en ABS</strong>, con tirador embutido para un grato contacto para el consumidor.<br/>\r\n- Exterior en <strong>chapa de acero laqueado</strong>, color negro <strong>anticorrosivo</strong>.<br/>\r\n- Interior en chapa laqueada color blanco, lo que permite que la <strong>iluminación interior sea más uniforme</strong> y refleje con mayor énfasis en su interior.<br/>\r\n- Aislamiento de poliuretano inyectado a alta presión, que garantiza un <strong>mejor rendimiento energético</strong>.<br/>\r\n- Dispone de <strong>ruedas, </strong>para <strong>facilitar su manipulación. </strong><br/>\r\n- <strong>Termostato</strong> mecánico que permite <strong>aprovechar al máximo los recursos energéticos</strong>, y regulable para ajustarlo a la temperatura deseada.<br/>\r\n- Sistema de <strong>enfriamiento asistido por ventilador</strong>, para reciclar la temperatura interna y <strong>evitar un mayor consumo energético.</strong><br/>\n<br/>\n<span style=\"color:#FF0000\"><span style=\"font-size:18px\"><strong></strong></span></span>\n<h1><span style=\"font-size:20px\"><strong></strong><strong><a href=\"tel:+34\"></a></strong></span></h1>\n<br/>\r\n </li>\n<li>\n<p class=\"avisoModificaciones\">ENVÍOS GRATIS A TODA LA PENÍNSULA, ¿TIENES DUDAS? LLÁMANOS SIN COMPROMISO <a href=\"tel:+34951492842\">951492842</a>.</p></li>\n</ul>",
-    "seccion": "frio"
+    "seccion": "frio",
+    "familia":"armarios",
+    "tipo":"expositor",
+    "puertas": 3
   },
   {
     "codigo": "ADRE2000VTE",
@@ -366,7 +466,10 @@
     "id": 1036,
     "imagen": "https://img.freepik.com/vector-gratis/esquema-color-rayo_78370-517.jpg",
     "precioSIVA": 2100,
-    "seccion": "frio"
+    "seccion": "frio",
+    "familia":"armarios",
+    "tipo":"expositor",
+    "puertas": 3
   },
   {
     "codigo": "ADRE2200VTE",
@@ -375,7 +478,10 @@
     "id": 1037,
     "imagen": "https://img.freepik.com/vector-gratis/esquema-color-rayo_78370-517.jpg",
     "precioSIVA": 2390,
-    "seccion": "frio"
+    "seccion": "frio",
+    "familia":"armarios",
+    "tipo":"expositor",
+    "puertas": 3
   },
   {
     "codigo": "ADRE2500VTE",
@@ -384,7 +490,10 @@
     "id": 1038,
     "imagen": "https://img.freepik.com/vector-gratis/esquema-color-rayo_78370-517.jpg",
     "precioSIVA": 2590,
-    "seccion": "frio"
+    "seccion": "frio",
+    "familia":"armarios",
+    "tipo":"expositor",
+    "puertas": 5
   },
   {
     "codigo": "AC145QH",
@@ -394,7 +503,9 @@
     "imagen": "../utils/images/carpeta_de_imagenes/AC145QH/663264BD-418L.png",
     "precioSIVA": 510,
     "descripcion": "<ul class=\"list\" id=\"descripcionmovil\">\n<p class=\"ache3-negro\">Descripción</p>\n<li><span style=\"font-size:14px\">Esta <strong>arcón congelador</strong> <strong>de 1450 mm </strong>cuenta con un <strong>exterior en chapa de acero</strong> y está <strong>plastificada de color blanco anticorrosivo</strong>. Además, cuenta con <strong>ailsamiento de poliuretano</strong> inyectado a alta presión, garantizando así un <strong>mejor rendimiento energético</strong>. Incluye un<strong> termostato análogico</strong> con el que puedes ajustar distintos niveles de temperatura. y un<strong> indicador de encendido LED</strong>.<br/>\n<br/>\n<strong>Datos técnicos:</strong></span>\n<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"width:312px\">\n<tbody>\n<tr>\n<td><span style=\"font-size:14px\">Voltaje:</span></td>\n<td> </td>\n<td><span style=\"font-size:14px\">220v - 50 Hz</span></td>\n</tr>\n<tr>\n<td><span style=\"font-size:14px\">Potencia:</span></td>\n<td> </td>\n<td><span style=\"font-size:14px\">0,23 Kw</span></td>\n</tr>\n<tr>\n<td><span style=\"font-size:14px\">Temperatura:</span></td>\n<td> </td>\n<td><span style=\"font-size:14px\">-18° / -22°C</span></td>\n</tr>\n<tr>\n<td><span style=\"font-size:14px\">Refrigeracion:</span></td>\n<td> </td>\n<td><span style=\"font-size:14px\">Estatica</span></td>\n</tr>\n<tr>\n<td><span style=\"font-size:14px\">Capaciadad:</span></td>\n<td> </td>\n<td><span style=\"font-size:14px\">418 litros</span></td>\n</tr>\n<tr>\n<td><span style=\"font-size:14px\">Cestas:</span></td>\n<td> </td>\n<td><span style=\"font-size:14px\">1</span></td>\n</tr>\n<tr>\n<td><span style=\"font-size:14px\">Medidas externas:</span></td>\n<td> </td>\n<td><span style=\"font-size:14px\">1450x624x855 mm</span></td>\n</tr>\n<tr>\n<td><span style=\"font-size:14px\">Peso:</span></td>\n<td> </td>\n<td><span style=\"font-size:14px\">66 Kg</span></td>\n</tr>\n</tbody>\n</table>\n<br/>\n<span style=\"font-size:14px\"><strong>Otras Características: </strong><br/>\r\n- <strong>Termostato analógico</strong>, mediante perilla para ajuste de distintos niveles de temperatura.<br/>\r\n- Incluye cerradura con llave. <br/>\r\n- <strong>Alta eficiencia energética</strong> que permite mantener la temperatura en el interior del congelador de manera correcta. <br/>\r\n- <strong>Puerta abatible</strong> con un mecanismo de apertura que facilita mantenerla abierta.<br/>\r\n- Con <strong>ruedas para facilitar el desplazamiento</strong>.<br/>\r\n- <strong>Cestas incluidas</strong> para una mejor distribución de los productos en el interior del <strong>congelador</strong>. </span><br/>\n<br/>\n<span style=\"color:#FF0000\"><span style=\"font-size:16px\"><strong>ENVÍOS GRATIS A TODA LA PENÍNSULA</strong></span></span>\n<h1><span style=\"font-size:20px\"><strong><a href=\"tel:+34\"></a></strong></span></h1>\n</li>\n<li>\n<p class=\"avisoModificaciones\">ENVÍOS GRATIS A TODA LA PENÍNSULA, ¿TIENES DUDAS? LLÁMANOS SIN COMPROMISO <a href=\"tel:+34951492842\">951492842</a>.</p></li>\n</ul>",
-    "seccion": "frio"
+    "seccion": "frio",
+    "familia":"arcones",
+    "medida":1450
   },
   {
     "codigo": "AC180QH",
@@ -404,7 +515,9 @@
     "imagen": "../utils/images/carpeta_de_imagenes/AC180QH/946667ARCON CONGELADOR DE 1800 mm.PNG",
     "precioSIVA": 850,
     "descripcion": "<ul class=\"list\" id=\"descripcionmovil\">\n<p class=\"ache3-negro\">Descripción</p>\n<li><strong>Arcón congelador de 1800mm con 2 puertas abatibles.</strong><br/>\r\n                 <br/>\n<strong>Datos técnicos:</strong><br/>\r\n \r\n<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"width:240px\">\n<tbody>\n<tr>\n<td>Voltaje:</td>\n<td> </td>\n<td>220v - 50 Hz</td>\n</tr>\n<tr>\n<td>Potencia:</td>\n<td> </td>\n<td>0,31 Kw</td>\n</tr>\n<tr>\n<td colspan=\"2\">Temperatura:</td>\n<td>-18° / -22°C</td>\n</tr>\n<tr>\n<td colspan=\"2\">Refrigeracion:</td>\n<td>Estatica</td>\n</tr>\n<tr>\n<td colspan=\"2\">Capaciadad:</td>\n<td>608 litros</td>\n</tr>\n<tr>\n<td>Cestas:</td>\n<td> </td>\n<td>1</td>\n</tr>\n<tr>\n<td colspan=\"2\">Medidas externas:</td>\n<td>1800x674x840 mm</td>\n</tr>\n<tr>\n<td>Peso:</td>\n<td> </td>\n<td>82 Kg</td>\n</tr>\n</tbody>\n</table>\n<br/>\n<strong>Características: </strong><br/>\n<br/>\r\n- <strong>Arcón congelador con exterior en chapa de acero</strong>, plastificada color blanco <strong>anticorrosivo</strong>.<br/>\r\n- Con <strong>aislamiento en poliuretano</strong> inyectado a alta presión para garantizar un mejor funcionamiento y un <strong>buen rendimiento energético</strong>.<br/>\r\n- <strong>Termostato analógico</strong>, mediante perilla para ajuste de distintos niveles de temperatura.<br/>\r\n- Indicador de encendido led.<br/>\r\n- Incluye cerradura con llave. <br/>\r\n- <strong>Alta eficiencia energética</strong> que permite mantener la temperatura en el interior del congelador de manera correcta. <br/>\r\n- 2 <strong>Puertas abatibles</strong> con un mecanismo de apertura que facilita mantenerla abierta.<br/>\r\n- Con <strong>ruedas para facilitar el desplazamiento</strong>.<br/>\r\n- <strong>Cestas incluidas</strong> para una mejor distribución de los productos en el interior del <strong>congelador</strong>. <br/>\n<br/>\n<span style=\"color:#FF0000\"><span style=\"font-size:18px\"><strong>ENVÍOS GRATIS A TODA LA PENÍNSULA</strong></span></span></li>\n<li>\n<p class=\"avisoModificaciones\">ENVÍOS GRATIS A TODA LA PENÍNSULA, ¿TIENES DUDAS? LLÁMANOS SIN COMPROMISO <a href=\"tel:+34951492842\">951492842</a>.</p></li>\n</ul>",
-    "seccion": "frio"
+    "seccion": "frio",
+    "familia":"arcones",
+    "medida":1800
   },
   {
     "codigo": "AC225QH",
@@ -414,7 +527,9 @@
     "imagen": "../utils/images/carpeta_de_imagenes/AC225QH/655664ARCON CONGELADOR DE 2250 mm.PNG",
     "precioSIVA": 1290,
     "descripcion": "<ul class=\"list\" id=\"descripcionmovil\">\n<p class=\"ache3-negro\">Descripción</p>\n<li><strong>ARCON CONGELADOR DE 2250 mm</strong><br/>\n<br/>\n<span style=\"font-size:14px\">Exterior en chapa de acero, plastificada color blanco anticorrosivo.                    <br/>\r\nAislamiento en poliuretano inyectado a alta presión, que garantiza un mejor funcionamiento para obtener un mejor rendimiento energético.                    <br/>\r\nTermostato analogico, mediante perilla para ajuste de distintos niveles de temperatura.                    <br/>\r\nIndicador de encendido led.                    <br/>\r\nLa puerta dispone de un mecanismo de apertura que facilita mantenerla abierta.                    <br/>\r\nCestas incluidas.                    <br/>\n<br/>\n<strong>Datos técnicos:</strong></span><br/>\r\n \r\n<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"width:240px\">\n<tbody>\n<tr>\n<td><span style=\"font-size:14px\">Voltaje:</span></td>\n<td> </td>\n<td><span style=\"font-size:14px\">220v - 50 Hz</span></td>\n</tr>\n<tr>\n<td><span style=\"font-size:14px\">Potencia:</span></td>\n<td> </td>\n<td><span style=\"font-size:14px\">0,35 Kw</span></td>\n</tr>\n<tr>\n<td colspan=\"2\"><span style=\"font-size:14px\">Temperatura:</span></td>\n<td><span style=\"font-size:14px\">-18° / -22°C</span></td>\n</tr>\n<tr>\n<td colspan=\"2\"><span style=\"font-size:14px\">Refrigeracion:</span></td>\n<td><span style=\"font-size:14px\">Estatica</span></td>\n</tr>\n<tr>\n<td colspan=\"2\"><span style=\"font-size:14px\">Capaciadad:</span></td>\n<td><span style=\"font-size:14px\">1008 litros</span></td>\n</tr>\n<tr>\n<td><span style=\"font-size:14px\">Cestas:</span></td>\n<td> </td>\n<td><span style=\"font-size:14px\">2</span></td>\n</tr>\n<tr>\n<td colspan=\"2\"><span style=\"font-size:14px\">Medidas externas:</span></td>\n<td><span style=\"font-size:14px\">2250x900x880 mm</span></td>\n</tr>\n<tr>\n<td><span style=\"font-size:14px\">Peso:</span></td>\n<td> </td>\n<td><span style=\"font-size:14px\">120 Kg</span></td>\n</tr>\n</tbody>\n</table>\n</li>\n<li>\n<p class=\"avisoModificaciones\">ENVÍOS GRATIS A TODA LA PENÍNSULA, ¿TIENES DUDAS? LLÁMANOS SIN COMPROMISO <a href=\"tel:+34951492842\">951492842</a>.</p></li>\n</ul>",
-    "seccion": "frio"
+    "seccion": "frio",
+    "familia":"arcones",
+    "medida":2250
   },
   {
     "codigo": "IC145QH",
@@ -427,7 +542,9 @@
     ],
     "precioSIVA": 620,
     "descripcion": "<ul class=\"list\" id=\"descripcionmovil\">\n<p class=\"ache3-negro\">Descripción</p>\n<li><span style=\"font-size:14px\">Esta <strong>isla de congelados de cristal curvo 1450 mm </strong>cuenta con un <strong>exterior en chapa de acero</strong> y está <strong>plastificada de color blanco anticorrosivo</strong>. Además, cuenta con <strong>ailsamiento de poliuretano</strong> inyectado a alta presión, garantizando así un <strong>mejor rendimiento energético</strong>. Incluye un<strong> termostato análogico</strong> con el que puedes ajustar distintos niveles de temperatura. y un<strong> indicador de encendido LED</strong>.<br/>\n<br/>\n<strong>Datos técnicos:</strong></span>\n<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"width:241px\">\n<tbody>\n<tr>\n<td><span style=\"font-size:14px\">Voltaje:</span></td>\n<td> </td>\n<td><span style=\"font-size:14px\">220v - 50 Hz</span></td>\n</tr>\n<tr>\n<td><span style=\"font-size:14px\">Potencia:</span></td>\n<td> </td>\n<td><span style=\"font-size:14px\">0,32 Kw</span></td>\n</tr>\n<tr>\n<td colspan=\"2\"><span style=\"font-size:14px\">Temperatura:</span></td>\n<td><span style=\"font-size:14px\">-18° / -22°C</span></td>\n</tr>\n<tr>\n<td colspan=\"2\"><span style=\"font-size:14px\">Refrigeracion:</span></td>\n<td><span style=\"font-size:14px\">Estatica</span></td>\n</tr>\n<tr>\n<td colspan=\"2\"><span style=\"font-size:14px\">Capaciadad:</span></td>\n<td><span style=\"font-size:14px\">368 litros</span></td>\n</tr>\n<tr>\n<td><span style=\"font-size:14px\">Cestas:</span></td>\n<td> </td>\n<td><span style=\"font-size:14px\">5</span></td>\n</tr>\n<tr>\n<td colspan=\"2\"><span style=\"font-size:14px\">Medidas externas:</span></td>\n<td><span style=\"font-size:14px\">1450x624x860 mm</span></td>\n</tr>\n<tr>\n<td><span style=\"font-size:14px\">Peso:</span></td>\n<td> </td>\n<td><span style=\"font-size:14px\">65 Kg</span></td>\n</tr>\n</tbody>\n</table>\n<br/>\n<span style=\"font-size:14px\"><strong>Otras características:</strong><br/>\r\nLa puerta dispone de un mecanismo de apertura que facilita mantenerla abierta.<br/>\r\nCestas incluidas.</span><br/>\r\n </li>\n<li>\n<p class=\"avisoModificaciones\">ENVÍOS GRATIS A TODA LA PENÍNSULA, ¿TIENES DUDAS? LLÁMANOS SIN COMPROMISO <a href=\"tel:+34951492842\">951492842</a>.</p></li>\n</ul>",
-    "seccion": "frio"
+    "seccion": "frio",
+    "familia":"islas",
+    "medida":1450
   },
   {
     "codigo": "IC165QH",
@@ -440,7 +557,9 @@
     ],
     "precioSIVA": 960,
     "descripcion": "<ul class=\"list\" id=\"descripcionmovil\">\n<p class=\"ache3-negro\">Descripción</p>\n<li><span style=\"font-size:14px\">Esta <strong>isla de congelados de cristal 1650 mm </strong>cuenta con un <strong>exterior en chapa de acero</strong> y está <strong>plastificada de color blanco anticorrosivo</strong>. Además, cuenta con <strong>ailsamiento de poliuretano</strong> inyectado a alta presión, garantizando así un <strong>mejor rendimiento energético</strong>. Incluye un<strong> termostato análogico</strong> con el que puedes ajustar distintos niveles de temperatura. y un<strong> indicador de encendido LED</strong>.</span><br/>\r\n \r\n<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\">\n<tbody>\n<tr>\n<td><span style=\"font-size:14px\"><strong>Datos técnicos:</strong></span></td>\n<td> </td>\n<td> </td>\n<td> </td>\n</tr>\n<tr>\n<td><span style=\"font-size:14px\">Voltaje:</span></td>\n<td> </td>\n<td><span style=\"font-size:14px\">220v - 50 Hz</span></td>\n<td> </td>\n</tr>\n<tr>\n<td><span style=\"font-size:14px\">Potencia:</span></td>\n<td> </td>\n<td><span style=\"font-size:14px\">0,40 Kw</span></td>\n<td> </td>\n</tr>\n<tr>\n<td><span style=\"font-size:14px\">Temperatura:</span></td>\n<td> </td>\n<td><span style=\"font-size:14px\">-18° / -22°C</span></td>\n<td> </td>\n</tr>\n<tr>\n<td><span style=\"font-size:14px\">Refrigeración:</span></td>\n<td> </td>\n<td><span style=\"font-size:14px\">Estática</span></td>\n<td> </td>\n</tr>\n<tr>\n<td><span style=\"font-size:14px\">Capacidad:</span></td>\n<td> </td>\n<td><span style=\"font-size:14px\">628 litros</span></td>\n<td> </td>\n</tr>\n<tr>\n<td><span style=\"font-size:14px\">Cestas:</span></td>\n<td> </td>\n<td><span style=\"font-size:14px\">4</span></td>\n<td> </td>\n</tr>\n<tr>\n<td><span style=\"font-size:14px\">Medidas externas:</span></td>\n<td> </td>\n<td colspan=\"2\"><span style=\"font-size:14px\">1650x860x850 mm</span></td>\n</tr>\n<tr>\n<td><span style=\"font-size:14px\">Peso:</span></td>\n<td> </td>\n<td><span style=\"font-size:14px\">75 Kg</span></td>\n</tr>\n</tbody>\n</table>\n<br/>\n<span style=\"font-size:14px\"><strong>Otras características:</strong><br/>\r\nLa puerta dispone de un mecanismo de apertura que facilita mantenerla abierta.<br/>\r\nCestas incluidas.</span><br/>\n<br/>\n<span style=\"color:#FF0000\"><span style=\"font-size:16px\"><strong></strong></span></span>\n<h1><span style=\"font-size:20px\"><strong><a href=\"tel:+34\"></a></strong></span></h1>\n</li>\n<li>\n<p class=\"avisoModificaciones\">ENVÍOS GRATIS A TODA LA PENÍNSULA, ¿TIENES DUDAS? LLÁMANOS SIN COMPROMISO <a href=\"tel:+34951492842\">951492842</a>.</p></li>\n</ul>",
-    "seccion": "frio"
+    "seccion": "frio",
+    "familia":"islas",
+    "medida":1650
   },
   {
     "codigo": "IC193QH",
@@ -452,7 +571,9 @@
     ],
     "precioSIVA": 1250,
     "descripcion": "<ul class=\"list\" id=\"descripcionmovil\">\n<p class=\"ache3-negro\">Descripción</p>\n<li><span style=\"font-size:14px\">Esta <strong>isla de congelados de cristal recto 1930 mm </strong>cuenta con un <strong>exterior en chapa de acero</strong> y está <strong>plastificada de color blanco anticorrosivo</strong>. Además, cuenta con <strong>ailsamiento de poliuretano</strong> inyectado a alta presión, garantizando así un <strong>mejor rendimiento energético</strong>. Incluye un<strong> termostato análogico</strong> con el que puedes ajustar distintos niveles de temperatura. y un<strong> indicador de encendido LED</strong>.<br/>\n<br/>\n<strong>Datos técnicos:</strong><br/>\r\nVoltaje: 220v - 50 Hz<br/>\r\nPotencia:  0,41 Kw<br/>\r\nTemperatura: -18° / -22°C <br/>\r\nRefrigeracion: Estatica<br/>\r\nCapaciadad: 868 litros <br/>\r\nCestas: 6 <br/>\r\nMedidas externas: 1930x900x870 mm <br/>\r\nPeso: 105 Kg <br/>\n<br/>\n<strong>Otras características:</strong><br/>\r\nLa puerta dispone de un mecanismo de apertura que facilita mantenerla abierta.<br/>\r\nCestas incluidas.</span><br/>\n<br/>\n<span style=\"color:#FF0000\"><span style=\"font-size:16px\"><strong></strong></span></span>\n<h1><span style=\"font-size:20px\"><strong><a href=\"tel:+34\"></a></strong></span></h1>\n</li>\n<li>\n<p class=\"avisoModificaciones\">ENVÍOS GRATIS A TODA LA PENÍNSULA, ¿TIENES DUDAS? LLÁMANOS SIN COMPROMISO <a href=\"tel:+34951492842\">951492842</a>.</p></li>\n</ul>",
-    "seccion": "frio"
+    "seccion": "frio",
+    "familia":"islas",
+    "medida":1930
   },
   {
     "codigo": "C2FVGDR",
@@ -461,7 +582,11 @@
     "id": 1045,
     "imagen": "https://img.freepik.com/vector-gratis/esquema-color-rayo_78370-517.jpg",
     "precioSIVA": 330,
-    "seccion" : "cocina"
+    "seccion" : "cocina",
+    "familia":"cocinas",
+    "fuegos":2,
+    "sobremesa":true,
+    "horno":false
   },
   {
     "codigo": "C4FGF6DR",
@@ -470,7 +595,11 @@
     "id": 1046,
     "imagen": "https://img.freepik.com/vector-gratis/esquema-color-rayo_78370-517.jpg",
     "precioSIVA": 510,
-    "seccion" : "cocina"
+    "seccion" : "cocina",
+    "familia":"cocinas",
+    "fuegos":4,
+    "sobremesa":true,
+    "horno":false
   },
   {
     "codigo": "C4FGF7DR",
@@ -479,7 +608,11 @@
     "id": 1047,
     "imagen": "https://img.freepik.com/vector-gratis/esquema-color-rayo_78370-517.jpg",
     "precioSIVA": 570,
-    "seccion" : "cocina"
+    "seccion" : "cocina",
+    "familia":"cocinas",
+    "fuegos":4,
+    "sobremesa":true,
+    "horno":false
   },
   {
     "codigo": "C6FSBBY",
@@ -492,7 +625,11 @@
     ],
     "precioSIVA": 936,
     "descripcion": "<ul class=\"list\" id=\"descripcionmovil\">\n<p class=\"ache3-negro\">Descripción</p>\n<li><span style=\"color:rgb(0, 0, 0); font-family:poppins,sans-serif; font-size:14px\">Cocina a gas de 6 fuegos con parrillas de hierro fundido esmaltado negro resistente a los ácidos para su eficaz limpieza. Tiene una gran capacidad para cocinar varios platos a la vez y posee quemadores “SUPER BURNER” de doble corona y de llama estabilizada.<br/>\r\nEstán dotadas de llama piloto y termopar de seguridad.<br/>\n<br/>\n<br/>\n<strong>Datos técnicos:</strong></span>\n<div style=\"box-sizing: border-box; color: rgb(0, 0, 0); font-family: Poppins, sans-serif; font-size: 13px;\">\n<div style=\"box-sizing: border-box;\">\n<div><span style=\"font-size:14px\">Valvulas: 6</span></div>\n<div><span style=\"font-size:14px\">Quemadores: 6</span></div>\n<div><span style=\"font-size:14px\">Potencia: 40 Kw</span></div>\n<div><span style=\"font-size:14px\">Tipo de gas: butano/propano</span></div>\n<div><span style=\"font-size:14px\">Medidas: 1500x700x250 mm</span></div>\n<div><span style=\"font-size:14px\">Peso: 70 Kg</span></div>\n</div>\n</div>\r\n \r\n\r\n<div style=\"box-sizing: border-box; color: rgb(0, 0, 0); font-family: Poppins, sans-serif; font-size: 13px;\"><span style=\"font-size:14px\"><strong>Otras características:</strong></span></div>\n<ul>\n<li><span style=\"font-size:14px\">Distancia entre los quemadores: 285 mm entre los horizontales (415 mm solo el modelo C6FSBBD) y 210 entre los verticales.</span></li>\n<li><span style=\"font-size:14px\">Mando robusto y de calidad para regular la llama.</span></li>\n<li><span style=\"font-size:14px\">Soporte con balda.</span></li>\n</ul>\n<br/>\n<br/>\n<br/>\n<br/>\n<br/>\n<br/>\n<br/>\n<span style=\"color:rgb(0, 0, 0); font-family:poppins,sans-serif; font-size:14px\">* Opción para cambio a gas natural, +10 €/válvula.</span></li>\n<li>\n<p class=\"avisoModificaciones\">ENVÍOS GRATIS A TODA LA PENÍNSULA, ¿TIENES DUDAS? LLÁMANOS SIN COMPROMISO <a href=\"tel:+34951492842\">951492842</a>.</p></li>\n</ul>",
-    "seccion" : "cocina"
+    "seccion" : "cocina",
+    "familia":"cocinas",
+    "fuegos":6,
+    "sobremesa":true,
+    "horno":false
   },
   {
     "codigo": "C4FSBBY",
@@ -505,7 +642,11 @@
     ],
     "precioSIVA": 640,
     "descripcion": "<ul class=\"list\" id=\"descripcionmovil\">\n<p class=\"ache3-negro\">Descripción</p>\n<li><span style=\"color:rgb(0, 0, 0); font-family:poppins,sans-serif; font-size:14px\">Cocina a gas de 4 fuegos con parrillas de hierro fundido esmaltado negro resistente a los ácidos para su eficaz limpieza. Tiene quemadores “SUPER BURNER” de doble corona y de llama estabilizada.<br/>\r\nEstán dotadas de llama piloto y termopar de seguridad.<br/>\n<br/>\n<br/>\n<strong>Datos técnicos:</strong></span>\n<div style=\"box-sizing: border-box; color: rgb(0, 0, 0); font-family: Poppins, sans-serif; font-size: 13px;\">\n<div style=\"box-sizing: border-box;\">\n<div><span style=\"font-size:14px\">Valvulas: 4</span></div>\n<div><span style=\"font-size:14px\">Quemadores: 4</span></div>\n<div><span style=\"font-size:14px\">Potencia: 26,8 Kw</span></div>\n<div><span style=\"font-size:14px\">Tipo de gas: butano/propano</span></div>\n<div><span style=\"font-size:14px\">Medidas: 800x700x250 mm</span></div>\n<div><span style=\"font-size:14px\">Peso: 56 Kg</span></div>\n</div>\n</div>\r\n \r\n\r\n<div style=\"box-sizing: border-box; color: rgb(0, 0, 0); font-family: Poppins, sans-serif; font-size: 13px;\"><span style=\"font-size:14px\"><strong>Otras características:</strong></span></div>\n<ul>\n<li><span style=\"font-size:14px\">Distancia entre los quemadores: 285 mm entre los horizontales (415 mm solo el modelo C6FSBBD) y 210 entre los verticales.</span></li>\n<li><span style=\"font-size:14px\">Mando robusto y de calidad para regular la llama.</span></li>\n<li><span style=\"font-size:14px\">Soporte con balda.</span></li>\n</ul>\n<br/>\n<br/>\n<br/>\n<br/>\n<br/>\n<br/>\n<br/>\n<span style=\"color:rgb(0, 0, 0); font-family:poppins,sans-serif; font-size:14px\">* Opción para cambio a gas natural, +10 €/válvula + IVA</span></li>\n<li>\n<p class=\"avisoModificaciones\">ENVÍOS GRATIS A TODA LA PENÍNSULA, ¿TIENES DUDAS? LLÁMANOS SIN COMPROMISO <a href=\"tel:+34951492842\">951492842</a>.</p></li>\n</ul>",
-    "seccion" : "cocina"
+    "seccion" : "cocina",
+    "familia":"cocinas",
+    "fuegos":4,
+    "sobremesa":true,
+    "horno":false
   },
   {
     "codigo": "C3FSBBY",
@@ -518,7 +659,11 @@
     ],
     "precioSIVA": 438,
     "descripcion": "<ul class=\"list\" id=\"descripcionmovil\">\n<p class=\"ache3-negro\">Descripción</p>\n<li><span style=\"color:rgb(0, 0, 0); font-family:poppins,sans-serif; font-size:14px\">Cocina a gas de 3 fuegos con parrillas de hierro fundido esmaltado negro resistente a los ácidos para su eficaz limpieza. Tiene quemadores “SUPER BURNER” de doble corona y de llama estabilizada.<br/>\r\nEstán dotadas de llama piloto y termopar de seguridad.<br/>\n<br/>\n<br/>\n<strong>Datos técnicos:</strong></span>\n<div style=\"box-sizing: border-box; color: rgb(0, 0, 0); font-family: Poppins, sans-serif; font-size: 13px;\">\n<div style=\"box-sizing: border-box;\">\n<div><span style=\"font-size:14px\">Valvulas: 3</span></div>\n<div><span style=\"font-size:14px\">Quemadores: 3</span></div>\n<div><span style=\"font-size:14px\">Potencia: 20 Kw</span></div>\n<div><span style=\"font-size:14px\">Tipo de gas: butano/propano</span></div>\n<div><span style=\"font-size:14px\">Medidas: 1200x400x250 mm</span></div>\n<div><span style=\"font-size:14px\">Peso: 45 Kg</span></div>\n</div>\n</div>\r\n \r\n\r\n<div style=\"box-sizing: border-box; color: rgb(0, 0, 0); font-family: Poppins, sans-serif; font-size: 13px;\"><span style=\"font-size:14px\"><strong>Otras características:</strong></span><br/>\n<span style=\"font-size:14px\">Distancia entre los quemadores: 285 mm entre los horizontales (415 mm solo el modelo C6FSBBD) y 210 entre los verticales.</span><br/>\n<span style=\"font-size:14px\">Mando robusto y de calidad para regular la llama.</span><br/>\n<span style=\"font-size:14px\">Soporte con balda.</span></div>\n<br/>\n<br/>\n<span style=\"color:rgb(0, 0, 0); font-family:poppins,sans-serif; font-size:14px\">* Opción para cambio a gas natural, +10 €/válvula.</span></li>\n<li>\n<p class=\"avisoModificaciones\">ENVÍOS GRATIS A TODA LA PENÍNSULA, ¿TIENES DUDAS? LLÁMANOS SIN COMPROMISO <a href=\"tel:+34951492842\">951492842</a>.</p></li>\n</ul>",
-    "seccion" : "cocina"
+    "seccion" : "cocina",
+    "familia":"cocinas",
+    "fuegos":3,
+    "sobremesa":true,
+    "horno":false
   },
   {
     "codigo": "C6FCSF12BY",
@@ -527,7 +672,12 @@
     "id": 1051,
     "imagen": "https://img.freepik.com/vector-gratis/esquema-color-rayo_78370-517.jpg",
     "precioSIVA": 1016,
-    "seccion" : "cocina"
+    "seccion" : "cocina",
+    "familia":"cocinas",
+    "fuegos":6,
+    "sobremesa":false,
+    "horno":false,
+    "medida":1200
   },
   {
     "codigo": "C6FCSF15BY",
@@ -536,7 +686,12 @@
     "id": 1052,
     "imagen": "https://img.freepik.com/vector-gratis/esquema-color-rayo_78370-517.jpg",
     "precioSIVA": 1116,
-    "seccion" : "cocina"
+    "seccion" : "cocina",
+    "familia":"cocinas",
+    "fuegos":6,
+    "sobremesa":false,
+    "horno":false,
+    "medida":1500
   },
   {
     "codigo": "C3FCSBY",
@@ -549,7 +704,11 @@
     ],
     "precioSIVA": 533,
     "descripcion": "<ul class=\"list\" id=\"descripcionmovil\">\n<p class=\"ache3-negro\">Descripción</p>\n<li><div style=\"box-sizing: border-box; color: rgb(0, 0, 0); font-family: Poppins, sans-serif; font-size: 13px;\"><strong><span style=\"color:#FF0000\"><span style=\"font-size:16px\"></span></span><br/>\n<br/>\r\nExcelente cocina de 3 fuegos con soporte </strong> y <strong>parrillas de hierro </strong>fundido esmaltado negro resistente a los ácidos para su eficaz limpieza.</div>\n<div style=\"box-sizing: border-box; color: rgb(0, 0, 0); font-family: Poppins, sans-serif; font-size: 13px;\">Tienen quemadores “SUPER BURNER” de doble corona y de llama estabilizada, con termopar de seguridad y llama piloto. Su estructura de acero inoxidable y soporte con balda hacen que el producto tenga una gran calidad.<br/>\n<br/>\n<strong>Datos técnicos:</strong>\n<div style=\"box-sizing: border-box;\">\n<div style=\"box-sizing: border-box;\">\n<div>Valvulas: 3</div>\n<div>Quemadores: 3</div>\n<div>Potencia: 20 Kw</div>\n<div>Tipo de gas: butano/propano</div>\n<div>Medidas: 1200x400x850 mm</div>\n<div>Peso: 49 Kg<br/>\r\n </div>\n</div>\n</div>\n<div style=\"box-sizing: border-box;\"><strong>Otras características:</strong></div>\n</div>\n<div style=\"box-sizing: border-box; color: rgb(0, 0, 0); font-family: Poppins, sans-serif; font-size: 13px;\">Distancia entre los quemadores: 285 mm entre los horizontales (415 mm solo el modelos C6FCSBY) y 210 entre los verticales.</div>\n<div style=\"box-sizing: border-box; color: rgb(0, 0, 0); font-family: Poppins, sans-serif; font-size: 13px;\">Mando robusto y de calidad para regular la llama.</div>\n<div style=\"box-sizing: border-box; color: rgb(0, 0, 0); font-family: Poppins, sans-serif; font-size: 13px;\">Opción para cambio a gas natural, +10 €/válvula.<br/>\n<br/>\n<span style=\"font-size:18px\"><strong></strong><strong><a href=\"tel:+34\"></a></strong></span></div>\n</li>\n<li>\n<p class=\"avisoModificaciones\">ENVÍOS GRATIS A TODA LA PENÍNSULA, ¿TIENES DUDAS? LLÁMANOS SIN COMPROMISO <a href=\"tel:+34951492842\">951492842</a>.</p></li>\n</ul>",
-    "seccion" : "cocina"
+    "seccion" : "cocina",
+    "familia":"cocinas",
+    "fuegos":3,
+    "sobremesa":false,
+    "horno":false
   },
   {
     "codigo": "C4FCSBY",
@@ -559,7 +718,11 @@
     "imagen": "../utils/images/carpeta_de_imagenes/C4FCSBY/C4FCMSMG.png",
     "precioSIVA": 781,
     "descripcion": "<ul class=\"list\" id=\"descripcionmovil\">\n<p class=\"ache3-negro\">Descripción</p>\n<li><div style=\"box-sizing: border-box; color: rgb(0, 0, 0); font-family: Poppins, sans-serif; font-size: 13px;\">Parrillas de hierro fundido esmaltado negro resistente a los ácidos para su eficaz limpieza.</div>\n<div style=\"box-sizing: border-box; color: rgb(0, 0, 0); font-family: Poppins, sans-serif; font-size: 13px;\">Tienen quemadores “SUPER BURNER” de doble corona y de llama estabilizada, con termopar de seguridad y llama piloto. Su estructura de acero inoxidable y soporte con balda hacen que el producto tenga una gran calidad.<br/>\n<br/>\n<strong>Datos técnicos:</strong>\n<div style=\"box-sizing: border-box;\">\n<div style=\"box-sizing: border-box;\">\n<div>Valvulas: 4</div>\n<div>Quemadores: 4</div>\n<div>Potencia: 26,8 Kw</div>\n<div>Tipo de gas: butano/propano</div>\n<div>Medidas: 800x700x850 mm</div>\n<div>Peso: 60 Kg</div>\n</div>\n</div>\n<div style=\"box-sizing: border-box;\"><br/>\n<strong>Otras características:</strong></div>\n</div>\n<div style=\"box-sizing: border-box; color: rgb(0, 0, 0); font-family: Poppins, sans-serif; font-size: 13px;\">Distancia entre los quemadores: 285 mm entre los horizontales (415 mm solo el modelos C6FCSBY) y 210 entre los verticales.</div>\n<div style=\"box-sizing: border-box; color: rgb(0, 0, 0); font-family: Poppins, sans-serif; font-size: 13px;\">Mando robusto y de calidad para regular la llama.</div>\n<div style=\"box-sizing: border-box; color: rgb(0, 0, 0); font-family: Poppins, sans-serif; font-size: 13px;\">Opción para cambio a gas natural, +10 €/válvula.</div>\n</li>\n<li>\n<p class=\"avisoModificaciones\">ENVÍOS GRATIS A TODA LA PENÍNSULA, ¿TIENES DUDAS? LLÁMANOS SIN COMPROMISO <a href=\"tel:+34951492842\">951492842</a>.</p></li>\n</ul>",
-    "seccion" : "cocina"
+    "seccion" : "cocina",
+    "familia":"cocinas",
+    "fuegos":4,
+    "sobremesa":false,
+    "horno":false
   },
   {
     "codigo": "C2FCHBY",
@@ -572,7 +735,11 @@
     ],
     "precioSIVA": 673,
     "descripcion": "<ul class=\"list\" id=\"descripcionmovil\">\n<p class=\"ache3-negro\">Descripción</p>\n<li><div style=\"box-sizing: border-box; color: rgb(0, 0, 0); font-family: Poppins, sans-serif; font-size: 13px;\"><span style=\"font-size:14px\">Esta cocina de <strong>3 fuegos con horno </strong>esta formada por parrillas de hierro fundido esmaltado negro resistente a los ácidos para su eficaz limpieza. Tiene quemadores “SUPER BURNER” de doble corona y de llama estabilizada. Están dotadas de llama piloto y termopar de seguridad y esrtuctura de acero inoxidable. <br/>\r\nHorno con parrilla interior de 1333x430 mm, ajustable a 2 niveles, modelo C3FCHBY</span><br/>\r\n </div>\n<div style=\"box-sizing: border-box; color: rgb(0, 0, 0); font-family: Poppins, sans-serif; font-size: 13px;\">\n<h3><span style=\"font-size:14px\">Datos técnicos:</span></h3>\n<div style=\"box-sizing: border-box;\">\n<div><span style=\"font-size:14px\">Valvulas: 4</span></div>\n<div><span style=\"font-size:14px\">Quemadores: 4</span></div>\n<div><span style=\"font-size:14px\">Potencia quemadores: 20,1 Kw</span></div>\n<div><span style=\"font-size:14px\">Potencia horno: 6,7 Kw</span></div>\n<div><span style=\"font-size:14px\">Tipo de gas: butano/propano</span></div>\n<div><span style=\"font-size:14px\">Medidas horno: 1375x485x315 mm</span></div>\n<div><span style=\"font-size:14px\">Medidas exteriores: 1500x600x850 mm</span></div>\n<div><span style=\"font-size:14px\">Peso: 80 Kg</span></div>\n</div>\n</div>\n<h3><span style=\"font-size:14px\">Otras características técnicas:</span></h3>\n<div style=\"box-sizing: border-box; color: rgb(0, 0, 0); font-family: Poppins, sans-serif; font-size: 13px;\"><span style=\"font-size:14px\">Distancia entre los quemadores: 370 mm entre los horizontales 210 entre los verticales.</span></div>\n<div style=\"box-sizing: border-box; color: rgb(0, 0, 0); font-family: Poppins, sans-serif; font-size: 13px;\"><span style=\"font-size:14px\">Mando robusto y de calidad para regular la llama.</span></div>\n<div style=\"box-sizing: border-box; color: rgb(0, 0, 0); font-family: Poppins, sans-serif; font-size: 13px;\"><span style=\"font-size:14px\"><strong>Hornos de quemador tubular</strong> con interior esmaltado y aislado térmicamente con lana de vidrio, para ahorrar energia.</span></div>\n<div style=\"box-sizing: border-box; color: rgb(0, 0, 0); font-family: Poppins, sans-serif; font-size: 13px;\"><span style=\"font-size:14px\"><strong>Horno con parrilla interior</strong> de 620x430 mm, ajustable a 2 niveles, modelo C2FCHBY.</span><br/>\n<span style=\"font-size:14px\"><strong>Parrillas de hierro</strong> fundido esmaltado negro resistente  a los ácidos para su eficaz limpieza.<br/>\r\nEstructura de acero inoxidable.<br/>\r\nQuemadores “SUPER BURNER” de doble corona y de llama estabilizada.<br/>\r\nDotadas de llama piloto y termopar de seguridad.</span><br/>\n<br/>\r\n </div>\n</li>\n<li>\n<p class=\"avisoModificaciones\">ENVÍOS GRATIS A TODA LA PENÍNSULA, ¿TIENES DUDAS? LLÁMANOS SIN COMPROMISO <a href=\"tel:+34951492842\">951492842</a>.</p></li>\n</ul>",
-    "seccion" : "cocina"
+    "seccion" : "cocina",
+    "familia":"cocinas",
+    "fuegos":2,
+    "sobremesa":false,
+    "horno":true
   },
   {
     "codigo": "C4FCHBY",
@@ -585,7 +752,11 @@
     ],
     "precioSIVA": 1489,
     "descripcion": "<ul class=\"list\" id=\"descripcionmovil\">\n<p class=\"ache3-negro\">Descripción</p>\n<li><div style=\"box-sizing: border-box; color: rgb(0, 0, 0); font-family: Poppins, sans-serif; font-size: 13px;\"><span style=\"font-size:14px\"><strong>Cocina de 4 fuegos</strong> serie Magma <strong>fabricada en Europa</strong> y elaborada con <strong>materiales de calidad y máxima durabilidad</strong> que garantiza un <strong>buen rendimiento</strong>. Esta cocina profesional está <strong>dotada de llama piloto y termopar de seguridad</strong> y estructura de <strong>acero inoxidable. </strong>  </span></div>\n<div style=\"box-sizing: border-box; color: rgb(0, 0, 0); font-family: Poppins, sans-serif; font-size: 13px;\">\n<h3><strong><span style=\"font-size:14px\">Datos técnicos:</span></strong></h3>\n<div style=\"box-sizing: border-box;\">\n<div><span style=\"font-size:14px\">Valvulas: 5</span></div>\n<div><span style=\"font-size:14px\">Quemadores: 5</span></div>\n<div><span style=\"font-size:14px\">Potencia quemadores: 26.8 Kw</span></div>\n<div><span style=\"font-size:14px\">Potencia horno: 6,7 Kw</span></div>\n<div><span style=\"font-size:14px\">Tipo de gas: butano/propano</span></div>\n<div><span style=\"font-size:14px\">Medidas horno: 670x460x315 mm</span></div>\n<div><span style=\"font-size:14px\">Medidas exteriores: 800x700x850 mm</span></div>\n<div><span style=\"font-size:14px\">Peso: 120 Kg</span></div>\n</div>\n</div>\n<h3><span style=\"color:#000000\"><strong><span style=\"font-size:14px\">Características:</span></strong></span></h3>\n<div style=\"box-sizing: border-box; color: rgb(0, 0, 0); font-family: Poppins, sans-serif; font-size: 13px;\"><span style=\"font-size:14px\">- Formada por <strong>parrillas de hierro fundido esmaltado negro</strong> resistente a los ácidos para una <strong>rápida y eficaz limpieza</strong>.<br/>\r\n- Cuenta con <strong>quemadores </strong>“SUPER BURNER” de <strong>doble corona y de llama estabilizada.</strong><br/>\r\n- Distancia entre los quemadores: 370 mm entre los horizontales 210 entre los verticales.</span></div>\n<div style=\"box-sizing: border-box; color: rgb(0, 0, 0); font-family: Poppins, sans-serif; font-size: 13px;\"><span style=\"font-size:14px\">- <strong>Mando robusto y de calidad</strong> para regular la llama.</span></div>\n<div style=\"box-sizing: border-box; color: rgb(0, 0, 0); font-family: Poppins, sans-serif; font-size: 13px;\"><span style=\"font-size:14px\">- <strong>Hornos de quemador tubular</strong> con interior esmaltado y <strong>aislado térmicamente</strong> con lana de vidrio que permite <strong>ahorrar energia.</strong><br/>\r\n- <strong>Parrilla interior</strong> de 1333x430 mm, <strong>ajustable a 2 niveles y robusta </strong>que permite acomodar cacerolas y cazuelas de grandes dimensiones. <br/>\r\n- <strong>Patas de acero inoxidable</strong>. </span><br/>\n<br/>\n<strong><span style=\"color:#FF0000\"><span style=\"font-size:18px\">ENVÍOS GRATIS A TODA LA PENÍNSULA</span></span></strong></div>\n</li>\n<li>\n<p class=\"avisoModificaciones\">ENVÍOS GRATIS A TODA LA PENÍNSULA, ¿TIENES DUDAS? LLÁMANOS SIN COMPROMISO <a href=\"tel:+34951492842\">951492842</a>.</p></li>\n</ul>",
-    "seccion" : "cocina"
+    "seccion" : "cocina",
+    "familia":"cocinas",
+    "fuegos":4,
+    "sobremesa":false,
+    "horno":true
   },
   {
     "codigo": "C3FH120BY",
@@ -594,7 +765,11 @@
     "id": 1057,
     "imagen": "https://img.freepik.com/vector-gratis/esquema-color-rayo_78370-517.jpg",
     "precioSIVA": 973,
-    "seccion" : "cocina"
+    "seccion" : "cocina",
+    "fuegos":3,
+    "sobremesa":false,
+    "horno":true,
+    "medida":1200
   },
   {
     "codigo": "C3FH150BY",
@@ -603,7 +778,11 @@
     "id": 1058,
     "imagen": "https://img.freepik.com/vector-gratis/esquema-color-rayo_78370-517.jpg",
     "precioSIVA": 1005,
-    "seccion" : "cocina"
+    "seccion" : "cocina",
+    "fuegos":3,
+    "sobremesa":false,
+    "horno":true,
+    "medida":1500
   },
   {
     "codigo": "C6FCHBY",
@@ -613,7 +792,10 @@
     "imagen": "../utils/images/carpeta_de_imagenes/C6FCHBY/C6FCHBY.jpg",
     "precioSIVA": 1722,
     "descripcion": "<ul class=\"list\" id=\"descripcionmovil\">\n<p class=\"ache3-negro\">Descripción</p>\n<li><div style=\"box-sizing: border-box; color: rgb(0, 0, 0); font-family: Poppins, sans-serif; font-size: 13px;\"><span style=\"font-size:14px\">Esta cocina profesional está formada por parrillas de hierro fundido esmaltado negro resistente a los ácidos para su eficaz limpieza. Tiene quemadores “SUPER BURNER” de doble corona y de llama estabilizada. Están dotadas de llama piloto y termopar de seguridad y esrtuctura de acero inoxidable. </span><br/>\r\nHorno con parrilla interior de 1333x430 mm, ajustable a 2 niveles.<br/>\r\n </div>\n<div style=\"box-sizing: border-box; color: rgb(0, 0, 0); font-family: Poppins, sans-serif; font-size: 13px;\">\n<h3><span style=\"font-size:14px\">Datos técnicos:</span></h3>\n<div style=\"box-sizing: border-box;\">\n<div style=\"box-sizing: border-box;\">\n<div><span style=\"font-size:14px\">Valvulas: 7</span></div>\n<div><span style=\"font-size:14px\">Quemadores: 7</span></div>\n<div><span style=\"font-size:14px\">Potencia quemadores: 40,2 Kw</span></div>\n<div><span style=\"font-size:14px\">Potencia horno: 6,7 Kw</span></div>\n<div><span style=\"font-size:14px\">Tipo de gas: butano/propano</span></div>\n<div><span style=\"font-size:14px\">Medidas horno: 1350x485x315 mm</span></div>\n<div><span style=\"font-size:14px\">Medidas exteriores: 1500x700x850 mm</span></div>\n<div><span style=\"font-size:14px\">Peso: 140 Kg</span></div>\n</div>\n</div>\n</div>\n<h3><span style=\"font-size:14px\">Otras características:</span></h3>\n<div style=\"box-sizing: border-box; color: rgb(0, 0, 0); font-family: Poppins, sans-serif; font-size: 13px;\"><span style=\"font-size:14px\">Distancia entre los quemadores: 4115 mm entre los horizontales, 210 entre los verticales.</span></div>\n<div style=\"box-sizing: border-box; color: rgb(0, 0, 0); font-family: Poppins, sans-serif; font-size: 13px;\"><span style=\"font-size:14px\">Mando robusto y de calidad para regular la llama.</span></div>\n<div style=\"box-sizing: border-box; color: rgb(0, 0, 0); font-family: Poppins, sans-serif; font-size: 13px;\"><span style=\"font-size:14px\">Hornos de quemador tubular con interior esmaltado y aislado térmicamente con lana de vidrio, para ahorrar energia.</span></div>\n</li>\n<li>\n<p class=\"avisoModificaciones\">ENVÍOS GRATIS A TODA LA PENÍNSULA, ¿TIENES DUDAS? LLÁMANOS SIN COMPROMISO <a href=\"tel:+34951492842\">951492842</a>.</p></li>\n</ul>",
-    "seccion" : "cocina"
+    "seccion" : "cocina",
+    "fuegos":6,
+    "sobremesa":false,
+    "horno":true
   },
   {
     "codigo": "PLH25GBY",
@@ -622,7 +804,9 @@
     "id": 1060,
     "imagen": "https://img.freepik.com/vector-gratis/esquema-color-rayo_78370-517.jpg",
     "precioSIVA": 138,
-    "seccion" : "cocina"
+    "seccion" : "cocina",
+    "material":"hierro",
+    "medida":290
   },
   {
     "codigo": "PLH50GBY",
@@ -634,7 +818,9 @@
     ],
     "precioSIVA": 170,
     "descripcion": "<ul class=\"list\" id=\"descripcionmovil\">\n<p class=\"ache3-negro\">Descripción</p>\n<li><p><span style=\"font-size:14px\"><strong>Plancha de hierro a gas de 500 mm</strong> para sobremesa <strong>serie Magma</strong>. <strong>Profesional </strong>y<strong> </strong>perfecta para<strong> preparar platos sabrosos y de calidad. Fabricado en Europa </strong>con <strong>acero inoxidable de alta calidad, </strong>gantizando<strong> durabilidad en el producto</strong> y<strong> buen servicio. Recomendada para uso profesional en establecimientos como bares y restaurantes. </strong>Fácil <strong>limpieza y mantenimiento</strong> para el usuario.<br/>\n<br/>\n<span style=\"font-family:arial,helvetica,sans-serif\"><strong>Datos técnicos:</strong></span></span></p>\n<div><span style=\"font-size:14px\"><span style=\"font-family:arial,helvetica,sans-serif\">Potencia: 6,4 Kw</span></span></div>\n<div><span style=\"font-size:14px\"><span style=\"font-family:arial,helvetica,sans-serif\">Tipo de gas: butano/propano</span></span></div>\n<div><span style=\"font-size:14px\"><span style=\"font-family:arial,helvetica,sans-serif\">Valvulas: 2</span></span></div>\n<div><span style=\"font-size:14px\"><span style=\"font-family:arial,helvetica,sans-serif\">Quemadores: 2</span></span></div>\n<div><span style=\"font-size:14px\"><span style=\"font-family:arial,helvetica,sans-serif\">Medidas útil: 490x400 mm</span></span></div>\n<div><span style=\"font-size:14px\"><span style=\"font-family:arial,helvetica,sans-serif\">Medidas exteriores: 500x505x215 mm</span></span></div>\n<span style=\"font-size:14px\"><span style=\"font-family:arial,helvetica,sans-serif\">Peso: 20 Kg</span><br/>\n<br/>\n<strong>Características:</strong><br/>\n<br/>\r\n- <strong>Plancha de hierro a gas</strong> para <strong>sobremesa Serie Magma</strong> que garantiza su excelente calidad.<br/>\r\n- Cuerpo de <strong>acero inoxidable, higiénico y seguro</strong> perfecto para el uso profesional.<br/>\r\n- Fabricadas de <strong>acero inoxidable de alta calidad</strong> con diseño <strong>elegante.</strong><br/>\r\n- Placas de cocción de <strong>hierro de calidad</strong> para garantizar un <strong>redimiento eficiente</strong>.  <br/>\r\n- Dispone de <strong>termopar de seguridad y llama piloto</strong>.<br/>\r\n- <strong>Temperatura ajustable, encendido con botón piezoeléctrico</strong>.<br/>\r\n- Recoge <strong>grasas delantero</strong> para facilitar su <strong>limpieza</strong>. <br/>\r\n- <strong>Patas regulables en acero inoxidable </strong>que te permiten<strong> adaptar su altura a tus necesidades. </strong><br/>\r\n- Opción para cambio a gas natural, +10 €/válvula.</span><br/>\n<br/>\n<br/>\n<strong><span style=\"color:#FF0000\"><span style=\"font-size:16px\">ENVÍOS GRATIS A PENÍNSULA</span></span></strong><br/>\n<br/>\n<span style=\"font-size:20px\"><strong></strong><strong><a href=\"tel:+34\"></a></strong></span><br/>\r\n </li>\n<li>\n<p class=\"avisoModificaciones\">ENVÍOS GRATIS A TODA LA PENÍNSULA, ¿TIENES DUDAS? LLÁMANOS SIN COMPROMISO <a href=\"tel:+34951492842\">951492842</a>.</p></li>\n</ul>",
-    "seccion" : "cocina"
+    "seccion" : "cocina",
+    "material":"hierro",
+    "medida":490
   },
   {
     "codigo": "PLH70GBY",
@@ -646,7 +832,9 @@
     ],
     "precioSIVA": 287,
     "descripcion": "<ul class=\"list\" id=\"descripcionmovil\">\n<p class=\"ache3-negro\">Descripción</p>\n<li><p><span style=\"font-size:14px\"><strong>Plancha de hierro a gas de 700 mm</strong> para sobremesa <strong>serie Magma</strong>. <strong>Profesional </strong>y<strong> </strong>perfecta para<strong> preparar platos sabrosos y de calidad. Fabricado en Europa </strong>con <strong>acero inoxidable de alta calidad, </strong>gantizando<strong> durabilidad en el producto</strong> y<strong> buen servicio. Recomendada para uso profesional en establecimientos como bares y restaurantes. </strong>Fácil <strong>limpieza y mantenimiento</strong> para el usuario.<br/>\n<br/>\n<span style=\"font-family:arial,helvetica,sans-serif\"><strong>Datos técnicos:</strong></span></span></p>\n<div><span style=\"font-size:14px\"><span style=\"font-family:arial,helvetica,sans-serif\">Potencia: 6,4 Kw</span></span></div>\n<div><span style=\"font-size:14px\"><span style=\"font-family:arial,helvetica,sans-serif\">Tipo de gas: butano/propano</span></span></div>\n<div><span style=\"font-size:14px\"><span style=\"font-family:arial,helvetica,sans-serif\">Valvulas: 2</span></span></div>\n<div><span style=\"font-size:14px\"><span style=\"font-family:arial,helvetica,sans-serif\">Quemadores: 2</span></span></div>\n<div><span style=\"font-size:14px\"><span style=\"font-family:arial,helvetica,sans-serif\">Medidas útil: 690x400 mm</span></span></div>\n<div><span style=\"font-size:14px\"><span style=\"font-family:arial,helvetica,sans-serif\">Medidas exteriores: 700x505x215 mm</span></span></div>\n<span style=\"font-size:14px\"><span style=\"font-family:arial,helvetica,sans-serif\">Peso: 22 Kg</span><br/>\n<br/>\n<strong>Características:</strong><br/>\n<br/>\r\n- <strong>Plancha de hierro a gas</strong> para <strong>sobremesa Serie Magma</strong> que garantiza su excelente calidad.<br/>\r\n- Cuerpo de <strong>acero inoxidable, higiénico y seguro</strong> perfecto para el uso profesional.<br/>\r\n- Fabricadas de <strong>acero inoxidable de alta calidad</strong> con diseño <strong>elegante.</strong><br/>\r\n- Placas de cocción de <strong>hierro de calidad</strong> para garantizar un <strong>redimiento eficiente</strong>.  <br/>\r\n- Dispone de <strong>termopar de seguridad y llama piloto</strong>.<br/>\r\n- <strong>Temperatura ajustable, encendido con botón piezoeléctrico</strong>.<br/>\r\n- Recoge <strong>grasas delantero</strong> para facilitar su <strong>limpieza</strong>. <br/>\r\n- <strong>Patas regulables en acero inoxidable </strong>que te permiten<strong> adaptar su altura a tus necesidades. </strong><br/>\r\n- Opción para cambio a gas natural, +10 €/válvula.</span><br/>\n<br/>\n<span style=\"color:#FF0000\"><span style=\"font-size:16px\"><strong>ENVÍOS GRATIS A PENÍNSULA</strong></span></span>\n<h1><span style=\"font-size:20px\"><strong></strong><strong><a href=\"tel:+34\"></a></strong></span></h1>\n</li>\n<li>\n<p class=\"avisoModificaciones\">ENVÍOS GRATIS A TODA LA PENÍNSULA, ¿TIENES DUDAS? LLÁMANOS SIN COMPROMISO <a href=\"tel:+34951492842\">951492842</a>.</p></li>\n</ul>",
-    "seccion" : "cocina"
+    "seccion" : "cocina",
+    "material":"hierro",
+    "medida":690
   },
   {
     "codigo": "PLH100GBY",
@@ -658,7 +846,9 @@
     ],
     "precioSIVA": 319,
     "descripcion": "<ul class=\"list\" id=\"descripcionmovil\">\n<p class=\"ache3-negro\">Descripción</p>\n<li><p><span style=\"font-size:14px\"><strong>Plancha de hierro a gas de 1000 mm</strong> para sobremesa <strong>serie Magma</strong>. <strong>Profesional </strong>y<strong> </strong>perfecta para<strong> preparar platos sabrosos y de calidad. Fabricado en Europa </strong>con <strong>acero inoxidable de alta calidad, </strong>gantizando<strong> durabilidad en el producto</strong> y<strong> buen servicio. Recomendada para uso profesional en establecimientos como bares y restaurantes. </strong>Fácil <strong>limpieza y mantenimiento</strong> para el usuario.<br/>\n<br/>\n<span style=\"font-family:arial,helvetica,sans-serif\"><strong>Datos técnicos: </strong></span></span></p>\n<div><span style=\"font-size:14px\"><span style=\"font-family:arial,helvetica,sans-serif\">Potencia: 9,6 Kw</span></span></div>\n<div><span style=\"font-size:14px\"><span style=\"font-family:arial,helvetica,sans-serif\">Tipo de gas: butano/propano</span></span></div>\n<div><span style=\"font-size:14px\"><span style=\"font-family:arial,helvetica,sans-serif\">Valvulas: 3</span></span></div>\n<div><span style=\"font-size:14px\"><span style=\"font-family:arial,helvetica,sans-serif\">Quemadores: 3</span></span></div>\n<div><span style=\"font-size:14px\"><span style=\"font-family:arial,helvetica,sans-serif\">Medidas útil: 990x400 mm</span></span></div>\n<div><span style=\"font-size:14px\"><span style=\"font-family:arial,helvetica,sans-serif\">Medidas exteriores: 1000x505x215 mm<br/>\r\nPeso: 35 Kg</span><br/>\n<br/>\n<span style=\"font-family:arial,helvetica,sans-serif\"><strong>Características:</strong><br/>\n<br/>\r\n- <strong>Plancha de hierro a gas</strong> para <strong>sobremesa Serie Magma</strong> que garantiza su excelente calidad.<br/>\r\n- Cuerpo de <strong>acero inoxidable, higiénico y seguro</strong> perfecto para el uso profesional.<br/>\r\n- </span>Fabricadas de <strong>acero inoxidable de alta calidad</strong> con diseño <strong>elegante.</strong><br/>\n<span style=\"font-family:arial,helvetica,sans-serif\">- Placas de cocción de <strong>hierro de calidad</strong> para garantizar un <strong>redimiento eficiente</strong>.  <br/>\r\n- Dispone de <strong>termopar de seguridad y llama piloto</strong>.<br/>\r\n- <strong>Temperatura ajustable, encendido con botón piezoeléctrico</strong>.<br/>\r\n- Recoge <strong>grasas delantero</strong> para facilitar su <strong>limpieza</strong>. <br/>\r\n- </span><strong>Patas regulables en acero inoxidable </strong>que te permiten<strong> adaptar su altura a tus necesidades. </strong><br/>\n<span style=\"font-family:arial,helvetica,sans-serif\">- Opción para cambio a gas natural, +10 €/válvula.</span></span></div>\n<br/>\n<span style=\"font-size:16px\"><span style=\"color:#FF0000\"><strong>ENVÍOS GRATIS A PENÍNSULA</strong></span></span>\n<h1><span style=\"font-size:20px\"><strong></strong><strong><a href=\"tel:+34\"></a></strong></span></h1>\n<br/>\n<br/>\r\n </li>\n<li>\n<p class=\"avisoModificaciones\">ENVÍOS GRATIS A TODA LA PENÍNSULA, ¿TIENES DUDAS? LLÁMANOS SIN COMPROMISO <a href=\"tel:+34951492842\">951492842</a>.</p></li>\n</ul>",
-    "seccion" : "cocina"
+    "seccion" : "cocina",
+    "material":"hierro",
+    "medida":990
   },
   {
     "codigo": "PLH120GBY",
@@ -670,7 +860,9 @@
     ],
     "precioSIVA": 395,
     "descripcion": "<ul class=\"list\" id=\"descripcionmovil\">\n<p class=\"ache3-negro\">Descripción</p>\n<li><p><span style=\"font-size:14px\"><strong>Plancha de hierro a gas de 1200 mm</strong> para sobremesa <strong>serie Magma</strong>. <strong>Profesional </strong>y<strong> </strong>perfecta para<strong> preparar platos sabrosos y de calidad. Fabricado en Europa </strong>con <strong>acero inoxidable de alta calidad, </strong>gantizando<strong> durabilidad en el producto</strong> y<strong> buen servicio. Recomendada para uso profesional en establecimientos como bares y restaurantes. </strong>Fácil <strong>limpieza y mantenimiento</strong> para el usuario.<br/>\n<br/>\n<span style=\"font-family:arial,helvetica,sans-serif\"><strong>Datos técnicos: </strong></span></span></p>\n<div><span style=\"font-size:14px\"><span style=\"font-family:arial,helvetica,sans-serif\">Potencia: 9,6  Kw</span></span></div>\n<div><span style=\"font-size:14px\"><span style=\"font-family:arial,helvetica,sans-serif\">Tipo de gas: butano/propano</span></span></div>\n<div><span style=\"font-size:14px\"><span style=\"font-family:arial,helvetica,sans-serif\">Valvulas: 3</span></span></div>\n<div><span style=\"font-size:14px\"><span style=\"font-family:arial,helvetica,sans-serif\">Quemadores: 3</span></span></div>\n<div><span style=\"font-size:14px\"><span style=\"font-family:arial,helvetica,sans-serif\">Medidas útil: 1190x400 mm</span></span></div>\n<div><span style=\"font-size:14px\"><span style=\"font-family:arial,helvetica,sans-serif\">Medidas exteriores: 1200x505x215 mm</span></span></div>\n<span style=\"font-size:14px\"><span style=\"font-family:arial,helvetica,sans-serif\">Peso: 40 Kg</span><br/>\n<br/>\n<strong>Características:</strong><br/>\n<br/>\r\n- <strong>Plancha de hierro a gas</strong> para <strong>sobremesa Serie Magma</strong> que garantiza su excelente calidad.<br/>\r\n- Cuerpo de <strong>acero inoxidable, higiénico y seguro</strong> perfecto para el uso profesional.<br/>\r\n- Fabricadas de <strong>acero inoxidable de alta calidad</strong> con diseño <strong>elegante.</strong><br/>\r\n- Placas de cocción de <strong>hierro de calidad</strong> para garantizar un <strong>redimiento eficiente</strong>.  <br/>\r\n- Dispone de <strong>termopar de seguridad y llama piloto</strong>.<br/>\r\n- <strong>Temperatura ajustable, encendido con botón piezoeléctrico</strong>.<br/>\r\n- Recoge <strong>grasas delantero</strong> para facilitar su <strong>limpieza</strong>. <br/>\r\n- <strong>Patas regulables en acero inoxidable </strong>que te permiten<strong> adaptar su altura a tus necesidades. </strong><br/>\r\n- Opción para cambio a gas natural, +10 €/válvula.</span><br/>\n<br/>\n<br/>\n<span style=\"color:#FF0000\"><span style=\"font-size:16px\"><strong>ENVÍOS GRATIS A PENÍNSULA</strong></span></span>\n<h1><span style=\"font-size:20px\"><strong></strong><strong><a href=\"tel:+34\"></a></strong></span></h1>\n</li>\n<li>\n<p class=\"avisoModificaciones\">ENVÍOS GRATIS A TODA LA PENÍNSULA, ¿TIENES DUDAS? LLÁMANOS SIN COMPROMISO <a href=\"tel:+34951492842\">951492842</a>.</p></li>\n</ul>",
-    "seccion" : "cocina"
+    "seccion" : "cocina",
+    "material":"hierro",
+    "medida":1990
   },
   {
     "codigo": "PCRG400X",
@@ -682,7 +874,9 @@
     ],
     "precioSIVA": 390,
     "descripcion": "<ul class=\"list\" id=\"descripcionmovil\">\n<p class=\"ache3-negro\">Descripción</p>\n<li><p><span style=\"font-size:14px\"><strong>Plancha eléctrica de cromo-duro super a gas de 400 mm</strong>. <strong>Profesional </strong>y<strong> </strong>perfecta para<strong> preparar platos sabrosos y de calidad. Fabricado </strong>con <strong>acero inoxidable de alta calidad, </strong>gantizando<strong> durabilidad en el producto</strong> y<strong> buen servicio. Recomendada para uso profesional en establecimientos como bares y restaurantes. </strong>Fácil <strong>limpieza y mantenimiento</strong> para el usuario.</span></p>\n<br/>\n<span style=\"font-size:14px\"><span style=\"font-family:arial,helvetica,sans-serif\"><strong>Datos técnicos: </strong></span></span><br/>\r\n \r\n<div><span style=\"font-size:14px\"><span style=\"font-family:arial,helvetica,sans-serif\">Potencia: 3 Kw</span></span></div>\n<div><span style=\"font-size:14px\"><span style=\"font-family:arial,helvetica,sans-serif\">Tipo de gas: butano/propano</span></span></div>\n<div><span style=\"font-size:14px\"><span style=\"font-family:arial,helvetica,sans-serif\">Valvulas: 1</span></span></div>\n<div><span style=\"font-size:14px\"><span style=\"font-family:arial,helvetica,sans-serif\">Quemadores: 1</span></span></div>\n<div><span style=\"font-size:14px\"><span style=\"font-family:arial,helvetica,sans-serif\">Medidas útil: 350x400 mm</span></span></div>\n<div><span style=\"font-size:14px\"><span style=\"font-family:arial,helvetica,sans-serif\">Medidas exteriores: 400x610x340 mm</span></span></div>\n<span style=\"font-size:14px\"> <span style=\"font-family:arial,helvetica,sans-serif\">Peso: 22 Kg</span></span><br/>\r\n \r\n<p><span style=\"font-size:14px\"><strong>Características:</strong><br/>\n<br/>\r\n- <strong>Plancha de cromo duro super a gas</strong>, que permite <strong>eleborar los alimentos</strong> de una manera <strong>correcta y rápida</strong>.<br/>\r\n-<strong> Plancha a gas de 16 mm de espesor</strong>, con baño de cromo-duro de 50 micras, con <strong>peto lateral y peto trasero en acero inoxidable</strong>.<br/>\r\n- Fabricadas de <strong>acero inoxidable de alta calidad</strong> con diseño <strong>elegante y construcción robusta</strong>.<br/>\r\n- <strong>Dotada de quemadores de gas de gran eficiencia y válvulas de gas de alta calidad</strong> que proporcionan una gran potencia y seguridad.<br/>\r\n- La válvula de gas dispone de un <strong>control de llama alta/baja y dispositivo de seguridad antifallo</strong> de llama.<br/>\r\n- Sistema de <strong>encendido automático</strong> por piezoeléctrico, para garantizar un <strong>uso cómodo, duradero y seguro.</strong><br/>\r\n- <strong>Cajón recoge-grasas en acero inoxidable</strong>, encastrado en el mueble.<br/>\r\n- <strong>Regulador de la temperatura.</strong><br/>\r\n- Opción para cambio a gas natural, +10 €/válvula.</span><br/>\n<br/>\n<span style=\"font-size:16px\"><span style=\"color:#FF0000\"><strong>ENVÍOS GRATIS A PENÍNSULA</strong></span></span></p>\n<h1><span style=\"font-size:20px\"><strong></strong><strong><a href=\"tel:+34\"></a></strong></span></h1>\n</li>\n<li>\n<p class=\"avisoModificaciones\">ENVÍOS GRATIS A TODA LA PENÍNSULA, ¿TIENES DUDAS? LLÁMANOS SIN COMPROMISO <a href=\"tel:+34951492842\">951492842</a>.</p></li>\n</ul>",
-    "seccion" : "cocina"
+    "seccion" : "cocina",
+    "material":"cromoduro",
+    "medida":400
   },
   {
     "codigo": "PCRG600X",
@@ -694,7 +888,9 @@
     ],
     "precioSIVA": 610,
     "descripcion": "<ul class=\"list\" id=\"descripcionmovil\">\n<p class=\"ache3-negro\">Descripción</p>\n<li><p><span style=\"font-size:14px\"><strong>Plancha eléctrica de cromo-duro super a gas de 600 mm</strong>. <strong>Profesional </strong>y<strong> </strong>perfecta para<strong> preparar platos sabrosos y de calidad. Fabricado </strong>con <strong>acero inoxidable de alta calidad, </strong>gantizando<strong> durabilidad en el producto</strong> y<strong> buen servicio. Recomendada para uso profesional en establecimientos como bares y restaurantes. </strong>Fácil <strong>limpieza y mantenimiento</strong> para el usuario.</span><br/>\r\n </p>\n<span style=\"font-size:14px\"><span style=\"font-family:arial,helvetica,sans-serif\"><strong>Datos técnicos: </strong></span></span>\n<div><span style=\"font-size:14px\"><span style=\"font-family:arial,helvetica,sans-serif\">Potencia: 6 Kw</span></span></div>\n<div><span style=\"font-size:14px\"><span style=\"font-family:arial,helvetica,sans-serif\">Tipo de gas: butano/propano</span></span></div>\n<div><span style=\"font-size:14px\"><span style=\"font-family:arial,helvetica,sans-serif\">Valvulas: 2</span></span></div>\n<div><span style=\"font-size:14px\"><span style=\"font-family:arial,helvetica,sans-serif\">Quemadores: 2</span></span></div>\n<div><span style=\"font-size:14px\"><span style=\"font-family:arial,helvetica,sans-serif\">Medidas útil: 580x400 mm</span></span></div>\n<div><span style=\"font-size:14px\"><span style=\"font-family:arial,helvetica,sans-serif\">Medidas exteriores: 640x610x340 mm</span></span></div>\n<span style=\"font-size:14px\"> <span style=\"font-family:arial,helvetica,sans-serif\">Peso: 33 Kg</span></span><br/>\r\n \r\n<p><span style=\"font-size:14px\"><strong>Características:</strong><br/>\n<br/>\r\n- <strong>Plancha de cromo duro super a gas</strong>, que permite <strong>eleborar los alimentos</strong> de una manera <strong>correcta y rápida</strong>.<br/>\r\n-<strong> Plancha a gas de 16 mm de espesor</strong>, con baño de cromo-duro de 50 micras, con <strong>peto lateral y peto trasero en acero inoxidable</strong>.<br/>\r\n- Fabricadas de <strong>acero inoxidable de alta calidad</strong> con diseño <strong>elegante y construcción robusta</strong>.<br/>\r\n- <strong>Dotada de quemadores de gas de gran eficiencia y válvulas de gas de alta calidad</strong> que proporcionan una gran potencia y seguridad.<br/>\r\n- La válvula de gas dispone de un <strong>control de llama alta/baja y dispositivo de seguridad antifallo</strong> de llama.<br/>\r\n- Sistema de <strong>encendido automático</strong> por piezoeléctrico, para garantizar un <strong>uso cómodo, duradero y seguro.</strong><br/>\r\n- <strong>Cajón recoge-grasas en acero inoxidable</strong>, encastrado en el mueble.<br/>\r\n- <strong>Regulador de la temperatura.</strong><br/>\r\n- Opción para cambio a gas natural, +10 €/válvula.</span><br/>\n<br/>\n<span style=\"color:#FF0000\"><span style=\"font-size:16px\"><strong>ENVÍOS GRATIS A PENÍNSULA</strong></span></span></p>\n<h1><span style=\"font-size:20px\"><strong></strong><strong><a href=\"tel:+34\"></a></strong></span></h1>\n</li>\n<li>\n<p class=\"avisoModificaciones\">ENVÍOS GRATIS A TODA LA PENÍNSULA, ¿TIENES DUDAS? LLÁMANOS SIN COMPROMISO <a href=\"tel:+34951492842\">951492842</a>.</p></li>\n</ul>",
-    "seccion" : "cocina"
+    "seccion" : "cocina",
+    "material":"cromoduro",
+    "medida":600
   },
   {
     "codigo": "PCRG900X",
@@ -706,7 +902,9 @@
     ],
     "precioSIVA": 725,
     "descripcion": "<ul class=\"list\" id=\"descripcionmovil\">\n<p class=\"ache3-negro\">Descripción</p>\n<li><p><span style=\"font-size:14px\"><strong>Plancha eléctrica de cromo-duro super a gas de 900 mm</strong>. <strong>Profesional </strong>y<strong> </strong>perfecta para<strong> preparar platos sabrosos y de calidad. Fabricado </strong>con <strong>acero inoxidable de alta calidad, </strong>gantizando<strong> durabilidad en el producto</strong> y<strong> buen servicio. Recomendada para uso profesional en establecimientos como bares y restaurantes. </strong>Fácil <strong>limpieza y mantenimiento</strong> para el usuario.</span></p>\n<br/>\n<span style=\"font-size:14px\"><span style=\"font-family:arial,helvetica,sans-serif\"><strong>Datos técnicos: </strong></span><br/>\n<br/>\n<span style=\"font-family:arial,helvetica,sans-serif\">Potencia: 9 Kw</span><br/>\n<span style=\"font-family:arial,helvetica,sans-serif\">Tipo de gas: butano/propano</span><br/>\n<span style=\"font-family:arial,helvetica,sans-serif\">Valvulas: 3</span><br/>\n<span style=\"font-family:arial,helvetica,sans-serif\">Quemadores: 3</span><br/>\n<span style=\"font-family:arial,helvetica,sans-serif\">Medidas útil: 890x400 mm</span><br/>\n<span style=\"font-family:arial,helvetica,sans-serif\">Medidas exteriores: 950x610x340 mm</span><br/>\n<span style=\"font-family:arial,helvetica,sans-serif\">Peso: 52 Kg</span></span><br/>\r\n \r\n<p><span style=\"font-size:14px\"><strong>Características:</strong><br/>\n<br/>\r\n- <strong>Plancha de cromo duro super a gas</strong>, que permite <strong>eleborar los alimentos</strong> de una manera <strong>correcta y rápida</strong>.<br/>\r\n-<strong> Plancha a gas de 16 mm de espesor</strong>, con baño de cromo-duro de 50 micras, con <strong>peto lateral y peto trasero en acero inoxidable</strong>.<br/>\r\n- Fabricadas de <strong>acero inoxidable de alta calidad</strong> con diseño <strong>elegante y construcción robusta</strong>.<br/>\r\n- <strong>Dotada de quemadores de gas de gran eficiencia y válvulas de gas de alta calidad</strong> que proporcionan una gran potencia y seguridad.<br/>\r\n- La válvula de gas dispone de un <strong>control de llama alta/baja y dispositivo de seguridad antifallo</strong> de llama.<br/>\r\n- Sistema de <strong>encendido automático</strong> por piezoeléctrico, para garantizar un <strong>uso cómodo, duradero y seguro.</strong><br/>\r\n- <strong>Cajón recoge-grasas en acero inoxidable</strong>, encastrado en el mueble.<br/>\r\n- <strong>Regulador de la temperatura.</strong><br/>\r\n- Opción para cambio a gas natural, +10 €/válvula.</span><br/>\n<br/>\n<span style=\"color:#FF0000\"><span style=\"font-size:16px\"><strong>ENVÍOS GRATIS A PENÍNSULA</strong></span></span></p>\n<h1><span style=\"font-size:20px\"><strong></strong><strong><a href=\"tel:+34\"></a></strong></span></h1>\n</li>\n<li>\n<p class=\"avisoModificaciones\">ENVÍOS GRATIS A TODA LA PENÍNSULA, ¿TIENES DUDAS? LLÁMANOS SIN COMPROMISO <a href=\"tel:+34951492842\">951492842</a>.</p></li>\n</ul>",
-    "seccion" : "cocina"
+    "seccion" : "cocina",
+    "material":"cromoduro",
+    "medida":900
   },
   {
     "codigo": "PCRG1200X",
@@ -718,7 +916,9 @@
     ],
     "precioSIVA": 915,
     "descripcion": "<ul class=\"list\" id=\"descripcionmovil\">\n<p class=\"ache3-negro\">Descripción</p>\n<li><p><span style=\"font-size:14px\"><strong>Plancha eléctrica de cromo-duro super a gas de 1200 mm</strong>. <strong>Profesional </strong>y<strong> </strong>perfecta para<strong> preparar platos sabrosos y de calidad. Fabricado </strong>con <strong>acero inoxidable de alta calidad, </strong>gantizando<strong> durabilidad en el producto</strong> y<strong> buen servicio. Recomendada para uso profesional en establecimientos como bares y restaurantes. </strong>Fácil <strong>limpieza y mantenimiento</strong> para el usuario.<br/>\n<br/>\n<span style=\"font-family:arial,helvetica,sans-serif\"><strong>Datos técnicos: </strong></span><br/>\n<br/>\n<span style=\"font-family:arial,helvetica,sans-serif\">Potencia: 12 Kw</span><br/>\n<span style=\"font-family:arial,helvetica,sans-serif\">Tipo de gas: butano/propano</span><br/>\n<span style=\"font-family:arial,helvetica,sans-serif\">Valvulas: 4</span><br/>\n<span style=\"font-family:arial,helvetica,sans-serif\">Quemadores: 4</span><br/>\n<span style=\"font-family:arial,helvetica,sans-serif\">Medidas útil: 1100x400 mm</span><br/>\n<span style=\"font-family:arial,helvetica,sans-serif\">Medidas exteriores: 1150x610x340 mm</span><br/>\n<span style=\"font-family:arial,helvetica,sans-serif\">Peso: 64 Kg</span><br/>\n<br/>\n<strong>Características:</strong><br/>\n<br/>\r\n- <strong>Plancha de cromo duro super a gas</strong>, que permite <strong>eleborar los alimentos</strong> de una manera <strong>correcta y rápida</strong>.<br/>\r\n-<strong> Plancha a gas de 16 mm de espesor</strong>, con baño de cromo-duro de 50 micras, con <strong>peto lateral y peto trasero en acero inoxidable</strong>.<br/>\r\n- Fabricadas de <strong>acero inoxidable de alta calidad</strong> con diseño <strong>elegante y construcción robusta</strong>.<br/>\r\n- <strong>Dotada de quemadores de gas de gran eficiencia y válvulas de gas de alta calidad</strong> que proporcionan una gran potencia y seguridad.<br/>\r\n- La válvula de gas dispone de un <strong>control de llama alta/baja y dispositivo de seguridad antifallo</strong> de llama.<br/>\r\n- Sistema de <strong>encendido automático</strong> por piezoeléctrico, para garantizar un <strong>uso cómodo, duradero y seguro.</strong><br/>\r\n- <strong>Cajón recoge-grasas en acero inoxidable</strong>, encastrado en el mueble.<br/>\r\n- <strong>Regulador de la temperatura.</strong><br/>\r\n- Opción para cambio a gas natural, +10 €/válvula.</span><br/>\n<br/>\n<span style=\"color:#FF0000\"><span style=\"font-size:16px\"><strong>ENVÍOS GRATIS A PENÍNSULA</strong></span></span></p>\n<h1><span style=\"font-size:20px\"><strong></strong><strong><a href=\"tel:+34\"></a></strong></span></h1>\n</li>\n<li>\n<p class=\"avisoModificaciones\">ENVÍOS GRATIS A TODA LA PENÍNSULA, ¿TIENES DUDAS? LLÁMANOS SIN COMPROMISO <a href=\"tel:+34951492842\">951492842</a>.</p></li>\n</ul>",
-    "seccion" : "cocina"
+    "seccion" : "cocina",
+    "material":"cromoduro",
+    "medida":1200
   },
   {
     "codigo": "MTMPF10CB",
@@ -730,7 +930,9 @@
     ],
     "precioSIVA": 160,
     "descripcion": "<ul class=\"list\" id=\"descripcionmovil\">\n<p class=\"ache3-negro\">Descripción</p>\n<li><span style=\"font-size:14px\"><strong>Mesa de trabajo mural</strong> prefabricada en acero inoxidable, ideal para cualquier cocina industrial. Cuenta con un estante bastante amplio para colocar pequeña maquinaria auxiliar o utensilios de trabajo <br/>\r\nDimensiones 1000X600X850 MM<br/>\r\n </span><br/>\n<span style=\"color:#FF0000\"><strong></strong></span>\n<h1><span style=\"font-size:16px\"><strong></strong><strong><a href=\"tel:+34\"></a></strong></span></h1>\n</li>\n<li>\n<p class=\"avisoModificaciones\">ENVÍOS GRATIS A TODA LA PENÍNSULA, ¿TIENES DUDAS? LLÁMANOS SIN COMPROMISO <a href=\"tel:+34951492842\">951492842</a>.</p></li>\n</ul>",
-    "seccion" : "mobiliario"
+    "seccion" : "mobiliario",
+    "familia" : "mesas de trabajo",
+    "medida" : 1000
   },
   {
     "codigo": "MTMPF15CB",
@@ -739,7 +941,9 @@
     "id": 1070,
     "imagen": "https://img.freepik.com/vector-gratis/esquema-color-rayo_78370-517.jpg",
     "precioSIVA": 205,
-    "seccion" : "mobiliario"
+    "seccion" : "mobiliario",
+    "familia" : "mesas de trabajo",
+    "medida" : 1500
   },
   {
     "codigo": "MTMPF20CB",
@@ -748,7 +952,9 @@
     "id": 1071,
     "imagen": "https://img.freepik.com/vector-gratis/esquema-color-rayo_78370-517.jpg",
     "precioSIVA": 240,
-    "seccion" : "mobiliario"
+    "seccion" : "mobiliario",
+    "familia" : "mesas de trabajo",
+    "medida" : 2000
   },
   {
     "codigo": "MTMPF25CB",
@@ -757,7 +963,9 @@
     "id": 1072,
     "imagen": "https://img.freepik.com/vector-gratis/esquema-color-rayo_78370-517.jpg",
     "precioSIVA": 290,
-    "seccion" : "mobiliario"
+    "seccion" : "mobiliario",
+    "familia" : "mesas de trabajo",
+    "medida" : 2500
   },
   {
     "codigo": "LV405V",
@@ -766,7 +974,8 @@
     "id": 1073,
     "imagen": "https://img.freepik.com/vector-gratis/esquema-color-rayo_78370-517.jpg",
     "precioSIVA": 900,
-    "seccion" : "lavado"
+    "seccion" : "lavado",
+    "familia" : "lavadoras"
   },
   {
     "codigo": "LV505V",
@@ -775,7 +984,8 @@
     "id": 1074,
     "imagen": "https://img.freepik.com/vector-gratis/esquema-color-rayo_78370-517.jpg",
     "precioSIVA": 1099,
-    "seccion" : "lavado"
+    "seccion" : "lavado",
+    "familia" : "lavadoras"
   },
   {
     "codigo": "LPCUPSV",
@@ -784,7 +994,8 @@
     "id": 1075,
     "imagen": "https://img.freepik.com/vector-gratis/esquema-color-rayo_78370-517.jpg",
     "precioSIVA": 1680,
-    "seccion" : "lavado"
+    "seccion" : "lavado",
+    "familia" : "lavadoras"
   },
   {
     "codigo": "FS7LGE",
@@ -794,7 +1005,12 @@
     "imagen": "../utils/images/carpeta_de_imagenes/FS7LGE/263099FS7LGE.png",
     "precioSIVA": 250,
     "descripcion": "<ul class=\"list\" id=\"descripcionmovil\">\n<p class=\"ache3-negro\">Descripción</p>\n<li><strong>Freidora a gas de sobremesa simple 7L</strong><br/>\n<br/>\r\nFiable y simple, esta freidora ofrece grandes prestaciones y la máxima seguridad.<br/>\r\nResultados crujientes y perfectos.<br/>\r\nFabricada en acero inox<br/>\r\nCestas incluidas<br/>\n<br/>\n<strong><span style=\"font-size:12px\"><span>Especificaciones técnicas: </span></span></strong><br/>\n<br/>\r\nTipo de gas: butano/propano<br/>\r\nPotencia: 5,53 Kw<br/>\r\nQuemadores: 2<br/>\r\nVálvulas: 2<br/>\r\nCapacidad: 7 L<br/>\r\nMedidas: 290x520x480 mm</li>\n<li>\n<p class=\"avisoModificaciones\">ENVÍOS GRATIS A TODA LA PENÍNSULA, ¿TIENES DUDAS? LLÁMANOS SIN COMPROMISO <a href=\"tel:+34951492842\">951492842</a>.</p></li>\n</ul>",
-    "seccion" : "cocina"
+    "seccion" : "cocina",
+    "familia":"freidoras",
+    "combustion":"gas",
+    "medida":7,
+    "rejilla":"simple",
+    "grifo":false
   },
   {
     "codigo": "FD7LGE",
@@ -804,7 +1020,12 @@
     "imagen": "../utils/images/carpeta_de_imagenes/FD7LGE/57778FD7LGE.png",
     "precioSIVA": 390,
     "descripcion": "<ul class=\"list\" id=\"descripcionmovil\">\n<p class=\"ache3-negro\">Descripción</p>\n<li><strong>Freidora a gas de sobremesa doble 7+7 L</strong><br/>\n<br/>\r\nFiable y simple, esta freidora ofrece grandes prestaciones y la máxima seguridad.<br/>\r\nResultados crujientes y perfectos.<br/>\r\nFabricada en acero inox<br/>\r\nCestas incluidas<br/>\n<br/>\n<strong><span style=\"font-size:12px\"><span>Especificaciones técnicas: </span></span></strong><br/>\n<br/>\r\nTipo de gas: butano/propano<br/>\r\nPotencia: 5,53+5,53 Kw<br/>\r\nQuemadores: 2<br/>\r\nVálvulas: 2<br/>\r\nCapacidad: 7+7 L<br/>\r\nMedidas: 570x520x480 mm</li>\n<li>\n<p class=\"avisoModificaciones\">ENVÍOS GRATIS A TODA LA PENÍNSULA, ¿TIENES DUDAS? LLÁMANOS SIN COMPROMISO <a href=\"tel:+34951492842\">951492842</a>.</p></li>\n</ul>",
-    "seccion" : "cocina"
+    "seccion" : "cocina",
+    "familia":"freidoras",
+    "combustion":"gas",
+    "medida":7,
+    "rejilla":"doble",
+    "grifo":false
   },
   {
     "codigo": "FG13LFS",
@@ -814,7 +1035,12 @@
     "imagen": "../utils/images/carpeta_de_imagenes/FG13LFS/967031FG13LFS.png",
     "precioSIVA": 320,
     "descripcion": "<ul class=\"list\" id=\"descripcionmovil\">\n<p class=\"ache3-negro\">Descripción</p>\n<li><strong>Freidora a gas alto rendimiento 13L </strong><br/>\n<br/>\r\nPosee termostato de seguridad para protección contra sobrecalentamiento.<br/>\r\nEstructura de acero inox.<br/>\r\nCesta de acero inox.<br/>\r\nVálvula frontal para drenar el aceite del tanque.<br/>\r\nFácil limpieza y mayor higiene.<br/>\n<br/>\n<strong><span style=\"font-size:12px\">Especificaciones técnicas: </span></strong><br/>\n<br/>\r\nPotencia: 5,33 Kw<br/>\r\nTipo de gas: propano/butano (LPG)<br/>\r\nCapacidad: 13 L<br/>\r\nCestas: 1<br/>\r\nMedidas de la freidora: 350x600x500 mm<br/>\r\nMedidas de las cestas: 220x330x155 mm<br/>\r\nPeso: 15 Kg<br/>\n<br/>\n<br/>\n<br/>\r\nOpción para cambio a gas natural. +10€/válvula</li>\n<li>\n<p class=\"avisoModificaciones\">ENVÍOS GRATIS A TODA LA PENÍNSULA, ¿TIENES DUDAS? LLÁMANOS SIN COMPROMISO <a href=\"tel:+34951492842\">951492842</a>.</p></li>\n</ul>",
-    "seccion" : "cocina"
+    "seccion" : "cocina",
+    "familia":"freidoras",
+    "combustion":"gas",
+    "medida":13,
+    "rejilla":"simple",
+    "grifo":false
   },
   {
     "codigo": "FG1313LFS",
@@ -823,7 +1049,12 @@
     "id": 1079,
     "imagen": "https://img.freepik.com/vector-gratis/esquema-color-rayo_78370-517.jpg",
     "precioSIVA": 470,
-    "seccion" : "cocina"
+    "seccion" : "cocina",
+    "familia":"freidoras",
+    "combustion":"gas",
+    "medida":13,
+    "rejilla":"doble",
+    "grifo":false
   },
   {
     "codigo": "F12LGDR",
@@ -833,7 +1064,12 @@
     "imagen": "../utils/images/carpeta_de_imagenes/F12LGDR/546204Imagen.png",
     "precioSIVA": 640,
     "descripcion": "<ul class=\"list\" id=\"descripcionmovil\">\n<p class=\"ache3-negro\">Descripción</p>\n<li><div>Potencia:          10 Kw</div>\n<div>Capacidad:       12L</div>\n<div>Valvulas:            1</div>\n<div>Quemadores:    1</div>\n<div>Tipo de gas:       BUTANO/PROPANO / CAMBIO A GAS NATURAL +10€ POR VALVULA</div>\n<div>Consumo LPG: 0.794 KG/H</div>\n<div>Medidas:            400x730x300 mm</div>\n<div>Peso:                 39KG</div>\n<div> </div>\n</li>\n<li>\n<p class=\"avisoModificaciones\">ENVÍOS GRATIS A TODA LA PENÍNSULA, ¿TIENES DUDAS? LLÁMANOS SIN COMPROMISO <a href=\"tel:+34951492842\">951492842</a>.</p></li>\n</ul>",
-    "seccion" : "cocina"
+    "seccion" : "cocina",
+    "familia":"freidoras",
+    "combustion":"gas",
+    "medida":12,
+    "rejilla":"simple",
+    "grifo":true
   },
   {
     "codigo": "F1212LGDR",
@@ -842,7 +1078,12 @@
     "id": 1081,
     "imagen": "https://img.freepik.com/vector-gratis/esquema-color-rayo_78370-517.jpg",
     "precioSIVA": 1150,
-    "seccion" : "cocina"
+    "seccion" : "cocina",
+    "familia":"freidoras",
+    "combustion":"gas",
+    "medida":12,
+    "rejilla":"doble",
+    "grifo":true
   },
   {
     "codigo": "FS18G",
@@ -852,7 +1093,12 @@
     "imagen": "../utils/images/carpeta_de_imagenes/FS18G/H19a4f096f55a42bbab35f03f8314cd76F.jpg_960x960.jpg",
     "precioSIVA": 410,
     "descripcion": "<ul class=\"list\" id=\"descripcionmovil\">\n<p class=\"ache3-negro\">Descripción</p>\n<li><strong>Freidora a gas  de sobremesa 18L</strong><br/>\n<br/>\r\nFiable y simple, esta freidora ofrece grandes prestaciones y la máxima seguridad.<br/>\r\nResultados crujientes y perfectos.<br/>\r\nFabricada en acero inox<br/>\r\nCesta incluida<br/>\n<br/>\n<strong><span style=\"font-size:12px\">Especificaciones técnicas: </span></strong><br/>\n<br/>\r\nTipo de gas: butano/propano<br/>\r\nPotencia: 9 Kw<br/>\r\nQuemadores: 1<br/>\r\nVálvulas: 1<br/>\r\nCapacidad: 18 L<br/>\r\nMedidas: 350x650x460+150 mm</li>\n<li>\n<p class=\"avisoModificaciones\">ENVÍOS GRATIS A TODA LA PENÍNSULA, ¿TIENES DUDAS? LLÁMANOS SIN COMPROMISO <a href=\"tel:+34951492842\">951492842</a>.</p></li>\n</ul>",
-    "seccion" : "cocina"
+    "seccion" : "cocina",
+    "familia":"freidoras",
+    "combustion":"gas",
+    "medida":18,
+    "rejilla":"simple",
+    "grifo":false
   },
   {
     "codigo": "FD1818LG",
@@ -861,7 +1107,12 @@
     "id": 1083,
     "imagen": "https://img.freepik.com/vector-gratis/esquema-color-rayo_78370-517.jpg",
     "precioSIVA": 645,
-    "seccion" : "cocina"
+    "seccion" : "cocina",
+    "familia":"freidoras",
+    "combustion":"gas",
+    "medida":18,
+    "rejilla":"doble",
+    "grifo":true
   },
   {
     "codigo": "FD6L",
@@ -876,7 +1127,12 @@
     ],
     "precioSIVA": 203,
     "descripcion": "<ul class=\"list\" id=\"descripcionmovil\">\n<p class=\"ache3-negro\">Descripción</p>\n<li><strong>Freidora eléctrica de sobremesa  doble 6+6L</strong><br/>\n<br/>\r\nTermostato de trabajo regulable<br/>\r\nCuba y chasis en acero inox<br/>\r\nIndicador max-min de nivel aceite<br/>\r\nResistencia acero pulido<br/>\r\nPiloto naranja indicador de funcionamiento de la resistencia.<br/>\r\n \r\n<p><strong>Especificaciones técnicas:</strong></p>\n<br/>\r\nVoltaje: 220V- 50Hz<br/>\r\nPotencia: 4,2+4,2 Kw<br/>\r\nValvulas:<br/>\r\nResistencias: 2<br/>\r\nCapacidad: 6+6 L<br/>\r\nMedidas: 531x310x360 mm</li>\n<li>\n<p class=\"avisoModificaciones\">ENVÍOS GRATIS A TODA LA PENÍNSULA, ¿TIENES DUDAS? LLÁMANOS SIN COMPROMISO <a href=\"tel:+34951492842\">951492842</a>.</p></li>\n</ul>",
-    "seccion" : "cocina"
+    "seccion" : "cocina",
+    "familia":"freidoras",
+    "combustion":"electrica",
+    "medida":6,
+    "rejilla":"simple",
+    "grifo":false
   },
   {
     "codigo": "FD6L6L",
@@ -889,7 +1145,12 @@
     ],
     "precioSIVA": 371,
     "descripcion": "<ul class=\"list\" id=\"descripcionmovil\">\n<p class=\"ache3-negro\">Descripción</p>\n<li><strong>Freidora eléctrica de sobremesa  doble 6+6L</strong><br/>\n<br/>\r\nTermostato de trabajo regulable<br/>\r\nCuba y chasis en acero inox<br/>\r\nIndicador max-min de nivel aceite<br/>\r\nResistencia acero pulido<br/>\r\nPiloto naranja indicador de funcionamiento de la resistencia.<br/>\r\n \r\n<p><strong>Especificaciones técnicas:</strong></p>\n<br/>\r\nVoltaje: 220V- 50Hz<br/>\r\nPotencia: 4,2+4,2 Kw<br/>\r\nValvulas:<br/>\r\nResistencias: 2<br/>\r\nCapacidad: 6+6 L<br/>\r\nMedidas: 531x310x360 mm</li>\n<li>\n<p class=\"avisoModificaciones\">ENVÍOS GRATIS A TODA LA PENÍNSULA, ¿TIENES DUDAS? LLÁMANOS SIN COMPROMISO <a href=\"tel:+34951492842\">951492842</a>.</p></li>\n</ul>",
-    "seccion" : "cocina"
+    "seccion" : "cocina",
+    "familia":"freidoras",
+    "combustion":"electrica",
+    "medida":6,
+    "rejilla":"doble",
+    "grifo":false
   },
   {
     "codigo": "FD8L300",
@@ -898,7 +1159,12 @@
     "id": 1086,
     "imagen": "https://img.freepik.com/vector-gratis/esquema-color-rayo_78370-517.jpg",
     "precioSIVA": 332,
-    "seccion" : "cocina"
+    "seccion" : "cocina",
+    "familia":"freidoras",
+    "combustion":"electrica",
+    "medida":8,
+    "rejilla":"simple",
+    "grifo":true
   },
   {
     "codigo": "FD8L8L600",
@@ -908,7 +1174,12 @@
     "imagen": "../utils/images/carpeta_de_imagenes/FD8L8L600/195237FD8L8L600.png",
     "precioSIVA": 619,
     "descripcion": "<ul class=\"list\" id=\"descripcionmovil\">\n<p class=\"ache3-negro\">Descripción</p>\n<li>Freidora Industrial<br/>\r\nde fabricación nacional. Excelente para negocios hosteleros de gama media y  alta o como freidora industrial de complemento o apoyo en cocina.<br/>\n<br/>\r\nCuenta con termostato de trabajo regulable hasta 195ºC / 20 AMP.<br/>\r\nTermostato de seguridad rearmable 230ºC / 20 AMP.<br/>\r\nCuba y chasis en acero inoxidable.<br/>\r\nIndicador de nivel de aceite.<br/>\r\nPiloto naranja indicador de funcionamiento de la resistencia.\r\n<div class=\"page\" title=\"Page 231\">\n<div class=\"section\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p><strong><span style=\"font-size:12px\">Especificaciones técnicas 8+8L: </span></strong></p>\n</div>\n</div>\n</div>\n</div>\r\nVoltaje: 220V- 50Hz<br/>\r\nPotencia: 3,5+3,5 Kw<br/>\r\nValvulas: 2<br/>\r\nResistencias: 2<br/>\r\nCapacidad: 8+8 L<br/>\r\nGrifos: 2<br/>\r\nMedidas: 600x356x500 mm<br/>\r\n \r\n<div class=\"page\" title=\"Page 231\">\n<div class=\"section\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p><strong><span style=\"font-size:12px\">Especificaciones técnicas 10+10L: </span></strong></p>\n</div>\n</div>\n</div>\n</div>\r\nVoltaje: 220V- 50Hz<br/>\r\nPotencia: 3,8+3,8 Kw<br/>\r\nValvulas: 2<br/>\r\nResistencias: 2<br/>\r\nCapacidad: 10+10 L<br/>\r\nGrifos: 2<br/>\r\nMedidas: 600x356x500 mm</li>\n<li>\n<p class=\"avisoModificaciones\">ENVÍOS GRATIS A TODA LA PENÍNSULA, ¿TIENES DUDAS? LLÁMANOS SIN COMPROMISO <a href=\"tel:+34951492842\">951492842</a>.</p></li>\n</ul>",
-    "seccion" : "cocina"
+    "seccion" : "cocina",
+    "familia":"freidoras",
+    "combustion":"electrica",
+    "medida":8,
+    "rejilla":"doble",
+    "grifo":true
   },
   {
     "codigo": "FD10L300",
@@ -918,7 +1189,12 @@
     "imagen": "../utils/images/carpeta_de_imagenes/FD10L300/FD10L300.jpg",
     "precioSIVA": 353,
     "descripcion": "<ul class=\"list\" id=\"descripcionmovil\">\n<p class=\"ache3-negro\">Descripción</p>\n<li><strong>Freidora Industrial de 10 litros</strong> de fabricación nacional.<br/>\r\nExcelente para negocios hosteleros de gama media y  alta o como freidora industrial de complemento o apoyo en cocina.<br/>\n<br/>\r\nCuenta con termostato de trabajo regulable hasta 195ºC / 20 AMP.<br/>\r\nTermostato de seguridad rearmable 230ºC / 20 AMP.<br/>\r\nCuba y chasis en acero inoxidable. Indicador de nivel de aceite.<br/>\r\nPiloto naranja indicador de funcionamiento de la resistencia.<br/>\n<br/>\n<strong>Especifiaciones técnicas: </strong><br/>\n<br/>\r\nVoltaje 220v - 50 Hz<br/>\r\nPotencia: 4,2 Kw<br/>\r\nValvulas 1<br/>\r\nResistencias: 1<br/>\r\nCapacidad: 10 litros<br/>\r\nMedidas: 300x356x500 mm</li>\n<li>\n<p class=\"avisoModificaciones\">ENVÍOS GRATIS A TODA LA PENÍNSULA, ¿TIENES DUDAS? LLÁMANOS SIN COMPROMISO <a href=\"tel:+34951492842\">951492842</a>.</p></li>\n</ul>",
-    "seccion" : "cocina"
+    "seccion" : "cocina",
+    "familia":"freidoras",
+    "combustion":"electrica",
+    "medida":10,
+    "rejilla":"simple",
+    "grifo":true
   },
   {
     "codigo": "FD10L10L600",
@@ -927,7 +1203,12 @@
     "id": 1089,
     "imagen": "https://img.freepik.com/vector-gratis/esquema-color-rayo_78370-517.jpg",
     "precioSIVA": 651,
-    "seccion" : "cocina"
+    "seccion" : "cocina",
+    "familia":"freidoras",
+    "combustion":"electrica",
+    "medida":10,
+    "rejilla":"doble",
+    "grifo":true
   },
   {
     "codigo": "F4ES",
@@ -937,7 +1218,12 @@
     "imagen": "../utils/images/carpeta_de_imagenes/F4ES/708884F64.jpg",
     "precioSIVA": 157,
     "descripcion": "<ul class=\"list\" id=\"descripcionmovil\">\n<p class=\"ache3-negro\">Descripción</p>\n<li>Mueble construido íntegramente en acero inoxidable.<br/>\r\nCuba de acero inoxidable desmontable y extraible para su mejor limpieza.<br/>\r\nPanel de Mandos y laterales construidos en acero inoxidable, situado fuera de la fuente de calor y estanco a cualquier líquido o suciedad. Resistencia blindada de acero inoxidable.<br/>\r\nCabezal (Panel de Mandos y Resistencia) extraible para su mejor limpieza.<br/>\r\nProtector de los capilares de los termostatos. (Mayor seguridad)<br/>\r\nProvistas de Termostato de Seguridad.<br/>\r\nCestas con mango de bakelita.<br/>\r\nZona fría. (No se mezclan los sabores)<br/>\n<br/>\r\nVoltaje 220v - 50 Hz<br/>\r\nPotencia: 2 Kw<br/>\r\nValvulas 1<br/>\r\nResistencias: 1<br/>\r\nCapacidad: 6 litros cuba - 4 litros de trabajo<br/>\r\nMedidas cesta: 140x250x100 mm<br/>\r\nMedidas freidora: 180x423x325 mm<br/>\n<br/>\n<br/>\n<br/>\n<iframe frameborder=\"0\" height=\"315\" src=\"https://www.youtube.com/embed/QpbEp1cRnr4\" title=\"YouTube video player\" width=\"560\"></iframe></li>\n<li>\n<p class=\"avisoModificaciones\">ENVÍOS GRATIS A TODA LA PENÍNSULA, ¿TIENES DUDAS? LLÁMANOS SIN COMPROMISO <a href=\"tel:+34951492842\">951492842</a>.</p></li>\n</ul>",
-    "seccion" : "cocina"
+    "seccion" : "cocina",
+    "familia":"freidoras",
+    "combustion":"electrica",
+    "medida":4,
+    "rejilla":"simple",
+    "grifo":false
   },
   {
     "codigo": "F8ES",
@@ -947,7 +1233,12 @@
     "imagen": "../utils/images/carpeta_de_imagenes/F8ES/885943F108.jpg",
     "precioSIVA": 188,
     "descripcion": "<ul class=\"list\" id=\"descripcionmovil\">\n<p class=\"ache3-negro\">Descripción</p>\n<li>Mueble construido íntegramente en acero inoxidable.<br/>\r\nCuba de acero inoxidable desmontable y extraible para su mejor limpieza.<br/>\r\nPanel de Mandos y laterales construidos en acero inoxidable, situado fuera de la fuente de calor y estanco a cualquier líquido o suciedad. Resistencia blindada de acero inoxidable.<br/>\r\nCabezal (Panel de Mandos y Resistencia) extraible para su mejor limpieza.<br/>\r\nProtector de los capilares de los termostatos. (Mayor seguridad)<br/>\r\nProvistas de Termostato de Seguridad.<br/>\r\nCestas con mango de bakelita.<br/>\r\nZona fría. (No se mezclan los sabores)<br/>\n<br/>\r\nVoltaje 220v - 50 Hz<br/>\r\nPotencia: 3,5 Kw<br/>\r\nValvulas 1<br/>\r\nResistencias: 1<br/>\r\nCapacidad: 10 litros cuba - 8 litros de trabajo<br/>\r\nMedidas cesta: 205x260x100 mm<br/>\r\nMedidas freidora: 265x423x325 mm</li>\n<li>\n<p class=\"avisoModificaciones\">ENVÍOS GRATIS A TODA LA PENÍNSULA, ¿TIENES DUDAS? LLÁMANOS SIN COMPROMISO <a href=\"tel:+34951492842\">951492842</a>.</p></li>\n</ul>",
-    "seccion" : "cocina"
+    "seccion" : "cocina",
+    "familia":"freidoras",
+    "combustion":"electrica",
+    "medida":8,
+    "rejilla":"simple",
+    "grifo":false
   },
   {
     "codigo": "F10GES",
@@ -956,7 +1247,12 @@
     "id": 1092,
     "imagen": "https://img.freepik.com/vector-gratis/esquema-color-rayo_78370-517.jpg",
     "precioSIVA": 265,
-    "seccion" : "cocina"
+    "seccion" : "cocina",
+    "familia":"freidoras",
+    "combustion":"electrica",
+    "medida":10,
+    "rejilla":"simple",
+    "grifo":true
   },
   {
     "codigo": "F4X2ES",
@@ -965,7 +1261,12 @@
     "id": 1093,
     "imagen": "https://img.freepik.com/vector-gratis/esquema-color-rayo_78370-517.jpg",
     "precioSIVA": 304,
-    "seccion" : "cocina"
+    "seccion" : "cocina",
+    "familia":"freidoras",
+    "combustion":"electrica",
+    "medida":4,
+    "rejilla":"doble",
+    "grifo":false
   },
   {
     "codigo": "F8X2ES",
@@ -974,7 +1275,12 @@
     "id": 1094,
     "imagen": "https://img.freepik.com/vector-gratis/esquema-color-rayo_78370-517.jpg",
     "precioSIVA": 356,
-    "seccion" : "cocina"
+    "seccion" : "cocina",
+    "familia":"freidoras",
+    "combustion":"electrica",
+    "medida":8,
+    "rejilla":"doble",
+    "grifo":false
   },
   {
     "codigo": "F10GX2ES",
@@ -983,7 +1289,12 @@
     "id": 1095,
     "imagen": "https://img.freepik.com/vector-gratis/esquema-color-rayo_78370-517.jpg",
     "precioSIVA": 493,
-    "seccion" : "cocina"
+    "seccion" : "cocina",
+    "familia":"freidoras",
+    "combustion":"electrica",
+    "medida":10,
+    "rejilla":"doble",
+    "grifo":true
   },
   {
     "codigo": "F104ES",
@@ -992,7 +1303,12 @@
     "id": 1096,
     "imagen": "https://img.freepik.com/vector-gratis/esquema-color-rayo_78370-517.jpg",
     "precioSIVA": 412,
-    "seccion" : "cocina"
+    "seccion" : "cocina",
+    "familia":"freidoras",
+    "combustion":"electrica",
+    "medida":10,
+    "rejilla":"doble",
+    "grifo":true
   },
   {
     "codigo": "FS8LE",
@@ -1002,7 +1318,12 @@
     "imagen": "../utils/images/carpeta_de_imagenes/FS8LE/267754FS8LE.png",
     "precioSIVA": 110,
     "descripcion": "<ul class=\"list\" id=\"descripcionmovil\">\n<p class=\"ache3-negro\">Descripción</p>\n<li><br/>\r\nVoltaje: 220v - 50 Hz <br/>\r\nPotencia: 3 Kw <br/>\r\nValvulas: 1<br/>\r\nResistencias: 1<br/>\r\nCapacidad: 8 litros<br/>\r\nMedidas: 460x280x310 mm </li>\n<li>\n<p class=\"avisoModificaciones\">ENVÍOS GRATIS A TODA LA PENÍNSULA, ¿TIENES DUDAS? LLÁMANOS SIN COMPROMISO <a href=\"tel:+34951492842\">951492842</a>.</p></li>\n</ul>",
-    "seccion" : "cocina"
+    "seccion" : "cocina",
+    "familia":"freidoras",
+    "combustion":"electrica",
+    "medida":8,
+    "rejilla":"simple",
+    "grifo":false
   },
   {
     "codigo": "FD8LE",
@@ -1012,7 +1333,12 @@
     "imagen": "../utils/images/carpeta_de_imagenes/FD8LE/43592FD8LE.png",
     "precioSIVA": 205,
     "descripcion": "<ul class=\"list\" id=\"descripcionmovil\">\n<p class=\"ache3-negro\">Descripción</p>\n<li>Voltaje: 220v - 50 Hz <br/>\r\nPotencia: 3+3 Kw <br/>\r\nValvulas: 2 <br/>\r\nResistencias: 2 <br/>\r\nCapacidad: 8+8 litros<br/>\r\nMedidas: 570x480x310 mm </li>\n<li>\n<p class=\"avisoModificaciones\">ENVÍOS GRATIS A TODA LA PENÍNSULA, ¿TIENES DUDAS? LLÁMANOS SIN COMPROMISO <a href=\"tel:+34951492842\">951492842</a>.</p></li>\n</ul>",
-    "seccion" : "cocina"
+    "seccion" : "cocina",
+    "familia":"freidoras",
+    "combustion":"electrica",
+    "medida":8,
+    "rejilla":"doble",
+    "grifo":false
   },
   {
     "codigo": "FS10LEGR",
@@ -1027,7 +1353,12 @@
     ],
     "precioSIVA": 168,
     "descripcion": "<ul class=\"list\" id=\"descripcionmovil\">\n<p class=\"ache3-negro\">Descripción</p>\n<li><div>Voltaje:                    220v - 50 Hz</div>\n<div>Potencia:                 3 Kw</div>\n<div>Resistencias:           1</div>\n<div>Capacidad:              10 litros</div>\n<div>Medidas:                  280x460x325 mm</div>\n</li>\n<li>\n<p class=\"avisoModificaciones\">ENVÍOS GRATIS A TODA LA PENÍNSULA, ¿TIENES DUDAS? LLÁMANOS SIN COMPROMISO <a href=\"tel:+34951492842\">951492842</a>.</p></li>\n</ul>",
-    "seccion" : "cocina"
+    "seccion" : "cocina",
+    "familia":"freidoras",
+    "combustion":"electrica",
+    "medida":10,
+    "rejilla":"simple",
+    "grifo":true
   },
   {
     "codigo": "FD10LEGR",
@@ -1042,7 +1373,12 @@
     ],
     "precioSIVA": 320,
     "descripcion": "<ul class=\"list\" id=\"descripcionmovil\">\n<p class=\"ache3-negro\">Descripción</p>\n<li>Voltaje:                    220v - 50 Hz<br/>\r\nPotencia:                 3+3 Kw<br/>\r\nResistencias:           1<br/>\r\nCapacidad:              10+10 litros<br/>\r\nMedidas:                  570x460x325 mm</li>\n<li>\n<p class=\"avisoModificaciones\">ENVÍOS GRATIS A TODA LA PENÍNSULA, ¿TIENES DUDAS? LLÁMANOS SIN COMPROMISO <a href=\"tel:+34951492842\">951492842</a>.</p></li>\n</ul>",
-    "seccion" : "cocina"
+    "seccion" : "cocina",
+    "familia":"freidoras",
+    "combustion":"electrica",
+    "medida":10,
+    "rejilla":"doble",
+    "grifo":true
   },
   {
     "codigo": "FS16LEGR",
@@ -1057,7 +1393,12 @@
     ],
     "precioSIVA": 199,
     "descripcion": "<ul class=\"list\" id=\"descripcionmovil\">\n<p class=\"ache3-negro\">Descripción</p>\n<li><ul>\n<li>Voltaje:                    220v - 50 Hz<br/>\r\n\tPotencia:                 5 Kw<br/>\r\n\tResistencias:           1<br/>\r\n\tCapacidad:              16 litros<br/>\r\n\tMedidas:                  340x520x365 mm</li>\n</ul>\n</li>\n<li>\n<p class=\"avisoModificaciones\">ENVÍOS GRATIS A TODA LA PENÍNSULA, ¿TIENES DUDAS? LLÁMANOS SIN COMPROMISO <a href=\"tel:+34951492842\">951492842</a>.</p></li>\n</ul>",
-    "seccion" : "cocina"
+    "seccion" : "cocina",
+    "familia":"freidoras",
+    "combustion":"electrica",
+    "medida":16,
+    "rejilla":"simple",
+    "grifo":true
   },
   {
     "codigo": "FD16LEGR",
@@ -1072,7 +1413,12 @@
     ],
     "precioSIVA": 336,
     "descripcion": "<ul class=\"list\" id=\"descripcionmovil\">\n<p class=\"ache3-negro\">Descripción</p>\n<li><ul>\n<li>Voltaje:                    220v - 50 Hz<br/>\r\n\tPotencia:                 5+5 Kw<br/>\r\n\tResistencias:           1<br/>\r\n\tCapacidad:              16+16 litros<br/>\r\n\tMedidas:                  690x520x365 mm</li>\n</ul>\n</li>\n<li>\n<p class=\"avisoModificaciones\">ENVÍOS GRATIS A TODA LA PENÍNSULA, ¿TIENES DUDAS? LLÁMANOS SIN COMPROMISO <a href=\"tel:+34951492842\">951492842</a>.</p></li>\n</ul>",
-    "seccion" : "cocina"
+    "seccion" : "cocina",
+    "familia":"freidoras",
+    "combustion":"electrica",
+    "medida":16,
+    "rejilla":"doble",
+    "grifo":true
   },
   {
     "codigo": "FS19LEGR",
@@ -1087,7 +1433,12 @@
     ],
     "precioSIVA": 241,
     "descripcion": "<ul class=\"list\" id=\"descripcionmovil\">\n<p class=\"ache3-negro\">Descripción</p>\n<li>Fiable y simple, esta freidora ofrece grandes prestaciones y la máxima seguridad.<br/>\r\nResultados crujientes y perfectos.<br/>\r\nFabricada en acero inox.<br/>\n<br/>\r\nVoltaje: 380V- 50Hz Trifásica<br/>\r\nPotencia: 5Kw<br/>\r\nValvulas: 1<br/>\r\nResistencias: 1<br/>\r\nCapacidad: 19 L<br/>\r\nMedidas: 340x540x390mm</li>\n<li>\n<p class=\"avisoModificaciones\">ENVÍOS GRATIS A TODA LA PENÍNSULA, ¿TIENES DUDAS? LLÁMANOS SIN COMPROMISO <a href=\"tel:+34951492842\">951492842</a>.</p></li>\n</ul>",
-    "seccion" : "cocina"
+    "seccion" : "cocina",
+    "familia":"freidoras",
+    "combustion":"electrica",
+    "medida":19,
+    "rejilla":"simple",
+    "grifo":true
   },
   {
     "codigo": "FD19LEGR",
@@ -1102,7 +1453,12 @@
     ],
     "precioSIVA": 380,
     "descripcion": "<ul class=\"list\" id=\"descripcionmovil\">\n<p class=\"ache3-negro\">Descripción</p>\n<li><ul>\n<li>Voltaje:                    220v - 50 Hz<br/>\r\n\tPotencia:                 5+5 Kw<br/>\r\n\tResistencias:           1<br/>\r\n\tCapacidad:              19+19 litros<br/>\r\n\tMedidas:                  690x540x390 mm</li>\n</ul>\n</li>\n<li>\n<p class=\"avisoModificaciones\">ENVÍOS GRATIS A TODA LA PENÍNSULA, ¿TIENES DUDAS? LLÁMANOS SIN COMPROMISO <a href=\"tel:+34951492842\">951492842</a>.</p></li>\n</ul>",
-    "seccion" : "cocina"
+    "seccion" : "cocina",
+    "familia":"freidoras",
+    "combustion":"electrica",
+    "medida":19,
+    "rejilla":"doble",
+    "grifo":true
   },
   {
     "codigo": "FS19LEGRTR",
@@ -1117,7 +1473,12 @@
     ],
     "precioSIVA": 336,
     "descripcion": "<ul class=\"list\" id=\"descripcionmovil\">\n<p class=\"ache3-negro\">Descripción</p>\n<li>Fiable y simple, esta freidora ofrece grandes prestaciones y la máxima seguridad.<br/>\r\nResultados crujientes y perfectos.<br/>\r\nFabricada en acero inox.<br/>\n<br/>\r\nVoltaje: 380V- 50Hz Trifásica<br/>\r\nPotencia: 5Kw<br/>\r\nValvulas: 1<br/>\r\nResistencias: 1<br/>\r\nCapacidad: 19 L<br/>\r\nMedidas: 340x540x390mm</li>\n<li>\n<p class=\"avisoModificaciones\">ENVÍOS GRATIS A TODA LA PENÍNSULA, ¿TIENES DUDAS? LLÁMANOS SIN COMPROMISO <a href=\"tel:+34951492842\">951492842</a>.</p></li>\n</ul>",
-    "seccion" : "cocina"
+    "seccion" : "cocina",
+    "familia":"freidoras",
+    "combustion":"electrica",
+    "medida":19,
+    "rejilla":"simple",
+    "grifo":true
   },
   {
     "codigo": "FD19LEGRTR",
@@ -1132,6 +1493,11 @@
     ],
     "precioSIVA": 472,
     "descripcion": "<ul class=\"list\" id=\"descripcionmovil\">\n<p class=\"ache3-negro\">Descripción</p>\n<li><strong>Freidora eléctrica de sobremesa doble 19+19L con grifos trifásica</strong><br/>\n<br/>\r\nFiable y simple, esta freidora ofrece grandes prestaciones y la máxima seguridad.<br/>\r\nResultados crujientes y perfectos.<br/>\r\nFabricada en acero inox<br/>\r\nDispone de cestas, 2 tapas y 2 grifo de drenaje.<br/>\n<br/>\r\nVoltaje: 380V- 50Hz Trifásica<br/>\r\nPotencia: 5+5 Kw<br/>\r\nValvulas: 2<br/>\r\nResistencias: 2<br/>\r\nCapacidad: 19+19 L<br/>\r\nMedidas: 690x540x3290 mm</li>\n<li>\n<p class=\"avisoModificaciones\">ENVÍOS GRATIS A TODA LA PENÍNSULA, ¿TIENES DUDAS? LLÁMANOS SIN COMPROMISO <a href=\"tel:+34951492842\">951492842</a>.</p></li>\n</ul>",
-    "seccion" : "cocina"
+    "seccion" : "cocina",
+    "familia":"freidoras",
+    "combustion":"electrica",
+    "medida":19,
+    "rejilla":"doble",
+    "grifo":true
   }
 ]

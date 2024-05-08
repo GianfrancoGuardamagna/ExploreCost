@@ -10,8 +10,8 @@ fs.readFile('./ods.json', 'utf-8', (err, data) => {
 
     datita.forEach(item => {
 
-        if(item.seccion === undefined){
-            console.log(item)
+        if(item.seccion === "cocina"){
+            console.log(item.nombre)
     }
     })
 

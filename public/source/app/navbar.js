@@ -71,7 +71,7 @@ document.addEventListener("DOMContentLoaded", async function () {
 
         } if (document.title === "Inicio") {
 
-          // window.location.assign("./source/shop/buscador.html")
+          window.location.assign("./source/shop/buscador.html")
 
         } else {
 

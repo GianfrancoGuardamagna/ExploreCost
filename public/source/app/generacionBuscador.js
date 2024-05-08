@@ -50,8 +50,6 @@ document.addEventListener("DOMContentLoaded", () => {
               </div>`
             }
 
-            console.log(htmlImagen)
-
             return htmlImagen
           }
 
