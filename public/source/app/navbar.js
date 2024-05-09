@@ -52,11 +52,9 @@ document.addEventListener("DOMContentLoaded", async function () {
 
         const searchTerm = search.value.toLowerCase()
 
-        const resultados = items.filter((item) =>
-          item.nombre.toLowerCase().includes(searchTerm)
-        )
+        const resultados = items.filter((item) => item.nombre.toLowerCase().includes(searchTerm) || item.seccion.includes(searchTerm) || item.familia.includes(searchTerm))
 
-        search.value = "";
+        search.value = ""
 
         sessionStorage.setItem("Busqueda", JSON.stringify(resultados))
 
@@ -158,16 +156,11 @@ document.addEventListener("DOMContentLoaded", async function () {
             <img class="h-12" src=${rutaIconoLogo} alt="Logo Explorecost">
           </a>
           <div class="flex flex-row items-center justify-end gap-5 w-3/4">
-            <div class="dropdown">
-              <button class="dropdown-toggle text-primario" type="button" aria-expanded="false">
-                Categorías
-              </button>
-              <ul class="dropdown-menu bg-stone-200">
-                <li><a class="dropdown-item" href=${rutaCocina}>Cocina</a></li>
-                <li><a class="dropdown-item" href=${rutaFrio}>Frío</a></li>
-                <li><a class="dropdown-item" href=${rutaLavado}>Lavado</a></li>
-                <li><a class="dropdown-item" href=${rutaMobiliario}>Mobiliario</a></li>
-              </ul>
+            <div class="flex flex-row gap-4 text-primario font-Montserrat text-3vh">
+                <p><a class="dropdown-item" href=${rutaCocina}>Cocina</a></p>
+                <p><a class="dropdown-item" href=${rutaFrio}>Frío</a></p>
+                <p><a class="dropdown-item" href=${rutaLavado}>Lavado</a></p>
+                <p><a class="dropdown-item" href=${rutaMobiliario}>Mobiliario</a></p>
             </div>
             <div class="relative w-3/5">
               <input id="search" type="text" name="q" value="" placeholder="Buscar artículo en el catálogo..."
@@ -188,7 +181,8 @@ document.addEventListener("DOMContentLoaded", async function () {
       nav.classList.add("w-screen");
       nav.classList.add("font-Montserrat");
       nav.classList.add("font-semibold");
-      nav.innerHTML = `<div class="container-fluid">
+      nav.innerHTML = 
+      `<div class="container-fluid">
             <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar"
               aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -202,26 +196,15 @@ document.addEventListener("DOMContentLoaded", async function () {
                 <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
                   aria-label="Close"></button>
               </div>
-              <div class="offcanvas-body">
-                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                <div class="dropdown">
-                <button class="dropdown-toggle text-primario" type="button" aria-expanded="false">
-                  Categorías
-                </button>
-                <ul class="dropdown-menu bg-stone-200">
-                <li><a class="dropdown-item" href=${rutaCocina}>Cocina</a></li>
-                <li><a class="dropdown-item" href=${rutaFrio}>Frío</a></li>
-                <li><a class="dropdown-item" href=${rutaLavado}>Lavado</a></li>
-                <li><a class="dropdown-item" href=${rutaMobiliario}>Mobiliario</a></li>
-                </ul>
-              </div>
-              <input id="search" type="text" name="q" value="" placeholder="Buscar..."
-              class="input-text rounded-sm my-4 w-3/4 nav-item" maxlength="128" role="combobox" aria-haspopup="false"
-              aria-autocomplete="both" autocomplete="off" aria-expanded="false" control-id="ControlID-1">
-                  <li class="nav-item">
-                    <a class="nav-link text-primario" href=${rutaCarrito}>Carrito</a>
-                  </li>
-                </ul>
+              <div class="offcanvas-body flex flex-col gap-4 text-primario font-Montserrat text-subinfo">
+                <p><a class="nav-item" href=${rutaCocina}>Cocina</a></p>
+                <p><a class="nav-item" href=${rutaFrio}>Frío</a></p>
+                <p><a class="nav-item" href=${rutaLavado}>Lavado</a></p>
+                <p><a class="nav-item" href=${rutaMobiliario}>Mobiliario</a></p>
+                <input id="search" type="text" name="q" value="" placeholder="Buscar..."
+                class="input-text rounded-sm my-4 w-3/4 nav-item" maxlength="128" role="combobox" aria-haspopup="false"
+                aria-autocomplete="both" autocomplete="off" aria-expanded="false" control-id="ControlID-1">
+                <a class="nav-item nav-link text-primario" href=${rutaCarrito}>Carrito</a>
               </div>
             </div>
           </div>`;
