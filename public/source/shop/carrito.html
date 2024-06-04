@@ -13,8 +13,12 @@
 </head>
 
 <body id="body">
-    <nav>
-    </nav>
+    <div class="flex fixed h-screen w-screen items-center justify-center bg-white" id="preloader">
+    <img src="../../utils/images/loader.gif" class="h-1/6" alt="Preloader">
+  </div>
+  <nav id="nav">
+    <!--Aqui se inserta el script-->
+  </nav>
     <main class="bg-slate-300 w-screen">
       <section class="flex flex-col items-center justify-center w-full">
         <div id="carrito-container" class="min-h-screen overflow-y-auto flex flex-col items-center justify-center gap-4 p-6 w-full">
@@ -49,6 +53,7 @@
           </div>
         </section>
       </footer>
+      <script src="../app/preloader.js"></script>
     <script src="../app/carrito.js"></script>
     <script type="module" src="../app/generacionPedido.js"></script>
     <script type="module" src="../app/gestionPedido.js"></script>
