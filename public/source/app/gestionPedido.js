@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
                 let precioTotal = carrito.reduce((total, item) => total + item.totalProducto, 0)
 
-                spanTotal.innerText = precioTotal
+                spanTotal.innerText = precioTotal.toFixed(2)
 
                 cantidadActual[i] = inputs[i].value
             })
