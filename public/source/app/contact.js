@@ -18,7 +18,7 @@ const objetoContacto = JSON.parse(process.argv[2])
 
 let mail = {
     from: process.env.CORREO,
-    to: process.env.CORREOTEST,
+    to: process.env.CORREO,
     subject: "Contacto Web",
     text: "Formulario Contacto",
     html: `
