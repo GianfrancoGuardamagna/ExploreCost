@@ -69,9 +69,10 @@ document.addEventListener("DOMContentLoaded", () => {
         nIVA = document.getElementById("swal-input9").value;
       },
     }).then((formValues) => {
-      if(formValues){Swal.fire({
-        title: "Corrobore sus datos",
-        html: `<ul>
+      if (formValues) {
+        Swal.fire({
+          title: "Corrobore sus datos",
+          html: `<ul>
           <li><strong>Nombre:</strong> ${nombre}</li>
           <li><strong>Apellido:</strong> ${apellido}</li>
           <li><strong>Email:</strong> ${email}</li>
@@ -82,8 +83,8 @@ document.addEventListener("DOMContentLoaded", () => {
           <li><strong>Nº ROI:</strong> ${nROI}</li>
           <li><strong>Nº IVA:</strong> ${nIVA}</li>
         </ul>`,
-        showCancelButton: true,
-      }).then((result) => {
+          showCancelButton: true,
+        }).then((result) => {
           if (result.isConfirmed) {
             for (let item of carrito) {
               item.cantidad = item.totalProducto / item.precioFinal;
@@ -102,19 +103,25 @@ document.addEventListener("DOMContentLoaded", () => {
             }
           }
           fetch("/generar-pedido", {
-              method: "POST",
-              headers: {
-                "Content-Type": "application/json",
-              },
-              body: JSON.stringify(objetoPedido),
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json",
+            },
+            body: JSON.stringify(objetoPedido),
+          })
+          fetch("/db", {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json",
+            },
+            body: JSON.stringify(objetoPedido),
+          })
+            .then(response => response.json())
+            .then(data => {
+              if(data.id){
+                window.location.href = `/index.html?purchaseid=${data.id}`
+              }
             })
-            // fetch("/db", {
-            //   method: "POST",
-            //   headers: {
-            //     "Content-Type": "application/json",
-            //   },
-            //   body: JSON.stringify(objetoPedido),
-            // })
         })
       }
     })

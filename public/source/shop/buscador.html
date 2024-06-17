@@ -13,8 +13,12 @@
 </head>
 
 <body id="body">
-    <nav>
-    </nav>
+  <div class="flex fixed h-screen w-screen items-center justify-center bg-white" id="preloader">
+    <img src="../../utils/images/loader.gif" class="h-1/6" alt="Preloader">
+  </div>
+  <nav id="nav">
+    <!--Aqui se inserta el script-->
+  </nav>
     <main id="main" class="bg-slate-300 overflow-scroll py-6">
       <div id="renderItems" class="grid grid-cols-2 md:grid-cols-4 h-full gap-4 p-4 justify-items-center"></div>
     </main>
@@ -43,6 +47,7 @@
           </div>
         </section>
       </footer>
+      <script src="../app/preloader.js"></script>
     <script src="../app/navbar.js"></script>
     <script src="../app/generacionBuscador.js"></script>
     <script src="../app/items.js"></script>

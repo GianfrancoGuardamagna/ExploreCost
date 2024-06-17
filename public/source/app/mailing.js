@@ -12,13 +12,13 @@ const transporter = nodemailer.createTransport({
     pass: process.env.APPKEY,
   },
   authMethod: "LOGIN"
-});
+})
 
 const objetoPedido = JSON.parse(process.argv[2])
 
 let mail = {
     from: process.env.CORREO,
-    to: [process.env.CORREOTEST,objetoPedido.email],
+    to: [process.env.CORREO,objetoPedido.email],
     subject: "Compra Web",
     text: "Primera prueba Mailer",
     html: `

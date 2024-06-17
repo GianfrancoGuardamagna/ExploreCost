@@ -7,6 +7,7 @@ import mysql from 'mysql2';
 import dotenv from 'dotenv';
 import morgan from 'morgan';
 import { spawn } from 'child_process';
+import leven from 'leven';
 
 dotenv.config();
 
@@ -29,37 +30,65 @@ app.use(morgan(customFormat));
 
 ///////////////////////////////////////////////////////////
 
-  var objetoPedidoCache
+var objetoPedidoCache
 
-  app.post('/generar-pedido', (req, res) => {
-    objetoPedidoCache = req.body;
-    res.redirect('/mailing')
-  })
+app.post('/generar-pedido', (req, res) => {
+  objetoPedidoCache = req.body;
+  res.redirect('/mailing')
+})
 
-  app.get('/mailing',(req,res)=>{
-    if (!objetoPedidoCache) {
-          res.status(400).send('No hay datos de pedido para enviar.');
-          return;
-        }
-      
-        const childProcess = spawn('node', ['./public/source/app/mailing.js', JSON.stringify(objetoPedidoCache)]);
-      
-        childProcess.stdout.on('data', (data) => {
-          console.log(`stdout: ${data}`);
-        });
-      
-        childProcess.stderr.on('data', (data) => {
-          console.error(`stderr: ${data}`);
-        });
-      
-        childProcess.on('close', (code) => {
-          console.log(`Child process exited with code ${code}`);
-        });
-  })
+app.get('/mailing', (req, res) => {
+  if (!objetoPedidoCache) {
+    res.status(400).send('No hay datos de pedido para enviar.');
+    return;
+  }
 
-  //////////////////////////////////
+  const childProcess = spawn('node', ['./public/source/app/mailing.js', JSON.stringify(objetoPedidoCache)]);
 
-  //Conexión a MySql
+  childProcess.stdout.on('data', (data) => {
+    console.log(`stdout: ${data}`);
+  });
+
+  childProcess.stderr.on('data', (data) => {
+    console.error(`stderr: ${data}`);
+  });
+
+  childProcess.on('close', (code) => {
+    console.log(`Child process exited with code ${code}`);
+  });
+})
+
+//////////////////////////////////
+
+app.post('/contact',(req,res)=>{
+
+  const contactForm = req.body
+
+  if (!contactForm) {
+    res.status(400).send('No hay datos de pedido para enviar.');
+    return;
+  } else {
+    const childProcess = spawn('node', ['./public/source/app/contact.js', JSON.stringify(contactForm)]);
+
+  childProcess.stdout.on('data', (data) => {
+    console.log(`stdout: ${data}`);
+  });
+
+  childProcess.stderr.on('data', (data) => {
+    console.error(`stderr: ${data}`);
+  });
+
+  childProcess.on('close', (code) => {
+    console.log(`Child process exited with code ${code}`);
+  });
+  }
+
+  res.json({ message: 'Formulario recibido con éxito', data: contactForm});
+})
+
+//////////////////////////////////
+
+//Conexión a MySql
 const connection = mysql.createPool({
   host: process.env.DB_HOST,
   database: process.env.DB_NAME,
@@ -69,24 +98,24 @@ const connection = mysql.createPool({
 
 app.post('/db', (req, res) => {
 
-  const {nombre, apellido, email, telefono, rubro, direccion, cPostal, nROI, nIVA} = req.body
+  const { nombre, apellido, email, telefono, rubro, direccion, cPostal, nROI, nIVA } = req.body
 
   const query = 'INSERT INTO listadoVentas (nombre, apellido, email, telefono, rubro, direccion, codigo_postal, numero_ROI, numero_IVA) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)';
   connection.query(query, [nombre, apellido, email, telefono, rubro, direccion, cPostal, nROI, nIVA], (error, results, fields) => {
     if (error) {
-      console.error('Error al insertar datos:', error);
       res.status(500).send('Error al insertar datos en la base de datos');
       return;
+    } else if (!error) {
+      const insertedId = results.insertId;
+      res.status(200).json({ message: 'Datos insertados correctamente', id: insertedId });
     }
-    console.log('Datos insertados correctamente');
-    res.status(200).send('Datos insertados correctamente');
-  });
+  })
+})
+
+//////////////////////////////////
+
+const PORT = 5500;
+
+app.listen(PORT, () => {
+  console.log(`Servidor escuchando en el puerto ${PORT}`);
 });
-
-  //////////////////////////////////
-
-  const PORT = 5500;
-  
-  app.listen(PORT, () => {
-    console.log(`Servidor escuchando en el puerto ${PORT}`);
-  });
