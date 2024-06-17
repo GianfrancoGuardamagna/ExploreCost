@@ -12,7 +12,7 @@ const transporter = nodemailer.createTransport({
     pass: process.env.APPKEY,
   },
   authMethod: "LOGIN"
-});
+})
 
 const objetoPedido = JSON.parse(process.argv[2])
 

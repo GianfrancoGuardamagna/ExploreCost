@@ -89,6 +89,8 @@ document.addEventListener("DOMContentLoaded", async function () {
     const title = document.title;
     let rutaIconoLogo = "";
     let rutaIconoCarrito = "";
+    let rutaAtencionAlCliente = ""
+    let rutaIconoAtencionAlCliente = ""
     let rutaLogo = "";
     let rutaCarrito = "";
     let rutaCocina = "";
@@ -105,12 +107,16 @@ document.addEventListener("DOMContentLoaded", async function () {
       title === "Cocina" ||
       title === "Frio" ||
       title === "Mobiliario" ||
-      title === "Buscador"
+      title === "Buscador" ||
+      title === "Atención al Cliente"
+
     ) {
       rutaIconoLogo = "../../utils/images/logoExplorecost.png";
       rutaIconoCarrito = "../../utils/images/iconoCarrito.svg";
+      rutaIconoAtencionAlCliente = "../../utils/images/iconoAtencionAlCliente.svg";
       rutaLogo = "../../index.html";
       rutaCarrito = "../../source/shop/carrito.html";
+      rutaAtencionAlCliente = "../../source/footer/atencioncliente.html"
       rutaCocina = "../../source/shop/cocina.html";
       rutaFrio = "../../source/shop/frio.html";
       rutaLavado = "../../source/shop/lavado.html";
@@ -118,8 +124,10 @@ document.addEventListener("DOMContentLoaded", async function () {
     } else if (title === "Inicio") {
       rutaIconoLogo = "./utils/images/logoExplorecost.png";
       rutaIconoCarrito = "./utils/images/iconoCarrito.svg";
+      rutaIconoAtencionAlCliente = "./utils/images/iconoAtencionAlCliente.svg";
       rutaLogo = "./index.html";
       rutaCarrito = "./source/shop/carrito.html";
+      rutaAtencionAlCliente = "./source/footer/atencioncliente.html"
       rutaCocina = "./source/shop/cocina.html";
       rutaFrio = "./source/shop/frio.html";
       rutaLavado = "./source/shop/lavado.html";
@@ -128,8 +136,10 @@ document.addEventListener("DOMContentLoaded", async function () {
       //Este else está tomando a todos los productos.html
       rutaIconoLogo = "../../utils/images/logoExplorecost.png";
       rutaIconoCarrito = "../../utils/images/iconoCarrito.svg";
+      rutaIconoAtencionAlCliente = "../../utils/images/iconoAtencionAlCliente.svg";
       rutaLogo = "../../index.html";
       rutaCarrito = "../../source/shop/carrito.html";
+      rutaAtencionAlCliente = "../../source/footer/atencioncliente.html"
       rutaCocina = "../../source/shop/cocina.html";
       rutaFrio = "../../source/shop/frio.html";
       rutaLavado = "../../source/shop/lavado.html";
@@ -162,7 +172,7 @@ document.addEventListener("DOMContentLoaded", async function () {
                 <p><a class="dropdown-item" href=${rutaLavado}>Lavado</a></p>
                 <p><a class="dropdown-item" href=${rutaMobiliario}>Mobiliario</a></p>
             </div>
-            <div class="relative w-3/5">
+            <div class="relative w-2/5">
               <input id="search" type="text" name="q" value="" placeholder="Buscar artículo en el catálogo..."
                   class="input-text rounded-sm pl-4 w-full" maxlength="128" role="combobox" aria-haspopup="false"
                   aria-autocomplete="both" autocomplete="off" aria-expanded="false" control-id="ControlID-1">
@@ -172,6 +182,9 @@ document.addEventListener("DOMContentLoaded", async function () {
             </div>
             <a href=${rutaCarrito}>
             <img class="h-9" src=${rutaIconoCarrito} alt="Icono de carrito">
+            </a>
+            <a href=${rutaAtencionAlCliente}>
+            <img class="h-9" src=${rutaIconoAtencionAlCliente} alt="Icono de carrito">
             </a>
         </div>`;
     } else if (windowWidth <= 768) {
@@ -205,6 +218,7 @@ document.addEventListener("DOMContentLoaded", async function () {
                 class="input-text rounded-sm my-4 w-3/4 nav-item" maxlength="128" role="combobox" aria-haspopup="false"
                 aria-autocomplete="both" autocomplete="off" aria-expanded="false" control-id="ControlID-1">
                 <a class="nav-item nav-link text-primario" href=${rutaCarrito}>Carrito</a>
+                <a class="nav-item nav-link text-primario" href=${rutaAtencionAlCliente}>Atención al Cliente</a>
               </div>
             </div>
           </div>`;
